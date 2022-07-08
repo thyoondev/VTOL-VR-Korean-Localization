@@ -7,6 +7,8 @@
 
 이 프로젝트는 [randomhan](https://steamcommunity.com/id/cycitic2hr/recommended/667970?snr=1_5_9__402)님의 번역본을 기반으로 진행 되었으며, 미번역 부분의 추가적인 번역 및 수정을 진행하였습니다.
 
+[번역 내역](https://github.com/thyoondev/VTOL-VR-Korean-Localization/commit/9e60a3eb3da0c5606b8009ae607001b77477e431)
+
 # 적용 방법
 
 기본 설치 경로 : `C:\Program Files (x86)\Steam\steamapps\common\VTOL VR`
