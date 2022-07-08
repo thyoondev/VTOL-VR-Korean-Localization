@@ -79,10 +79,10 @@ MasterJettisonButtonInteractable_953496,VR Interactable,Jettison,버리기
 coverSwitchInteractable_jettisonButton_957040,VR Interactable,Switch Cover (Jettison),스위치 커버 (버리기)
 JettisonAllInteractable_957116,VR Interactable,Jettison All,전부 버리기
 JettisonEmptyInteractable_953786,VR Interactable,Jettison Empty,빈 것 버리기
-ClearJettisonInteractable_955908,VR Interactable,Clear Jettison Marks,버리기 표시 클리어
+ClearJettisonInteractable_955908,VR Interactable,Clear Jettison Marks,버리기 표시 초기화
 JettTanksInteractable_956154,VR Interactable,Jettison Ext Tanks,외부 연료통 버리기
 Label (1)_956422,UI Text,QUICK START,QUICK START
-QuickStartInteractable_954058,VR Interactable,Quickstart Engines,엔진 빠른 시동
+QuickStartInteractable_954058,VR Interactable,Quickstart Engines, 빠른 엔진 시동
 Label (1)_954266,UI Text,QUICK FLY,QUICK FLY
 QuickFlyButton_956882,VR Interactable,QuickFly,빠른 비행
 raiseSeatInter_952934,VR Interactable,Raise Seat,좌석 올리기
