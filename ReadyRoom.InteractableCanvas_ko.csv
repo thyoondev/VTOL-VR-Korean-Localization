@@ -1,0 +1,190 @@
+﻿Key,Description,en,ko
+DemoText_746066,UI Text,DEMO,데모
+SelectPilotButton_745718,VR Interactable,Select Existing Pilot,기존 파일럿 선택
+Text_742314,UI Text,Select Pilot,파일럿 선택
+NewPilotButton_745346,VR Interactable,Create New Pilot,새로운 파일럿 생성
+Text_742072,UI Text,New Pilot,새로운 파일럿
+QuitButton_740624,VR Interactable,Quit Game,게임 종료
+Text_742474,UI Text,QUIT,종료
+SettingsButton_747456,VR Interactable,Settings,설정
+Text_740102,UI Text,"Settings
+","설정
+"
+CreditsButton_-102322,VR Interactable,Game Credits,게임 크레딧
+Text_726044,UI Text,Credits,크레딧
+VTOL VR (1)_747232,UI Text,VTEDIT,VTEDIT
+EditorButton_743918,VR Interactable,Mission Editor,미션 편집기
+MapEditorButton_747578,VR Interactable,Map Editor,지도 편집기
+VTEDIT (1)_729932,UI Text,VT,VT
+VTOL VR_744834,UI Text,VTOL VR,VTOL VR
+Text_ACReadyToFly,UI Text,Ready to fly?,출격 준비 완료?
+Text_AC_SelectVehicle,UI Text,Select Vehicle,기체 선택
+Text_ACNewPilot,UI Text,New Pilot?,새로운 파일럿?
+Tutorials Button_-4966024,VR Interactable,Tutorials,튜토리얼
+Text_ACTutorial,UI Text,Tutorial,튜토리얼
+Label_514208,UI Text,Pilot Name:,파일럿 이름
+EditNameButton_745868,VR Interactable,Edit Name,이름 편집
+Text_743158,UI Text,Edit name,이름 편집
+BackButton_744184,VR Interactable,Back To Main,다시 메인으로 돌아가기
+Text_742734,UI Text,Back,이전으로
+StartButton_745400,VR Interactable,Start New Pilot,새로운 파일럿 생성
+Text_744692,UI Text,Start,시작
+InvalidName_740436,UI Text,[ Invalid Name ],[유효하지 않은 이름]
+DeleteButton_740016,VR Interactable,Delete Pilot,파일럿 삭제
+PILOTS_745628,UI Text,Pilots,파일럿들
+NextPilotButton_747706,VR Interactable,Next Pilot,다음 파일럿
+PrevPilotButton_741810,VR Interactable,Previous Pilot,이전 파일럿
+AreYouSure_743668,UI Text,Are you sure you want to delete?,정말로 삭제하시겠습니끼?
+Text_740860,UI Text,"Yes, Delete",삭제 확인
+NoDeleteButton_743870,VR Interactable,Cancel Delete,삭제 취소
+Text_745554,UI Text,"No, keep","아니오, 유지"
+PILOTS_740912,UI Text,NO PILOTS,파일럿 없음
+PilotName_742564,UI Text,BDynamics,BDynamics
+Pilot name_744616,UI Text,Pilot name,파일럿 이름
+EditPilotColorsButton_741944,VR Interactable,Edit Colors,색 편집
+WorkshopBrowserButton_747088,VR Interactable,Steam Workshop Browser,스팀 워크숍 브라우져
+Text_509830,UI Text,Steam Workshop,스팀 워크숍
+VEHICLES_747786,UI Text,VEHICLES,기체들
+Text_743784,UI Text,SELECT VEHICLE,기체 선택
+NextVehButton_747140,VR Interactable,Next Vehicle,다음 기체
+PrevVehButton_746350,VR Interactable,Previous Vehicle,이전 기체
+NO VEHICLES_740194,UI Text,NO VEHICLES,기체 없음
+Title_731538,UI Text,TUTORIALS,튜토리얼
+NextButton_-4973280,VR Interactable,Next Tutorial,다음 튜토리얼
+PrevButton_-4973282,VR Interactable,Previous Tutorial,이전 튜토리얼
+SelectButton_-645320,VR Interactable,Select Tutorial,튜토리얼 선택
+Text_-645448,UI Text,Select,선택
+Text_-645234,UI Text,Radar,레이더
+Text_-645284,UI Text,F/A-26B,F/A-26B
+ScrollInteractable_-645206,VR Interactable,Scroll,스크롤
+Name_747128,UI Text,VTOL VR - Steam Workshop Browser,VTOL VR 스팀 워크숍 브라우져
+ScenariosButton_746792,VR Interactable,Scenarios,시나리오들
+CampaignsButton_745636,VR Interactable,Campaigns,켐패인들
+Text_746638,UI Text,Maps,지도들
+Name (1)_747156,UI Text,STEAM WORKSHOP,스팀 워크숍
+Placeholder_742056,UI Text,search...,검색...
+ButtonSearch_745798,VR Interactable,Search,검색
+SortOrderDropdown_742490,VR Interactable,Sort Dropdown,정렬 드롭 다운
+Text_743832,UI Text,Entry Button,확인 버튼
+AnyVehicleButton_741020,VR Interactable,Any Vehicle,모든 기체
+AV42Button_746716,VR Interactable,AV-42C,A/V-42C
+Text_744672,UI Text,AV-42C,A/V-42C
+missionTypeText (1)_742360,UI Text,Select vehicle,기체 선택
+F-45AButton_744238,VR Interactable,F-45A,F-45A
+VotesTab_743458,VR Interactable,Votes,득표들
+FavesTab_744050,VR Interactable,Favorited,즐겨찾는
+VotesTxt_747534,UI Text,Faves,즐겨찾는
+SubsTab_746936,VR Interactable,Subscriptions,구독수
+VotesTxt_740374,UI Text,Subs,구독수
+NewTab_744656,VR Interactable,New,새로운
+VotesTxt_740444,UI Text,Newest,최신순
+ButtonPrevious_746534,VR Interactable,Previous Page,이전 페이지
+ButtonNext_743488,VR Interactable,Next Page,다음 페이지
+Title (1)_741416,UI Text,"Loading 
+steam workshop
+missions","로딩
+스팀 워크숍
+임무들"
+Name_742760,UI Text,Error,에러
+ErrorOkayButton_976098,VR Interactable,Okay,확인
+Title_-645276,UI Text,"Select Campaign
+","캠페인 선택
+"
+NextButton_-645330,VR Interactable,Next Campaign,다음 캠페인
+PrevButton_-645328,VR Interactable,Previous Campaign,이전 캠페인
+SelectButton_516578,VR Interactable,Select Campaign,캠페인 선택
+BackButton_-645324,VR Interactable,Back to Vehicles,기체 선택으로 복귀
+Text_732522,UI Text,"The Island
+",The Island
+Text_732678,UI Text,Custom Campaigns,커스텀 캠페인
+ResetButton_-645338,VR Interactable,Reset Campaign,캠페인 초기화
+Text_-645444,UI Text,"Reset
+Progress","진행상황
+초기화"
+description_-645446,UI Text,Are you sure you want to reset progress on this campaign?,정말로 이 캠페인의 진행 상황을 초기화 하시겠습니까?
+Text_-645584,UI Text,Reset,리셋
+Text_-645592,UI Text,Cancel,취소
+Title (1)_740090,UI Text,"Loading 
+Campaigns & missions...","로딩
+캠페인과 미션"
+Text_-645730,UI Text,No missions found,아무 미션도 찾지 못함
+Title_-645562,UI Text,Select mission,임무 선택
+CompletedObject_-645176,UI Text,Completed,완료
+GrantedBudget_-645910,UI Text,Granted Budget: $500,예산 부여됨 $500
+RTrainingTitle_-645174,UI Text,Recommended Training: ,추천 훈련: 
+Text_-645912,UI Text,FULL VERSION ONLY,FULL VERSION ONLY
+Text_-645908,UI Text,UNDER CONSTRUCTION,개발 중...
+Text_-645892,UI Text,CUSTOM MAP MISSING,커스텀 지도 없음
+NextButton_-645564,VR Interactable,Next Mission,다음 임무
+PrevButton_-645598,VR Interactable,Previous Mission,이전 임무
+SelectButton_-645578,VR Interactable,Select Mission,임무 선택
+MissionsButton_-645568,VR Interactable,Missions,임무
+Text_732526,UI Text,MISSIONS,임무들
+TrainingButton_-645594,VR Interactable,Training,훈련
+Text_-645732,UI Text,TRAINING,훈련
+BackButton_-645608,VR Interactable,Back to Campaigns,다시 캠페인으로
+triggerToSkip_-645838,UI Text,hold trigger to skip,넘기려면 트리거를 누르시오
+titleText_-645888,UI Text,New Training Mission: ,새로운 훈련 임무: 
+MISSION BRIEFING_744042,UI Text,MISSION BRIEFING,임무 브리핑
+NextNoteButton_743764,VR Interactable,Next Note,다음 노트
+Text_742706,UI Text,Next,다음
+PrevNoteButton_745262,VR Interactable,Previous Note,이전 노트
+Text_744920,UI Text,Previous,이전
+FlyButton_740588,VR Interactable,Fly Mission,출격
+Text_743562,UI Text,Configure,설정
+Text_746416,UI Text,Customize Pilot,파일럿 커스터마이징
+Label_740562,UI Text,suit,슈트
+HueUpButton_742114,VR Interactable,Hue Right,색상 오른쪽
+HueDownButton_744534,VR Interactable,Hue Left,색상 왼쪽
+Label (1)_740254,UI Text,Hue,색상
+SatUpButton_745496,VR Interactable,Saturation Up,채도 증가
+SatDownButton_741692,VR Interactable,Saturation Down,채도 감소
+Label (2)_741270,UI Text,Saturation,채도
+ValUpButton_747676,VR Interactable,Value Up,명도 상승
+ValDownButton_747772,VR Interactable,Value Down,명도 감소
+Label (3)_740798,UI Text,Brightness,명도
+Label_741936,UI Text,vest,조끼
+Label_740984,UI Text,G-Suit,G - 슈트
+Label_746928,UI Text,Straps,스트렙
+Label_743676,UI Text,skin,피부색
+AcceptButton_745474,VR Interactable,Accept Changes,변경사항 확인
+Text_740032,UI Text,Accept,확인
+Button_740788,VR Interactable,Interactable,상호작용 가능
+DecrButton_746112,VR Interactable,Decrease,감소
+IncrButton_743848,VR Interactable,Increase,증가
+PrevSettingsPageButton_745814,VR Interactable,Prev Page,이전 페이지
+ApplySettingsButton_740876,VR Interactable,Apply Settings,설정 적용
+RevertSettingsButton_745510,VR Interactable,Revert Settings,설정 되돌리기
+Text_744170,UI Text,Revert,되돌리기
+Text_743510,UI Text,Close,닫기
+BindingsButton_740066,VR Interactable,Open Bindings Menu,바인딩 메뉴열기
+Text_746038,UI Text,Bindings,바인딩
+OpenWingmenButton_742898,VR Interactable,Wingman Voices,윙멘 목소리들
+GameCat_692110,VR Interactable,Game,게임
+ControlsCat_696240,VR Interactable,Controls,조작
+AudioCat_692816,VR Interactable,Audio,음향
+VideoCat_695570,VR Interactable,Video,비디오
+MiscCat_691360,VR Interactable,Miscellaneous,기타
+Text_691290,UI Text,Misc,기타
+Image_746964,VR Interactable,Toggle Voice,목소리 켜고 끄기
+SampleButton_741706,VR Interactable,Play Sample,셈플 재생
+SettingsTitle_746874,UI Text,Input binding,입력 바인딩
+ActionLabel_743972,UI Text,Action,엑션
+ControllerLabel_740058,UI Text,Controller,컨트롤러
+AxisLabel_740550,UI Text,Axis,축
+SelectCtrlr_744404,UI Text,Select a controller,컨트롤러 선택
+BindingsButton_745912,VR Interactable,Bind,묶기
+Text_742080,UI Text,Bind,묶기
+NextCtrlrButton_745738,VR Interactable,Next Controller,다음 컨트롤
+PrevCtrlrButton_747542,VR Interactable,Previous Controller,이전 컨트롤
+TestLabel_744460,UI Text,Axis Test,축 테스트
+ClearButton_744128,VR Interactable,Clear Binding,바인딩 초기화
+Text_742294,UI Text,Clear,초기화
+InvertButton_731022,VR Interactable,Invert Axis,축 반대로 설정
+Text_724774,UI Text,Invert,반대로
+Text_746160,UI Text,Apply,적용하기
+Title_744764,UI Text,Launch Editor?,미션 편집기를 시작할까요?
+Title (1)_740936,UI Text,The mission editor will run on your monitor.,미션 편집기가 모니터에서 시작될 것입니다
+OkayButton_742216,VR Interactable,Launch Editor,미션 편집기 시작
+BackButton_507224,VR Interactable,Back to Main Menu,메인 메뉴로 돌아가기
+Title (1)_740580,UI Text,The map editor will run on your monitor.,지도 편집기가 모니터에서 시작될 것입니다
