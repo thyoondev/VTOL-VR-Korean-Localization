@@ -1,7 +1,7 @@
 ﻿Key,Description,en,ko
 DemoText_746066,UI Text,DEMO,데모
 SelectPilotButton_745718,VR Interactable,Select Existing Pilot,기존의 파일럿을 선택합니다.
-Text_742314,UI Text,Select Pilot,파일럿 선택
+Text_742314,UI Text,Select Pilot,기존 파일럿 선택
 NewPilotButton_745346,VR Interactable,Create New Pilot,새로운 파일럿을 생성합니다.
 Text_742072,UI Text,New Pilot,새로운 파일럿 생성
 QuitButton_740624,VR Interactable,Quit Game,게임 종료
@@ -35,9 +35,9 @@ PILOTS_745628,UI Text,Pilots,파일럿 목록
 NextPilotButton_747706,VR Interactable,Next Pilot,다음 파일럿
 PrevPilotButton_741810,VR Interactable,Previous Pilot,이전 파일럿
 AreYouSure_743668,UI Text,Are you sure you want to delete?,정말로 삭제하시겠습니끼?
-Text_740860,UI Text,"Yes, Delete",삭제 하겠습니다.
-NoDeleteButton_743870,VR Interactable,Cancel Delete,삭제를 취소합니다.
-Text_745554,UI Text,"No, keep",아니요. 유지하겠습니다.
+Text_740860,UI Text,"Yes, Delete",삭제
+NoDeleteButton_743870,VR Interactable,Cancel Delete,삭제 취소
+Text_745554,UI Text,"No, keep",취소
 PILOTS_740912,UI Text,NO PILOTS,파일럿 없음
 PilotName_742564,UI Text,BDynamics,BDynamics
 Pilot name_744616,UI Text,Pilot name,파일럿 이름

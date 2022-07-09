@@ -210,7 +210,7 @@ ASF-SRM x3_fullName,Full equip name of: ASF-SRM x3,ASF-SRM x3,ASF-SRM x3
 ASF-SRM x3_description,Item description of: ASF-SRM x3,A rack of three standard heat-seeking anti-air missiles.,표준형 적외선 추적 대공 미사일 3개.
 ASMRM-7 x6 Internal_fullName,Full equip name of: ASMRM-7 x6 Internal,ASMRM-7 x6 Internal,ASMRM-7 x6 (내부)
 ASMRM-7 x6 Internal_description,Item description of: ASMRM-7 x6 Internal,Medium range radar guided air to air missile. Missiles are stowed internally to improve stealth and aerodynamics.,중거리 레이더 유도 공대공 미사일. 미사일은 스텔스와 공기 역학 특성을 개선하기 위해 내부 무장창에 탑재됩니다.
-Conformal Fuel Tank_fullName,Full equip name of: Conformal Fuel Tank,Conformal Fuel Tank,컨포멀 연료 탱크 개조
+Conformal Fuel Tank_fullName,Full equip name of: Conformal Fuel Tank,Conformal Fuel Tank,컨포멀 연료 탱크
 Conformal Fuel Tank_description,Item description of: Conformal Fuel Tank,A modification that allows the aircraft to hold an extra 6400L of fuel.,6400L의 추가 연료를 탑재 가능하도록 한 연료통 개조.
 AGM-114 x4_fullName,Full equip name of: AGM-114 x4,AGM-114 x4,AGM-114 x4
 AGM-114 x4_description,Item description of: AGM-114 x4,"A rack of 4 laser guided anti-tank missiles.
@@ -416,7 +416,7 @@ s_hostile,Prefix for AWACS bogey dope response,Hostile,적군
 commReply_s_rearmingNotAvailable,A text reply in the communications menu.,Rearming not available.,재무장 불가
 commReply_s_notAtRearmingStation,A text reply in the communications menu.,Not at a rearming station. Return to base.,재무장 스테이션이 아님. 기지로 귀환하십시오.
 commReply_s_turnOffEngines,A text reply in the communications menu.,Please turn off your engines.,엔진을 끄십시오.
-commReply_s_disarmWeapons,A text reply in the communications menu.,Please disarm your weapon system.,무기 시스템을 disarm 하십시오.
+commReply_s_disarmWeapons,A text reply in the communications menu.,Please disarm your weapon system.,무기 시스템을 해제하십시오.
 commReply_s_unhookTailhook,A text reply in the communications menu.,Please disengage your arrestor hook.,어레스팅 후크를 올리십시오.
 commReply_s_rearmPointOccupied,A text reply in the communications menu.,This station is occupied!,이 스테이션은 이미 사용중입니다!
 commReply_s_taxiToRearm,A text reply in the communications menu.,Please taxi to a rearming station.,재무장 스테이션으로 이동하십시오.
@@ -586,9 +586,9 @@ AIM-120 Advanced Radar Missile_description,Item description of: AIM-120 Advanced
 "
 eqSublabel_RADAR-AAM,HUD sub-label of an equip,RADAR AAM,RADAR AAM
 loadoutConfig_cannon,Cannon hardpoint label,Cannon,기관포
-fa26_loadout_extFuelL,External Fuel Left,Ext fuel l,Ext fuel l
-fa26_loadout_extFuelR,External Fuel Right,Ext fuel r,Ext fuel r
-fa26_loadout_extFuelC,External Fuel Centerline,Ext fuel center,Ext fuel center
+fa26_loadout_extFuelL,External Fuel Left,Ext fuel l,왼쪽 외부 연료
+fa26_loadout_extFuelR,External Fuel Right,Ext fuel r,오른쪽 외부 연료
+fa26_loadout_extFuelC,External Fuel Centerline,Ext fuel center,중앙 외부 연료
 fa26_loadout_extSensor,External Sensor,Ext sensor,외부 센서
 fa26_loadout_cft,Conformal Fuel Tank,Cft,Cft
 Mk-82AIR High Drag Bomb x1_fullName,Full equip name of: Mk-82AIR High Drag Bomb x1,Mk-82AIR High Drag Bomb x1,Mk-82AIR 고저항 폭탄 x1
@@ -913,7 +913,7 @@ AGM-65 x3_fullName,Full equip name of: AGM-65 x3,AGM-65 x3,AGM-65 x3
 AGM-65 x3_description,Item description of: AGM-65 x3,"A medium range optically guided ""fire-and-forget"" anti-tank missile.",발사후 망각 기능이 탑재된 광학 유도식 중거리 대-전차 미사일입니다.
 Mk-82 Bomb x2_fullName,Full equip name of: Mk-82 Bomb x2,Mk-82 Bomb x2,Mk.82 폭탄 x2
 Mk-82 Bomb x2_description,Item description of: Mk-82 Bomb x2,Two standard un-guided 500lb bombs.,두발의 표준형 비유도 500파운드 폭탄들 입니다.
-loadingView_loadingMap,Text in custom map loading view.,Loading map...,지도를 불러오는 중입니다…
+loadingView_loadingMap,Text in custom map loading view.,Loading map...,출격 준비 중…
 Mk.82 Bomb x3_fullName,Full equip name of: Mk.82 Bomb x3,Mk.82 Bomb x3,Mk.82 폭탄 x3
 Mk.82 Bomb x3_description,Item description of: Mk.82 Bomb x3,Standard un-guided 500lb bombs.,재래식 무유도 500 파운드 폭탄 입니다.
 mfdpOpenMenu,Tooltip for button that opens a menu.,Open Menu,메뉴 열기
@@ -1101,34 +1101,34 @@ campaign_av42cTheIsland_description,Description of a campaign.,The Island campai
 av42cTheIsland:01_preparations_name,Name of a mission.,Preparations,준비 과정
 av42cTheIsland:01_preparations_description,Description of a mission.,Help make preparations to defend the island. Transport personnel to coastal SAM site.,섬을 방어하는 과정을 도우십시오. 병력을 해안가의 지대공 사이트로 수송 하십시오.
 AV-42C:av42cTheIsland:01_preparations:obj_0:name,A mission objective name,Pick Up,픽업
-AV-42C:av42cTheIsland:01_preparations:obj_0:info,Mission objective info.,Let the soldiers into your passenger bay.,병사들을 수송공간에 탑승시키십시오.
+AV-42C:av42cTheIsland:01_preparations:obj_0:info,Mission objective info.,Let the soldiers into your passenger bay.,병사들을 수송기에 탑승시키십시오.
 AV-42C:av42cTheIsland:01_preparations:obj_1:name,A mission objective name,Drop Off,수송
-AV-42C:av42cTheIsland:01_preparations:obj_1:info,Mission objective info.,Drop the soldiers off at the east bay SAM site.,병사들을 SAM 사이트 동쪽에 있는 해안만에 내려주십시오.
+AV-42C:av42cTheIsland:01_preparations:obj_1:info,Mission objective info.,Drop the soldiers off at the east bay SAM site.,병사들을 SAM 사이트 동쪽에 있는 해안만에 하차시킵십시오.
 AV-42C:av42cTheIsland:01_preparations:obj_2:name,A mission objective name,Join Fighters,전투기들과 합류
-AV-42C:av42cTheIsland:01_preparations:obj_2:info,Mission objective info.,Join up with the fighter escort wing.,전투기 에스코트와 합류하십시오.
+AV-42C:av42cTheIsland:01_preparations:obj_2:info,Mission objective info.,Join up with the fighter escort wing.,전투기 호위부대와 합류하십시오.
 AV-42C:av42cTheIsland:01_preparations:obj_4:name,A mission objective name,Investigate,조사
 AV-42C:av42cTheIsland:01_preparations:obj_4:info,Mission objective info.,Investigate the AV-42 crash site.,AV-42 추락 지점을 조사하십시오.
 AV-42C:av42cTheIsland:01_preparations:obj_5:name,A mission objective name,Pick-up Survivors,생존자 구출
 AV-42C:av42cTheIsland:01_preparations:obj_5:info,Mission objective info.,Pick up the survivors from the crash site.,추락 지점에 있는 생존자들을 구출하십시오.
 AV-42C:av42cTheIsland:01_preparations:obj_6:name,A mission objective name,Deliver Survivors,생존자 수송
 AV-42C:av42cTheIsland:01_preparations:obj_6:info,Mission objective info.,Deliver the survivors to the hospital.,생존자들을 병원으로 수송하십시오
-AV-42C:av42cTheIsland:01_preparations:obj_7:name,A mission objective name,RTB,RTB
+AV-42C:av42cTheIsland:01_preparations:obj_7:name,A mission objective name,RTB,기지로 귀환
 AV-42C:av42cTheIsland:01_preparations:obj_7:info,Mission objective info.,Return to and land at the airbase.,기지로 귀환하고 공항에 착륙하십시오.
 AV-42C:av42cTheIsland:01_preparations:obj_8:name,A mission objective name,Destroy Drones,드론 파괴
-AV-42C:av42cTheIsland:01_preparations:obj_8:info,Mission objective info.,Allow the fighters to clear out the hostile drones.,전투기들이 적군 드론을 파괴하도록 허용하십시오.
+AV-42C:av42cTheIsland:01_preparations:obj_8:info,Mission objective info.,Allow the fighters to clear out the hostile drones.,전투기가 적의 무인기를 파괴하도록하십시오.
 av42cTheIsland:02_minesweeper_name,Name of a mission.,Minesweeper,지뢰 탐지
 av42cTheIsland:02_minesweeper_description,Description of a mission.,Destroy the drone ships laying mines on supply routes.,보급로에 수중 지뢰를 살포하는 드론 선박을 파괴 하십시오.
 AV-42C:av42cTheIsland:02_minesweeper:obj_0:name,A mission objective name,Join fighters,전투기들과 합류
 AV-42C:av42cTheIsland:02_minesweeper:obj_0:info,Mission objective info.,Meet up with Victor1 at the waypoint.,Victor1과 웨이포인트에서 합류하십시오.
 AV-42C:av42cTheIsland:02_minesweeper:obj_1:name,A mission objective name,Fly to AO,작전지역으로 이동
-AV-42C:av42cTheIsland:02_minesweeper:obj_1:info,Mission objective info.,Lead the strike group to the area of operations.,공격기들을 작전 영역으로 이끄십시오.
+AV-42C:av42cTheIsland:02_minesweeper:obj_1:info,Mission objective info.,Lead the strike group to the area of operations.,공격기들을 작전 지역으로 이끄십시오.
 AV-42C:av42cTheIsland:02_minesweeper:obj_2:name,A mission objective name,Strike,공격
 AV-42C:av42cTheIsland:02_minesweeper:obj_2:info,Mission objective info.,[Critical] Destroy the mine boats.,[중요] 기뢰정들을 파괴하십시오.
 AV-42C:av42cTheIsland:02_minesweeper:obj_3:name,A mission objective name,Support,지원
-AV-42C:av42cTheIsland:02_minesweeper:obj_3:info,Mission objective info.,"If able, support your wingmen by destroying the carrier's weapons and drones.",가능하다면 항공 모함의 무기와 드론을 파괴하여 윙맨을 지원하세요.
+AV-42C:av42cTheIsland:02_minesweeper:obj_3:info,Mission objective info.,"If able, support your wingmen by destroying the carrier's weapons and drones.",가능하다면 항공 모함의 무기와 무인기를 파괴하여 윙맨을 지원하세요.
 AV-42C:av42cTheIsland:02_minesweeper:obj_4:name,A mission objective name,RTB,기지로 귀환
 AV-42C:av42cTheIsland:02_minesweeper:obj_4:info,Mission objective info.,Return to the airbase.,공군 기지로 돌아갑니다.
-av42cTheIsland:03_redirection_name,Name of a mission.,Redirection,방향 전환
+av42cTheIsland:03_redirection_name,Name of a mission.,Redirection,전향
 av42cTheIsland:03_redirection_description,Description of a mission.,Join the carrier fleet embarking on a pre-emptive naval strike.,선제 공격을 시작하는 항공 모함 편대에 합류하십시오.
 AV-42C:av42cTheIsland:03_redirection:obj_0:name,A mission objective name,Search,탐색
 AV-42C:av42cTheIsland:03_redirection:obj_0:info,Mission objective info.,Search for the lost pilot near the objective waypoint.,목표 지점 근처에서 길을 잃은 조종사를 찾으십시오.
@@ -1136,28 +1136,28 @@ AV-42C:av42cTheIsland:03_redirection:obj_1:name,A mission objective name,Join Ta
 AV-42C:av42cTheIsland:03_redirection:obj_1:info,Mission objective info.,Lead the lost pilot to the refuel tanker.,길 잃은 조종사를 공중급유기로 인도하십시오
 AV-42C:av42cTheIsland:03_redirection:obj_2:name,A mission objective name,Refuel,급유
 AV-42C:av42cTheIsland:03_redirection:obj_2:info,Mission objective info.,Allow the pilot to refuel.,조종사가 연료를 보급하도록하십시오.
-AV-42C:av42cTheIsland:03_redirection:obj_3:name,A mission objective name,Join Carrier,항모에 합류
+AV-42C:av42cTheIsland:03_redirection:obj_3:name,A mission objective name,Join Carrier,항공모함에 합류
 AV-42C:av42cTheIsland:03_redirection:obj_3:info,Mission objective info.,Lead the pilot to the aircraft carrier.,조종사를 항공 모함으로 안내합니다.
 AV-42C:av42cTheIsland:03_redirection:obj_4:name,A mission objective name,Land,착륙
 AV-42C:av42cTheIsland:03_redirection:obj_4:info,Mission objective info.,Land on the aircraft carrier.,항공 모함에 착륙하십시오.
 av42cTheIsland:04_openWater_name,Name of a mission.,Open Water,망망대해
 av42cTheIsland:04_openWater_description,Description of a mission.,Meet the enemy in open water for a pre-emptive strike.,선제 공격을 위해 공해에서 적을 만나십시오.
 AV-42C:av42cTheIsland:04_openWater:obj_0:name,A mission objective name,Join Strikers,공격기와 합류
-AV-42C:av42cTheIsland:04_openWater:obj_0:info,Mission objective info.,Join the striker group X-Ray1,스트라이커 그룹 X-Ray1에 가입하십시오
+AV-42C:av42cTheIsland:04_openWater:obj_0:info,Mission objective info.,Join the striker group X-Ray1,공격기 그룹 X-Ray1에 가입하십시오
 AV-42C:av42cTheIsland:04_openWater:obj_1:name,A mission objective name,Defend,방어
-AV-42C:av42cTheIsland:04_openWater:obj_1:info,Mission objective info.,Help defend the fleet from the incoming drones.,들어오는 드론으로부터 함대를 방어하십시오.
+AV-42C:av42cTheIsland:04_openWater:obj_1:info,Mission objective info.,Help defend the fleet from the incoming drones.,무인기로부터 함대를 방어하십시오.
 AV-42C:av42cTheIsland:04_openWater:obj_2:name,A mission objective name,Regroup,합류
 AV-42C:av42cTheIsland:04_openWater:obj_2:info,Mission objective info.,Join up with the fighters.,전투기와 합류하십시오.
 AV-42C:av42cTheIsland:04_openWater:obj_3:name,A mission objective name,Fly to AO,작전지역으로 이동
-AV-42C:av42cTheIsland:04_openWater:obj_3:info,Mission objective info.,Vector to the enemy fleet.,적 함대로 이동.
+AV-42C:av42cTheIsland:04_openWater:obj_3:info,Mission objective info.,Vector to the enemy fleet.,적 함대로 이동하십시오.
 AV-42C:av42cTheIsland:04_openWater:obj_4:name,A mission objective name,Destroy Targets,목표물 파괴
 AV-42C:av42cTheIsland:04_openWater:obj_4:info,Mission objective info.,"Destroy or disable all enemy weapon systems, sensors, and drones.","모든 적의 무기 시스템, 센서 및 드론을 파괴하거나 비활성화하십시오."
 AV-42C:av42cTheIsland:04_openWater:obj_5:name,A mission objective name,RTB,기지로 귀환
-AV-42C:av42cTheIsland:04_openWater:obj_5:info,Mission objective info.,Return to the fleet and land.,항모나 기지로 돌아가십시오.
+AV-42C:av42cTheIsland:04_openWater:obj_5:info,Mission objective info.,Return to the fleet and land.,항공모함이나 기지로 돌아가십시오.
 av42cTheIsland:05_silentIsland_name,Name of a mission.,Silent Island,침묵의 섬
 av42cTheIsland:05_silentIsland_description,Description of a mission.,Return to the island to investigate why communications have gone silent.,섬으로 돌아가 통신이 끊긴 이유를 조사하십시오.
 AV-42C:av42cTheIsland:05_silentIsland:obj_0:name,A mission objective name,Join Tanker,공중급유기에 접근
-AV-42C:av42cTheIsland:05_silentIsland:obj_0:info,Mission objective info.,Take off and fly to the aerial fuel tanker.,이륙하여 공중 연료 유조선으로 날아갑니다.
+AV-42C:av42cTheIsland:05_silentIsland:obj_0:info,Mission objective info.,Take off and fly to the aerial fuel tanker.,이륙하여 공중 연료 유조선을 향해 비행합니다.
 AV-42C:av42cTheIsland:05_silentIsland:obj_1:name,A mission objective name,Refuel 1,급유 1
 AV-42C:av42cTheIsland:05_silentIsland:obj_1:info,Mission objective info.,Allow your Romeo1-1 to refuel.,Romeo1-1에 연료를 보급하십시오.
 AV-42C:av42cTheIsland:05_silentIsland:obj_2:name,A mission objective name,Refuel 2,급유 2
@@ -1166,13 +1166,13 @@ AV-42C:av42cTheIsland:05_silentIsland:obj_3:name,A mission objective name,Invest
 AV-42C:av42cTheIsland:05_silentIsland:obj_3:info,Mission objective info.,Investigate the island.,섬을 조사하십시오.
 AV-42C:av42cTheIsland:05_silentIsland:obj_4:name,A mission objective name,Retreat,후퇴
 AV-42C:av42cTheIsland:05_silentIsland:obj_4:info,Mission objective info.,Avoid the enemy fleet. Return to the waypoint and await orders.,적 함대를 피하십시오. 웨이 포인트로 돌아가 명령을 기다립니다.
-AV-42C:av42cTheIsland:05_silentIsland:obj_5:name,A mission objective name,CAS,CAS
+AV-42C:av42cTheIsland:05_silentIsland:obj_5:name,A mission objective name,CAS,근접항공지원
 AV-42C:av42cTheIsland:05_silentIsland:obj_5:info,Mission objective info.,Destroy the armored units moving toward our allied infantry.,아군 보병을 향해 이동하는 장갑 유닛을 파괴하십시오.
-AV-42C:av42cTheIsland:05_silentIsland:obj_6:name,A mission objective name,Exfil,Exfil
-AV-42C:av42cTheIsland:05_silentIsland:obj_6:info,Mission objective info.,Pick up Bravo squad.,브라보 분대를 픽업하세요.
+AV-42C:av42cTheIsland:05_silentIsland:obj_6:name,A mission objective name,Exfil,탈출
+AV-42C:av42cTheIsland:05_silentIsland:obj_6:info,Mission objective info.,Pick up Bravo squad.,Bravo 분대를 승차시킵시오.
 AV-42C:av42cTheIsland:05_silentIsland:obj_7:name,A mission objective name,RTB,기지로 귀환
 AV-42C:av42cTheIsland:05_silentIsland:obj_7:info,Mission objective info.,Return to the aircraft carrier.,항공 모함으로 돌아가십시오.
-av42cTheIsland:06_darkness_name,Name of a mission.,Darkness,어둠
+av42cTheIsland:06_darkness_name,Name of a mission.,Darkness,어둠속으로
 av42cTheIsland:06_darkness_description,Description of a mission.,Begin a counterattack under the cover of darkness.,어둠 속에서 반격을 시작하십시오.
 AV-42C:av42cTheIsland:06_darkness:obj_0:name,A mission objective name,Begin,시작
 AV-42C:av42cTheIsland:06_darkness:obj_0:info,Mission objective info.,Take off and prepare for your anti-ship strike.,이륙하고 대함 공격을 준비하십시오.
@@ -1182,14 +1182,14 @@ AV-42C:av42cTheIsland:06_darkness:obj_2:name,A mission objective name,RTB,기지
 AV-42C:av42cTheIsland:06_darkness:obj_2:info,Mission objective info.,Return to the aircraft carrier.,항공 모함으로 돌아가십시오.
 av42cTheIsland:07_islandDefense_name,Name of a mission.,Island Defense,섬 방어
 av42cTheIsland:07_islandDefense_description,Description of a mission.,Begin to take back the island and eliminate the enemy fleet off the northern coast.,섬을 되찾고 북쪽 해안에서 적 함대를 제거하십시오.
-AV-42C:av42cTheIsland:07_islandDefense:obj_6:name,A mission objective name,AntiShip 2,AntiShip 2
-AV-42C:av42cTheIsland:07_islandDefense:obj_6:info,Mission objective info.,Destroy the incoming enemy carrier fleet.,들어오는 적 항모 함대를 파괴하십시오.
-AV-42C:av42cTheIsland:07_islandDefense:obj_4:name,A mission objective name,AntiShip,AntiShip
+AV-42C:av42cTheIsland:07_islandDefense:obj_6:name,A mission objective name,AntiShip 2,대함 2
+AV-42C:av42cTheIsland:07_islandDefense:obj_6:info,Mission objective info.,Destroy the incoming enemy carrier fleet.,들어오는 적 항공모함 함대를 파괴하십시오.
+AV-42C:av42cTheIsland:07_islandDefense:obj_4:name,A mission objective name,AntiShip,대함
 AV-42C:av42cTheIsland:07_islandDefense:obj_4:info,Mission objective info.,Destroy the remaining enemy fleet.,남은 적 함대를 파괴하십시오.
 AV-42C:av42cTheIsland:07_islandDefense:obj_3:name,A mission objective name,Airbase,공군 기지
 AV-42C:av42cTheIsland:07_islandDefense:obj_3:info,Mission objective info.,Clear out the enemy units at the airbase.,공군 기지에서 적 유닛을 제거하십시오.
 AV-42C:av42cTheIsland:07_islandDefense:obj_7:name,A mission objective name,SEAD,대공 제압 임무
-AV-42C:av42cTheIsland:07_islandDefense:obj_7:info,Mission objective info.,Destroy the enemy SAM site to allow reinforcements to take off.,증원군이 이륙 할 수 있도록 적의 SAM 사이트를 파괴하십시오.
+AV-42C:av42cTheIsland:07_islandDefense:obj_7:info,Mission objective info.,Destroy the enemy SAM site to allow reinforcements to take off.,동맹군이 이륙 할 수 있도록 적의 지대공 미사일을 파괴하십시오.
 AV-42C:av42cTheIsland:07_islandDefense:obj_8:name,A mission objective name,Launch,출격
 AV-42C:av42cTheIsland:07_islandDefense:obj_8:info,Mission objective info.,,
 AV-42C:av42cTheIsland:07_islandDefense:obj_9:name,A mission objective name,Regroup,합류
@@ -1197,87 +1197,86 @@ AV-42C:av42cTheIsland:07_islandDefense:obj_9:info,Mission objective info.,"Rearm
 AV-42C:av42cTheIsland:07_islandDefense:obj_10:name,A mission objective name,RTB,기지로 귀환
 AV-42C:av42cTheIsland:07_islandDefense:obj_10:info,Mission objective info.,Land at the airbase.,공군 기지에 착륙하십시오.
 AV-42C:av42cTheIsland:07_islandDefense:obj_11:name,A mission objective name,Drone Boats,드론 보트
-AV-42C:av42cTheIsland:07_islandDefense:obj_11:info,Mission objective info.,Destroy the rocket-equipped drone boats threatening the carrier.,항공 모함을 위협하는 로켓이 장착 된 드론 보트를 파괴하십시오.
+AV-42C:av42cTheIsland:07_islandDefense:obj_11:info,Mission objective info.,Destroy the rocket-equipped drone boats threatening the carrier.,항공 모함을 위협하는 로켓이 장착 된 무인정을 파괴하십시오.
 AV-42C:av42cTheIsland:07_islandDefense:obj_12:name,A mission objective name,Destroy Ship Defense,함선 방어 시스템 파괴
 AV-42C:av42cTheIsland:07_islandDefense:obj_12:info,Mission objective info.,Destroy the carrier group's radars and air defenses so bombers can come to help.,폭격기가 도움을받을 수 있도록 항공 모함 그룹의 레이더와 방공 장치를 파괴하세요.
 av42cTheIsland_01_preparations_b0,Text from a mission briefing.,"Negotiations for peace have failed.  We believe the enemy will strike here first, as a stepping stone to the mainland.
 
-We have begun preparing coastal air defenses.","평화를위한 협상은 실패했습니다. 우리는 적이 본토로가는 디딤돌로서 이곳을 먼저 공격 할 것이라고 믿습니다. 
+We have begun preparing coastal air defenses.","평화를위한 협상은 실패했습니다. 적들이 우리에게 쳐들어오는 디딤돌로서 여기을 먼저 공격 할 것이라고 생각합니다. 
 
-우리는 연안 방공망을 준비하기 시작했습니다."
+우리는 연안에 방공망을 구축하기 시작했습니다."
 av42cTheIsland_01_preparations_b1,Text from a mission briefing.,"As an AV-42C pilot, you will deliver personnel to the defense sites.
 
-Other pilots and soldiers will be arriving by air from the mainland soon.","AV-42C 조종사로서 당신은 방어 기지에 인원을 파견하게 됩니다.
+Other pilots and soldiers will be arriving by air from the mainland soon.","AV-42C 조종사로서 당신은 방어 현장에 파견됩니다.
 
-다른 조종사와 병사들은 곧 본토에서 비행기로 도착할 것입니다."
-av42cTheIsland_02_minesweeper_b0,Text from a mission briefing.,"As we continue to prepare our defenses against the invasive enemy forces, we need to secure supply routes from the mainland to the island.",침략 적군에 대한 방어를 계속 준비하면서 본토에서 섬으로의 보급로를 확보해야 합니다.
-av42cTheIsland_02_minesweeper_b1,Text from a mission briefing.,The troops you recovered from the crash site reported that they spotted what seemed to be unmanned vessels deploying sea mines near the south east supply route.,추락 현장에서 철수한 부대는 남동쪽 보급로 근처에서 기뢰를 배치하는 무인 선박으로 보이는 것을 발견했다고 보고했습니다.
+다른 조종사들과 군인들은 곧 본토에서 항공편으로 도착할 것입니다."
+av42cTheIsland_02_minesweeper_b0,Text from a mission briefing.,"As we continue to prepare our defenses against the invasive enemy forces, we need to secure supply routes from the mainland to the island.",적군의 침략에 대한 방어를 하면서 우리의 본토에서 섬으로의 보급로를 확보해야 합니다.
+av42cTheIsland_02_minesweeper_b1,Text from a mission briefing.,The troops you recovered from the crash site reported that they spotted what seemed to be unmanned vessels deploying sea mines near the south east supply route.,추락 현장에서 구조된 부대는 남동쪽 보급로 부근에 해뢰를 배치하고 있는 무인 선박을 발견했다고 보고했습니다.
 av42cTheIsland_02_minesweeper_b2,Text from a mission briefing.,"You will lead a strike group with the order of destroying all hostile targets in the designated area.  
 
-Prepare your aircraft appropriately.","당신은 지정된 지역의 모든 적대적인 목표물을 파괴하라는 명령으로 공격 그룹을 이끌 것입니다.
+Prepare your aircraft appropriately.","당신은 지정된 지역의 모든 적의 목표물을 파괴하라는 명령으로 공격 그룹을 이끌 것입니다.
 
-항공기를 적절하게 준비하십시오."
-av42cTheIsland_03_redirection_b0,Text from a mission briefing.,Our engineers were able to salvage the navigation computers from the drone ships and used them to determine the location of the main naval fleet of the enemy.,우리 엔지니어들은 무인 항공기에서 항법 컴퓨터를 인양하여 적의 주요 해군 함대의 위치를 ??파악하는 데 사용할 수 있었습니다.
-av42cTheIsland_03_redirection_b1,Text from a mission briefing.,"We have tasked an aircraft carrier fleet to intercept before they get too close to the island.  In order to maximize their force, you and other pilots are ordered to join the fleet.",우리는 항공모함 함대가 섬에 너무 가까워지기 전에 요격하도록 임무를 부여했습니다. 그들의 힘을 최대화하기 위해 당신과 다른 조종사들은 함대에 합류하라는 명령을 받았습니다.
-av42cTheIsland_03_redirection_b2,Text from a mission briefing.,"A pilot belonging to the carrier was out on combat air patrol when his navigation systems experienced a failure.  The pilot is lost and low on fuel, so you must quickly find him and lead him to the fuel tanker on the way to the carrier.",항공모함에 소속된 조종사는 그의 항법 시스템에 장애가 발생했을 때 전투 항공 초계에 나갔습니다. 조종사는 길을 잃고 연료가 부족하므로 신속하게 그를 찾아 항공모함으로 가는 도중에 그를 유조선으로 안내해야 합니다.
-av42cTheIsland_04_openWater_b0,Text from a mission briefing.,"We have intercepted the enemy fleet sooner than we expected to. They have already deployed aerial drones which are heading towards our fleet. All units are to scramble to defend the fleet, as well as quickly launch a counter-attack.",예상보다 빨리 적 함대를 요격했습니다. 그들은 이미 우리 함대로 향하는 공중 드론을 배치했습니다. 모든 유닛은 함대를 방어하기 위해 출동할 뿐만 아니라 신속하게 반격을 시작해야 합니다.
+항공기의 무장을 적절하게 준비하십시오."
+av42cTheIsland_03_redirection_b0,Text from a mission briefing.,Our engineers were able to salvage the navigation computers from the drone ships and used them to determine the location of the main naval fleet of the enemy.,"우리 기술자들은 적의 무인기로부터 항법 컴퓨터를 얻었고, 적 주요 해군 함대의 위치를 알아냈습니다."
+av42cTheIsland_03_redirection_b1,Text from a mission briefing.,"We have tasked an aircraft carrier fleet to intercept before they get too close to the island.  In order to maximize their force, you and other pilots are ordered to join the fleet.",항공모함 함대에게 적들이 섬에 너무 가까이 접근하기 전에 요격하도록 요청 하였습니다.  이를 돕기위해 당신과 다른 조종사들은 함대에 합류하라는 명령을 받았습니다.
+av42cTheIsland_03_redirection_b2,Text from a mission briefing.,"A pilot belonging to the carrier was out on combat air patrol when his navigation systems experienced a failure.  The pilot is lost and low on fuel, so you must quickly find him and lead him to the fuel tanker on the way to the carrier.","항공모함 소속 한 조종사의 항법장치가 고장났습니다.  조종사가 길을 잃고 연료가 부족하니, 서둘러 그를 찾아서 항공모함으로 인도해야 합니다."
+av42cTheIsland_04_openWater_b0,Text from a mission briefing.,"We have intercepted the enemy fleet sooner than we expected to. They have already deployed aerial drones which are heading towards our fleet. All units are to scramble to defend the fleet, as well as quickly launch a counter-attack.",우리는 예상보다 빨리 적 함대를 요격했습니다. 적들은 우리를 향해 무인기를 배치했습니다. 모든 대원은 함대를 방어하기 위해 출동하고 신속하게 반격을 시작해야 합니다.
 av42cTheIsland_04_openWater_b1,Text from a mission briefing.,"The enemy force is numerous and includes small drone boats, missile cruisers, and drone carriers. This is going to get messy.
 
-Good luck.","
-적군은 수없이 많으며 소형 드론 보트, 미사일 순양함 및 드론 캐리어를 포함합니다. 
+Good luck.","적군은 수없이 많으며 소형 무인 보트, 미사일 순양함 및 무인 항공모함을 포함합니다. 
 
 행운을 빕니다."
 av42cTheIsland_05_silentIsland_b0,Text from a mission briefing.,"We received an encrypted message from the island airbase which suggested that a large presence was detected coming in from the north.
 
-After that, all communications went silent.","우리는 섬 공군 기지로부터 북쪽에서 대규모 존재가 감지되었다는 암호화된 메시지를 받았습니다.
+After that, all communications went silent.","우리는 섬의 공군 기지로부터 북쪽에서 대규모 존재가 감지되었다는 암호화된 메시지를 받았습니다.
 
-그 후 모든 통신이 잠잠해졌습니다."
+그 후 모든 통신이 두절되었습니다."
 av42cTheIsland_05_silentIsland_b1,Text from a mission briefing.,"The captain is worried that the enemy fleet we just attacked was just a diversion, and a larger enemy fleet somehow sailed to the island undetected.
 
-We are returning to the island to investigate the radio silence.","대령은 우리가 방금 공격한 적 함대가 단지 우회에 불과했고 더 큰 적 함대가 들키지 않고 어떻게든 섬으로 항해했다고 걱정하고 있습니다.
+We are returning to the island to investigate the radio silence.","함장은 우리가 방금 공격한 적 함대가 단지 주의를 돌리기 위한 것에 불과했고 더 큰 적 함대가 탐지되지 않은 채 섬으로 항해하고 있다고 걱정하고 있습니다.
 
-우리는 통신이 끊긴 이유를 조사하기 위해 섬으로 돌아갑니다."
+우리는 통신이 두절 된 이유를 조사하기 위해 섬으로 돌아갑니다."
 av42cTheIsland_05_silentIsland_b2,Text from a mission briefing.,"We are conserving on-board jet fuel in anticipation of responding to the potential threat, so the fighter escorts will need to refuel in the air.
 
-Once everyone is topped off, scout the island and report back.  Good luck.","우리는 잠재적 위협에 대응하기 위해 기내 제트 연료를 절약하고 있으므로 전투기 호위대가 공중에서 연료를 보급해야 합니다.
+Once everyone is topped off, scout the island and report back.  Good luck.","잠재적 위협에 대응할 수 있도록 연료를 절약하고 있기 때문에 전투기 호위대가 공중에서 연료를 재보급해야 합니다.
 
-모두 완료되면 섬을 정찰하고 보고합니다. 행운을 빕니다."
+모두 완료되면 섬을 정찰하고 보고하십시오.  행운을 빕니다."
 av42cTheIsland_06_darkness_b0,Text from a mission briefing.,"On the scouting sortie, a large enemy fleet was detected north of the island.  The enemy has also begun landing ground units on the island.
 
-Before we can begin to move in and take back the island, we need to eliminate the threat posed by the enemy long range missile cruiser.","정찰 출격에서 섬 북쪽에서 대규모 적 함대가 감지되었습니다. 적군도 섬에 지상 유닛을 상륙시키기 시작했습니다.
+Before we can begin to move in and take back the island, we need to eliminate the threat posed by the enemy long range missile cruiser.","정찰대로부터 섬 북쪽에서 대규모 적 함대가 감지되었다고 보고받았습니다. 적군은 섬에 지상 부대를 상륙시키기 시작했습니다.
 
-섬으로 이동하여 탈환하기 전에 적의 장거리 미사일 순양함의 위협을 제거해야 합니다."
-av42cTheIsland_06_darkness_b1,Text from a mission briefing.,"The cruiser has an array of launch tubes which we believe are capable of deploying two-stage surface-to-air and anti-ship missiles.  It also has a vertical launching system defense cannons, so it may not be effective to use conventional bombs or air-to-ground missiles.",순양함에는 2단 지대공 및 대함 미사일을 배치할 수 있는 발사관이 있습니다. 또한 수직발사 시스템의 방어포를 가지고 있어 재래식 폭탄이나 공대지 미사일을 사용하는 것은 효과적이지 않을 수 있습니다.
-av42cTheIsland_06_darkness_b2,Text from a mission briefing.,"In order to take out the threat, we are authorizing the use of the AGM-89 anti-ship cruise missile.  It has advanced features such as waypoint navigation, radar target acquisition, and a large payload.  Use it wisely and destroy the high priority target.","위협을 제거하기 위해 우리는 AGM-89 대함 순항 미사일의 사용을 승인합니다. 웨이포인트 탐색, 레이더 표적 획득 및 대형 페이로드와 같은 고급 기능을 갖추고 있습니다. 현명하게 사용하고 우선 순위가 높은 대상을 파괴하십시오."
+우리가 섬을 다시 점령하려면 적의 장거리 미사일 순양함의 위협을 제거해야 합니다."
+av42cTheIsland_06_darkness_b1,Text from a mission briefing.,"The cruiser has an array of launch tubes which we believe are capable of deploying two-stage surface-to-air and anti-ship missiles.  It also has a vertical launching system defense cannons, so it may not be effective to use conventional bombs or air-to-ground missiles.",이 미사일 순양함에는 2단 지대공 및 대함 미사일을 배치할 수 있는 발사관이 있습니다. 또한 수직발사 시스템의 방어포를 가지고 있어 재래식 폭탄이나 공대지 미사일을 사용하는 것은 효과적이지 않을 수 있습니다.
+av42cTheIsland_06_darkness_b2,Text from a mission briefing.,"In order to take out the threat, we are authorizing the use of the AGM-89 anti-ship cruise missile.  It has advanced features such as waypoint navigation, radar target acquisition, and a large payload.  Use it wisely and destroy the high priority target.","위협을 제거하기 위해 우리는 AGM-89 대함 순항 미사일의 사용을 승인합니다. 경유지 탐색, 레이더 표적 발사 및 큰 폭발력과 같은 여러 기능을 갖추고 있습니다. 현명하게 사용하여 우선 순위가 높은 대상을 파괴하십시오."
 av42cTheIsland_06_darkness_b3,Text from a mission briefing.,"The mission launches at midnight. You will be escorted by a small wing of fighters to defend you from airborne threats.
 
 The enemy has likely deployed more self-propelled SAM units to the island, so keep an eye out for missile launches and radar locks.
 
-Good luck.","임무는 자정에 시작됩니다. 당신은 공중 위협으로부터 당신을 보호하기 위해 전투기의 작은 날개에 의해 호위됩니다.
+Good luck.","임무는 자정에 시작됩니다. 공중의 위협으로부터 여러분을 보호하기 위해 소규모 전투기의 호위를 받게 될 것입니다.
 
-적이 섬에 더 많은 자체 추진 SAM 유닛을 배치했을 가능성이 있으므로 미사일 발사와 레이더 잠금 장치를 주시하십시오.
+적군은 섬에 더 많은 SAM 유닛을 더 배치했을 가능성이 높으므로 미사일 발사와 레이더 장치를 주시하십시오.
 
 행운을 빕니다."
 av42cTheIsland_07_islandDefense_b0,Text from a mission briefing.,"With the destruction of the enemy fleet's most powerful ship, we can begin an effort to take back the island.
 
-Through the night, the enemy has continued to deploy troops and set up defenses around the island.","적 함대의 가장 강력한 함선이 파괴되면서 우리는 섬을 되찾기 위한 노력을 시작할 수 있습니다.
+Through the night, the enemy has continued to deploy troops and set up defenses around the island.","적 함대의 가장 강력한 배가 파괴되면 섬을 되찾기 위한 노력을 시작할 수 있습니다.
 
-밤새도록 적군은 계속해서 병력을 배치하고 섬 주변에 방어선을 구축했습니다."
+밤새도록 적은 계속해서 군대를 배치하고 섬 주변에 방어선을 구축했습니다."
 av42cTheIsland_07_islandDefense_b1,Text from a mission briefing.,"The first order is to clear out enemy units from the island airbase. Air defenses have been set up, so be prepared to use the surrounding hills for cover.
 
-Once the airbase has been cleared, we can use it for refueling and rearming.","첫 번째 명령은 섬 공군 기지에서 적 유닛을 제거하는 것입니다. 방공망이 구축되었으므로 주변 언덕을 엄폐물로 사용할 준비를 하십시오.
+Once the airbase has been cleared, we can use it for refueling and rearming.","첫 번째 명령은 섬 공군 기지에서 적 병력을 제거하는 것입니다. 방공망이 구축되었으므로 주변 언덕을 엄폐물로 사용할 준비를 하십시오.
 
-공군 기지가 정리되면 연료 보급 및 재장전을 위해 사용할 수 있습니다."
+공군 기지가 제거되면 우리가 그곳을 연료 보급과 재장비에 사용할 수 있습니다."
 av42cTheIsland_07_islandDefense_b2,Text from a mission briefing.,"Once that is out of the way, we must eliminate the rest of the enemy fleet parked off the norther coast.
 
-An allied carrier fleet is arriving from the east to support us, but are unable to launch aircraft due to enemy air defenses in the eastern city.","일단 그것이 방해가 되면 우리는 북쪽 해안에 주차된 나머지 적 함대를 제거해야 합니다.
+An allied carrier fleet is arriving from the east to support us, but are unable to launch aircraft due to enemy air defenses in the eastern city.","일단 공군 기지의 병력이 제거되면, 우리는 북쪽 해안에 배치되어 있는 나머지 적 함대를 제거해야 합니다.
 
-동맹군 항모 함대가 우리를 지원하기 위해 동쪽에서 도착하고 있지만 동쪽 도시의 적 방공망으로 인해 항공기를 발사할 수 없습니다."
+동맹국 항공모함 함대가 동쪽에서 우리를 지원하기 위해 도착하고 있지만, 동쪽 도시에 있는 적의 방공호 때문에 항공기를 띄울 수 없습니다."
 av42cTheIsland_07_islandDefense_b3,Text from a mission briefing.,"Destroy the eastern air defenses to allow the allied pilots to take off, then make a combined effort to destroy the enemy fleet.
 
-The allied fleet will also move into firing range to support with anti-ship missiles.","연합군 조종사가 이륙할 수 있도록 동쪽 방공포를 파괴한 다음, 적 함대를 파괴하기 위해 합심하여 노력하십시오.
+The allied fleet will also move into firing range to support with anti-ship missiles.","동맹국 조종사들이 이륙할 수 있도록 동쪽 방공망을 정리한 다음 적 함대를 파괴하십시오.
 
-연합군 함대는 또한 대함 미사일 지원을 위해 사거리로 이동할 것입니다."
+동맹국 함대는 대함 미사일로 지원하기 위해 유효 사격 범위 안으로 이동할 것입니다."
 campaign_av42cQuickFlight_name,Name of a campaign.,Quick Flight,빠른 비행
 campaign_av42cQuickFlight_description,Description of a campaign.,Quick flights and practice scenarios for the AV-42C.,AV-42C를 위한 빠른 비행 및 연습 시나리오.
 av42cQuickFlight:42c_freeFlight2_name,Name of a mission.,Free Flight 2,자유 비행 2
@@ -1304,23 +1303,29 @@ AV-42C:av42cQuickFlight:targetPractice:obj_2:name,A mission objective name,Destr
 AV-42C:av42cQuickFlight:targetPractice:obj_2:info,Mission objective info.,Destroy the armored convoy moving west from the eastern city.,동부 도시에서 서쪽으로 이동하는 장갑 호송대를 파괴하십시오.
 AV-42C:av42cQuickFlight:targetPractice:obj_3:name,A mission objective name,Destroy Air Defense,방공호 파괴
 AV-42C:av42cQuickFlight:targetPractice:obj_3:info,Mission objective info.,Destroy the air defense network on the mountain peak.,산봉우리의 방공망을 파괴하세요.
-AV-42C:av42cQuickFlight:targetPractice:obj_4:name,A mission objective name,Kill Enemy Strikers,적 스트라이커 처치
+AV-42C:av42cQuickFlight:targetPractice:obj_4:name,A mission objective name,Kill Enemy Strikers,적 공격기 처치
 AV-42C:av42cQuickFlight:targetPractice:obj_4:info,Mission objective info.,Destroy the wing of enemy attack aircraft.,적의 공격기의 날개를 파괴하십시오.
 AV-42C:av42cQuickFlight:targetPractice:obj_5:name,A mission objective name,RTB,기지로 귀환
 AV-42C:av42cQuickFlight:targetPractice:obj_5:info,Mission objective info.,Land at the airbase.,공군 기지에 착륙하십시오.
 av42cQuickFlight_42c_freeFlight2_b0,Text from a mission briefing.,Just fly around and have fun!,그냥 날아 다니며 즐기세요!
 av42cQuickFlight_42c_freeFlight2_b1,Text from a mission briefing.,A tanker is available for A2A refuelling.,A2A 연료 보급을 위해 공중 급유기를 사용할 수 있습니다.
 av42cQuickFlight_42c_freeFlight2_b2,Text from a mission briefing.,Try landing on one of the ships!,함선 중 하나에 착륙 해보세요!
-av42cQuickFlight_aerialRefuelPractice_b0,Text from a mission briefing.,"Practice refueling in the air. Remember to lower your starting fuel, or else the tanker won't bother lowering the boom.",공중에서 급유를 연습하십시오. 출격시 시작 연료를 낮추십시오. 그렇지 않으면 유조선이 붐을 낮추지 않습니다.
+av42cQuickFlight_aerialRefuelPractice_b0,Text from a mission briefing.,"Practice refueling in the air. Remember to lower your starting fuel, or else the tanker won't bother lowering the boom.",공중에서 급유를 연습하세요. 출격시 연료를 적게 설정하세요. 연료가 많으면 공중 급유기가 주유를 하지 않습니다.
 av42cQuickFlight_carrierLanding_b0,Text from a mission briefing.,"Practice landing on the ships.  For the carrier, you can land vertically or with the arrestor cables.
 
-The carrier will be moving from east to west.  Use the NAV screen on the MFD to aid you in your approach.",배에 착륙하는 연습을하십시오. 항모의 경우 수직으로 또는 어레스팅 케이블을 사용하여 착륙 할 수 있습니다. 항모는 동쪽에서 서쪽으로 이동할 것입니다. MFD의 NAV 화면을 사용하면 접근하는데 도움이 됩니다.
+The carrier will be moving from east to west.  Use the NAV screen on the MFD to aid you in your approach.","함선에 착륙하는 연습을 하세요.  항공모함에 수직으로 착륙하거나 어레스팅 기어를 사용하여 착륙할 수 있습니다.
+
+항공모함은 동쪽에서 서쪽으로 이동합니다.  MFD의 NAV 화면을 사용하면 착륙에 도움이 됩니다."
 av42cQuickFlight_freeFlight_b0,Text from a mission briefing.,"There are no objectives. Just fly around and have fun!
 
-There is an aircraft carrier at sea and an aerial refueling tanker in the sky.",임무가 없습니다. 그냥 날아 다니며 즐기세요! 바다에는 항공 모함이 있고 하늘에는 공중 급유 유조선이 있습니다.
+There is an aircraft carrier at sea and an aerial refueling tanker in the sky.","목표가 없습니다. 그냥 날아다니면서 재미있게 즐기세요!
+
+바다에는 항공모함이 있고 하늘에는 공중급유기가 있습니다."
 av42cQuickFlight_targetPractice_b0,Text from a mission briefing.,"There are multiple groups of surface and air targets for you to practice on.
 
-Check the waypoints and information in the Objectives MFD page.",연습 할 수 있는 여러 그룹의 지상 및 공중 표적이 있습니다. 목표 MFD 페이지에서 웨이 포인트와 정보를 확인하세요.
+Check the waypoints and information in the Objectives MFD page.","연습 할 수 있는 여러 지상 및 공중 표적이 있습니다. 
+
+임무 화면에서 경유지와 정보를 확인하세요."
 campaign_fa26bFreeFlight_name,Name of a campaign.,Quick Flight,빠른 비행
 campaign_fa26bFreeFlight_description,Description of a campaign.,Simple scenarios for the F/A-26B.,F/A-26B에 대한 간단한 시나리오.
 fa26bFreeFlight:26b_targetPractice2_name,Name of a mission.,Target Practice,표적 연습
@@ -1332,14 +1337,14 @@ F/A-26B:fa26bFreeFlight:26b_targetPractice2:obj_1:info,Mission objective info.,D
 F/A-26B:fa26bFreeFlight:26b_targetPractice2:obj_2:name,A mission objective name,Bomber Group,폭격기 편대
 F/A-26B:fa26bFreeFlight:26b_targetPractice2:obj_2:info,Mission objective info.,Destroy the bomber and its escorts flying at high altitude.,높은 고도에서 비행하는 폭격기와 호위병을 파괴하십시오.
 F/A-26B:fa26bFreeFlight:26b_targetPractice2:obj_3:name,A mission objective name,Radar Network,레이더 네트워크
-F/A-26B:fa26bFreeFlight:26b_targetPractice2:obj_3:info,Mission objective info.,Destroy the radar network around the central mountains.,중앙 산 주변의 레이더 네트워크를 파괴하십시오.
+F/A-26B:fa26bFreeFlight:26b_targetPractice2:obj_3:info,Mission objective info.,Destroy the radar network around the central mountains.,중앙 산 주변의 레이더망을 파괴하십시오.
 F/A-26B:fa26bFreeFlight:26b_targetPractice2:obj_4:name,A mission objective name,Attack Jets,공격기
-F/A-26B:fa26bFreeFlight:26b_targetPractice2:obj_4:info,Mission objective info.,Destroy the vertical take-off attack jets coming from the FARP.,FARP에서 나오는 수직 이륙 공격 제트기를 파괴하십시오.
+F/A-26B:fa26bFreeFlight:26b_targetPractice2:obj_4:info,Mission objective info.,Destroy the vertical take-off attack jets coming from the FARP.,FARP에서 나오는 수직 이륙 공격기를 파괴하십시오.
 F/A-26B:fa26bFreeFlight:26b_targetPractice2:obj_5:name,A mission objective name,RTB,기지로 귀환
 F/A-26B:fa26bFreeFlight:26b_targetPractice2:obj_5:info,Mission objective info.,Land at any of the airbases or aircraft carrier.,공군기지나 항공 모함에 착륙하십시오.
 fa26bFreeFlight:2v2dogfight_name,Name of a mission.,2v2 Air Combat,2v2 공중전
 fa26bFreeFlight:2v2dogfight_description,Description of a mission.,Take on two enemy fighters with your wingman.,윙맨과 함께 두 명의 적 전투기를 상대하십시오.
-F/A-26B:fa26bFreeFlight:2v2dogfight:obj_0:name,A mission objective name,CAP,CAP
+F/A-26B:fa26bFreeFlight:2v2dogfight:obj_0:name,A mission objective name,CAP,전투항공초계
 F/A-26B:fa26bFreeFlight:2v2dogfight:obj_0:info,Mission objective info.,Destroy the two enemy fighters.,두기의 적군 전투기를 파괴하십시오.
 F/A-26B:fa26bFreeFlight:2v2dogfight:obj_1:name,A mission objective name,Surprise,서프라이즈
 F/A-26B:fa26bFreeFlight:2v2dogfight:obj_1:info,Mission objective info.,Surprise! More fighters to kill. Where will they come from?,서프라이즈! 파괴할 적 전투기가 증원되었습니다. 그들은 어디에서 왔을까요?
@@ -1348,17 +1353,17 @@ F/A-26B:fa26bFreeFlight:2v2dogfight:obj_2:info,Mission objective info.,Land at t
 fa26bFreeFlight:carrierLandingPractice_name,Name of a mission.,Carrier Landing Practice,항공모함 착함 연습
 fa26bFreeFlight:carrierLandingPractice_description,Description of a mission.,Practice landing on the aircraft carrier.,항공 모함에 착륙하는 연습을하십시오.
 F/A-26B:fa26bFreeFlight:carrierLandingPractice:obj_0:name,A mission objective name,Land,착륙
-F/A-26B:fa26bFreeFlight:carrierLandingPractice:obj_0:info,Mission objective info.,Land on the carrier.,항모에 착륙하십시오.
-fa26bFreeFlight:FA26Difficult_name,Name of a mission.,Difficult Mission,어려운 임무
+F/A-26B:fa26bFreeFlight:carrierLandingPractice:obj_0:info,Mission objective info.,Land on the carrier.,항공모함에 착륙하십시오.
+fa26bFreeFlight:FA26Difficult_name,Name of a mission.,Difficult Mission,힘겨운 임무
 fa26bFreeFlight:FA26Difficult_description,Description of a mission.,"A variety of hostile targets to destroy.  Practice using the aircraft as a fighter, a striker, or a mix of both.","파괴 할 다양한 적대적인 표적. 항공기를 전투기, 폭격기 또는 둘 다 사용하여 연습하십시오."
 F/A-26B:fa26bFreeFlight:FA26Difficult:obj_0:name,A mission objective name,Destroy Radars 1,레이더를 파괴 1
 F/A-26B:fa26bFreeFlight:FA26Difficult:obj_0:info,Mission objective info.,Destroy the enemy fire control radars around south city.,남쪽 도시 주변의 적 사격 통제 레이더를 파괴하십시오.
 F/A-26B:fa26bFreeFlight:FA26Difficult:obj_1:name,A mission objective name,Destroy Ships,함선 파괴
 F/A-26B:fa26bFreeFlight:FA26Difficult:obj_1:info,Mission objective info.,Destroy the naval group to the east.,동쪽에있는 함대를 파괴하십시오.
-F/A-26B:fa26bFreeFlight:FA26Difficult:obj_2:name,A mission objective name,CAP,CAP
+F/A-26B:fa26bFreeFlight:FA26Difficult:obj_2:name,A mission objective name,CAP,전투항공초계
 F/A-26B:fa26bFreeFlight:FA26Difficult:obj_2:info,Mission objective info.,Search for and destroy enemy fighters.,적군 전투기를 찾아 파괴하세요.
 F/A-26B:fa26bFreeFlight:FA26Difficult:obj_3:name,A mission objective name,RTB,기지로 귀환
-F/A-26B:fa26bFreeFlight:FA26Difficult:obj_3:info,Mission objective info.,Return to the carrier.,항모로 귀환
+F/A-26B:fa26bFreeFlight:FA26Difficult:obj_3:info,Mission objective info.,Return to the carrier.,항공모함으로 귀환
 fa26bFreeFlight:fa26Refuel_name,Name of a mission.,FA-26 Aerial Refuel Practice,FA-26 공중 급유 연습
 fa26bFreeFlight:fa26Refuel_description,Description of a mission.,Practice aerial refuelling.,공중 연료 보급을 연습하십시오.
 F/A-26B:fa26bFreeFlight:fa26Refuel:obj_0:name,A mission objective name,Refuel,급유
@@ -1369,15 +1374,15 @@ fa26bFreeFlight:freeFlight2_name,Name of a mission.,Free Flight 2,자유 비행 
 fa26bFreeFlight:freeFlight2_description,Description of a mission.,Free flight in the twin-city bay map. No enemies or objectives.,트윈 시티 베이 지도에서 자유 비행. 적이나 목표가 없습니다.
 fa26bFreeFlight_26b_targetPractice2_b0,Text from a mission briefing.,"Various air and land targets are scattered around the area. Practice using your sensors and weapons to find and destroy the targets without worrying about them shooting back.
 
-Several airbases and a carrier are available for you to use for rearming and refuelling if necessary.","다양한 공중 및 지상 표적이 지역 주변에 흩어져 있습니다. 센서와 무기를 사용하여 반격의 염려없이 목표물을 찾아 파괴하는 연습을하십시오.
+Several airbases and a carrier are available for you to use for rearming and refuelling if necessary.","다양한 공중 및 지상 표적이 있습니다. 레이더와 무기를 사용하여 표물을 찾아 파괴하는 연습을하세요. 적들은 반격하지 않습니다.
 
- 필요한 경우 재 무장 및 급유에 사용할 수있는 여러 공군 기지와 항모를 사용할 수 있습니다."
+또한 재무장 및 급유에 사용할 수있는 여러 공군 기지와 항공모함을 이용할 수 있습니다."
 fa26bFreeFlight_2v2dogfight_b0,Text from a mission briefing.,"In this scenario, you will start in the air with a wingman.  Fly towards the island and take out the two enemy fighters.",이 시나리오에서는 윙맨과 함께 공중에서 시작합니다. 섬을 향해 날아가 두 명의 적 전투기를 제거하세요.
-fa26bFreeFlight_carrierLandingPractice_b0,Text from a mission briefing.,"You will start in the air near the carrier.  Find it, then circle around for a landing approach.",항모 근처에서 비행을 시작합니다. 찾은 다음 착륙 접근을 위해 주위를 돌으십시오.
+fa26bFreeFlight_carrierLandingPractice_b0,Text from a mission briefing.,"You will start in the air near the carrier.  Find it, then circle around for a landing approach.",항공모함 근처에서 비행을 시작합니다. 쉽지만은 않을거에요.
 fa26bFreeFlight_FA26Difficult_b0,Text from a mission briefing.,"Several enemy air, land, and naval units are scattered around the island.
-Complete each of the mission objectives and return to the carrier.","여러 적의 공중, 지상, 해상 유닛이 섬 주변에 흩어져 있습니다. 각 임무 목표를 완료하고 항공 모함으로 돌아갑니다."
-fa26bFreeFlight_FA26Difficult_b1,Text from a mission briefing.,You may need to return to the carrier to refuel and rearm during the mission.,임무를 수행하는 동안 연료를 보급하고 재정비하려면 항모로 돌아 가야 할 수도 있습니다.
-fa26bFreeFlight_fa26Refuel_b0,Text from a mission briefing.,"Practice aerial refueling with the F/A-26B.  Make sure to start off with a partially empty fuel tank.  Otherwise, the tanker will not lower to fuel boom.",F / A-26B로 공중 급유를 연습하세요. 부분적으로 비어있는 연료 탱크로 시작하십시오. 그렇지 않으면 급유기가 연료 붐을 내리지 않습니다.
+Complete each of the mission objectives and return to the carrier.",다양한 공중 및 지상 병력이 섬 주변에 흩어져 있습니다. 각 임무 목표를 완료하고 항공 모함으로 귀환합니다.
+fa26bFreeFlight_FA26Difficult_b1,Text from a mission briefing.,You may need to return to the carrier to refuel and rearm during the mission.,임무 수행 중에 연료를 보충하고 재정비를 위해 항공모함으로 돌아가야 할 수도 있습니다.
+fa26bFreeFlight_fa26Refuel_b0,Text from a mission briefing.,"Practice aerial refueling with the F/A-26B.  Make sure to start off with a partially empty fuel tank.  Otherwise, the tanker will not lower to fuel boom.",공중에서 급유를 연습하세요. 출격시 연료를 적게 설정하세요. 연료가 많으면 공중 급유기가 주유를 하지 않습니다.
 fa26bFreeFlight_freeFlight2_b0,Text from a mission briefing.,Just fly around and have fun!,그냥 날아 다니며 즐기세요!
 campaign_j4Campaign_name,Name of a campaign.,04-Jul,7월 4일
 campaign_j4Campaign_description,Description of a campaign.,Enter description...,설명을 입력하세요
@@ -1386,7 +1391,7 @@ j4Campaign:j4_description,Description of a mission.,Happy Independence day!,즐�
 F/A-26B:j4Campaign:j4:obj_0:name,A mission objective name,04-Jul,7월 4일
 F/A-26B:j4Campaign:j4:obj_0:info,Mission objective info.,Defend the city from the enemy attack.,적의 공격으로부터 도시를 방어하십시오.
 j4Campaign_j4_b0,Text from a mission briefing.,Happy Independence day!,즐거운 독립기념일!
-j4Campaign_j4_b1,Text from a mission briefing.,"An unidentified flying object has been detected over the island.  It appears to be giving off the same signals as those recorded near the recent attacks on mainland cities, so we're assuming hostility.  Find it and destroy it at all cost.",섬에서 미확인 비행 물체가 감지되었습니다. 최근 본토 도시에 대한 공격 근처에서 기록 된 신호와 동일한 신호를 발산하는 것으로 보이므로 적대기를 가정하고 있습니다. 그것을 찾아서 파괴하십시오.
+j4Campaign_j4_b1,Text from a mission briefing.,"An unidentified flying object has been detected over the island.  It appears to be giving off the same signals as those recorded near the recent attacks on mainland cities, so we're assuming hostility.  Find it and destroy it at all cost.",섬에서 미확인 비행 물체가 감지되었습니다. 최근 우리를 공격한 적의 신호와 같은 신호를 송신하는 것 보아 적기로 추측하고 있습니다. 적기를 찾아서 파괴하십시오.
 campaign_fa26-opDesertCobra_name,Name of a campaign.,Operation: Desert Cobra,작전명 : 사막 코브라
 campaign_fa26-opDesertCobra_description,Description of a campaign.,A short campaign for the F/A-26B based around mountainous desert regions. ,산악 사막 지역을 기반으로 한 F / A-26B의 짧은 캠페인입니다. 
 fa26-opDesertCobra:mission1_name,Name of a mission.,Base Defense,기지 방어
@@ -1394,9 +1399,9 @@ fa26-opDesertCobra:mission1_description,Description of a mission.,Defend the air
 F/A-26B:fa26-opDesertCobra:mission1:obj_0:name,A mission objective name,Defend Base,기지를 방어하세요
 F/A-26B:fa26-opDesertCobra:mission1:obj_0:info,Mission objective info.,Prevent the enemy from destroying all of the storage depots.,적군이 모든 창고를 파괴하는 것을 방지하세요.
 F/A-26B:fa26-opDesertCobra:mission1:obj_1:name,A mission objective name,Destroy Bombers,폭격기를 파괴하세요
-F/A-26B:fa26-opDesertCobra:mission1:obj_1:info,Mission objective info.,Destroy bomber (HB-106) and 2 escorts (ASF-30) before they destroy the depots.,기지를 파괴하기 전에 폭격기(HB-106)와 2대의 호위대(ASF-30)를 파괴하세요.
-F/A-26B:fa26-opDesertCobra:mission1:obj_2:name,A mission objective name,Destroy Strikers,스트라이커를 파괴하세요
-F/A-26B:fa26-opDesertCobra:mission1:obj_2:info,Mission objective info.,"Destroy 3 strikers (GAV-25), 2 escorts (ASF-30) before they destroy the depots.","3대의 공격수(GAV-25), 2대의 호위병(ASF-30)을 파괴한 후 창고를 파괴하세요."
+F/A-26B:fa26-opDesertCobra:mission1:obj_1:info,Mission objective info.,Destroy bomber (HB-106) and 2 escorts (ASF-30) before they destroy the depots.,기지를 파괴하기 전에 폭격기(HB-106)와 2대의 호위기(ASF-30)를 파괴하세요.
+F/A-26B:fa26-opDesertCobra:mission1:obj_2:name,A mission objective name,Destroy Strikers,적 공격기를 파괴하세요
+F/A-26B:fa26-opDesertCobra:mission1:obj_2:info,Mission objective info.,"Destroy 3 strikers (GAV-25), 2 escorts (ASF-30) before they destroy the depots.","3대의 공격기(GAV-25), 2대의 호위기(ASF-30)을 파괴한 후 창고를 파괴하세요."
 F/A-26B:fa26-opDesertCobra:mission1:obj_3:name,A mission objective name,Destroy Artillery,포병 파괴
 F/A-26B:fa26-opDesertCobra:mission1:obj_3:info,Mission objective info.,Destroy the artillery unit before it does more damage to the depots.,포병 유닛이 창고에 더 많은 피해를 입히기 전에 파괴하십시오.
 F/A-26B:fa26-opDesertCobra:mission1:obj_4:name,A mission objective name,RTB,기지로 귀환
@@ -1411,7 +1416,7 @@ F/A-26B:fa26-opDesertCobra:mission2:obj_4:name,A mission objective name,RTB,기�
 F/A-26B:fa26-opDesertCobra:mission2:obj_4:info,Mission objective info.,Mission complete!  Land back at the airbase.,임무 완료! 공군 기지로 귀환하세요.
 F/A-26B:fa26-opDesertCobra:mission2:obj_6:name,A mission objective name,Destroy Depots East,동쪽 기지 파괴
 F/A-26B:fa26-opDesertCobra:mission2:obj_6:info,Mission objective info.,Destroy the enemy depots at the eastern airbase.,동부 공군 기지에 있는 적의 기지를 파괴하십시오.
-fa26-opDesertCobra:mission3_name,Name of a mission.,Strike on Naval Test Lake,해군 테스트 호수에 대한 공격
+fa26-opDesertCobra:mission3_name,Name of a mission.,Strike on Naval Test Lake,해군 실험 호수 공격
 fa26-opDesertCobra:mission3_description,Description of a mission.,Escort a strike group sent to destroy ships at the enemy's naval testing area.,적해군 테스트 호수의 함선을 파괴하기 위해 파견된 공격 그룹을 호위합니다.
 F/A-26B:fa26-opDesertCobra:mission3:obj_0:name,A mission objective name,Destroy Ships,함선 파괴
 F/A-26B:fa26-opDesertCobra:mission3:obj_0:info,Mission objective info.,SEAD & protect X-Ray while they complete anti-shipping mission.,SEAD 및 X-Ray가 항적 임무를 완료하는 동안 보호하십시오.
@@ -1425,9 +1430,9 @@ F/A-26B:fa26-opDesertCobra:mission3:obj_4:name,A mission objective name,Escort,�
 F/A-26B:fa26-opDesertCobra:mission3:obj_4:info,Mission objective info.,Follow and protect the strike group along the way to the attack waypoint.,공격 경유지까지 공격 그룹을 따라가서 보호하십시오.
 F/A-26B:fa26-opDesertCobra:mission3:obj_5:name,A mission objective name,Defend X-Ray,X-Ray 방어
 F/A-26B:fa26-opDesertCobra:mission3:obj_5:info,Mission objective info.,Destroy the fighters threatening X-Ray strike group.,X-Ray 공격기 그룹을 위협하는 전투기를 파괴하십시오.
-fa26-opDesertCobra:mission4_name,Name of a mission.,Tanker Escort,유조선 호위
+fa26-opDesertCobra:mission4_name,Name of a mission.,Tanker Escort,공중급유기 호위
 fa26-opDesertCobra:mission4_description,Description of a mission.,Defend a tanker from airborne threats while it rendezvous with allied bombers.,연합 폭격기와 교전하는 동안 공중 위협으로부터 유조선을 방어하십시오.
-F/A-26B:fa26-opDesertCobra:mission4:obj_0:name,A mission objective name,Protect Tanker,유조선 보호
+F/A-26B:fa26-opDesertCobra:mission4:obj_0:name,A mission objective name,Protect Tanker,급유기 보호
 F/A-26B:fa26-opDesertCobra:mission4:obj_0:info,Mission objective info.,Defend the tanker as it rendezvous with bomber group Sierra.,폭격기 그룹 시에라와 합류하는 유조선을 방어하십시오.
 F/A-26B:fa26-opDesertCobra:mission4:obj_1:name,A mission objective name,Protect RTB,RTB 보호
 F/A-26B:fa26-opDesertCobra:mission4:obj_1:info,Mission objective info.,Defend the tanker and bombers as they refuel and return to base.,급유를 하고 기지로 돌아가는 유조선과 폭격기를 방어하세요.
@@ -1440,7 +1445,7 @@ F/A-26B:fa26-opDesertCobra:mission5:obj_0:info,Mission objective info.,Fly to th
 F/A-26B:fa26-opDesertCobra:mission5:obj_1:name,A mission objective name,Defend the fleet,함대 방어
 F/A-26B:fa26-opDesertCobra:mission5:obj_1:info,Mission objective info.,Defend the carrier fleet as it embarks form the  port.,항구에서 출항하는 항공모함 함대를 방어하세요.
 F/A-26B:fa26-opDesertCobra:mission5:obj_2:name,A mission objective name,Carrier Landing,항공모함 착륙
-F/A-26B:fa26-opDesertCobra:mission5:obj_2:info,Mission objective info.,Land on the carrier.,항모에 착륙하십시오.
+F/A-26B:fa26-opDesertCobra:mission5:obj_2:info,Mission objective info.,Land on the carrier.,항공모함에 착륙하십시오.
 F/A-26B:fa26-opDesertCobra:mission5:obj_3:name,A mission objective name,Ground Targets Brdg,지상 표적 Brdg
 F/A-26B:fa26-opDesertCobra:mission5:obj_3:info,Mission objective info.,Destroy armored vehicles moving towards the base.,기지를 향해 이동하는 장갑차를 파괴하십시오.
 F/A-26B:fa26-opDesertCobra:mission5:obj_4:name,A mission objective name,Ground Targets Cnyn,지상 표적 Cnyn
@@ -1453,7 +1458,7 @@ F/A-26B:fa26-opDesertCobra:mission5:obj_7:name,A mission objective name,Hostile 
 F/A-26B:fa26-opDesertCobra:mission5:obj_7:info,Mission objective info.,Destroy hostile bomber and its escorts.,적의 폭격기와 그 호위를 파괴하십시오.
 fa26-opDesertCobra:mission6_name,Name of a mission.,Northern Assault,북부 공격
 fa26-opDesertCobra:mission6_description,Description of a mission.,Participate in a strike on hostile military targets.,적대적인 군사 목표물에 대한 공격에 참여합니다.
-F/A-26B:fa26-opDesertCobra:mission6:obj_0:name,A mission objective name,CAP,CAP
+F/A-26B:fa26-opDesertCobra:mission6:obj_0:name,A mission objective name,CAP,전투항공초계
 F/A-26B:fa26-opDesertCobra:mission6:obj_0:info,Mission objective info.,General objective: Fly Combat Air Patrol.,일반 목표: 전투 항공 순찰을하십시오.
 F/A-26B:fa26-opDesertCobra:mission6:obj_1:name,A mission objective name,Air Targets,항공 표적
 F/A-26B:fa26-opDesertCobra:mission6:obj_1:info,Mission objective info.,Destroy enemy air targets.,적의 공중 목표물을 파괴합니다.
@@ -1469,12 +1474,12 @@ F/A-26B:fa26-opDesertCobra:mission6:obj_6:name,A mission objective name,RTB,기�
 F/A-26B:fa26-opDesertCobra:mission6:obj_6:info,Mission objective info.,,
 F/A-26B:fa26-opDesertCobra:mission6:obj_7:name,A mission objective name,Begin Attack,공격 시작
 F/A-26B:fa26-opDesertCobra:mission6:obj_7:info,Mission objective info.,Approach the attack waypoint with the other air groups.,다른 항공 그룹과 함께 공격 경유지에 접근하십시오.
-fa26-opDesertCobra:mission7_name,Name of a mission.,Striking Oil,오일 공격
+fa26-opDesertCobra:mission7_name,Name of a mission.,Striking Oil,석유 공급원 공격
 fa26-opDesertCobra:mission7_description,Description of a mission.,The carrier group's next target is one of the enemy's main sources of oil.,항공모함 그룹의 다음 목표는 적의 주요 석유 공급원 중 하나입니다.
 F/A-26B:fa26-opDesertCobra:mission7:obj_0:name,A mission objective name,Launch,출격
 F/A-26B:fa26-opDesertCobra:mission7:obj_0:info,Mission objective info.,Take off and orbit waypoint.,이륙하고 경유지를 궤도를 선회합니다.
 F/A-26B:fa26-opDesertCobra:mission7:obj_1:name,A mission objective name,Attack Oil Rigs,석유 굴착기 공격
-F/A-26B:fa26-opDesertCobra:mission7:obj_1:info,Mission objective info.,Destroy the four oil rigs.,네 개의 석유 굴착 장치를 파괴하십시오.
+F/A-26B:fa26-opDesertCobra:mission7:obj_1:info,Mission objective info.,Destroy the four oil rigs.,네 개의 석유 공급원을 파괴하십시오.
 F/A-26B:fa26-opDesertCobra:mission7:obj_3:name,A mission objective name,Pending,대기중
 F/A-26B:fa26-opDesertCobra:mission7:obj_3:info,Mission objective info.,Fly to objective waypoint and await further instructions.,목적지까지 날아가서 추가 지시를 기다리십시오.
 F/A-26B:fa26-opDesertCobra:mission7:obj_4:name,A mission objective name,VIP Target,VIP 표적
@@ -1503,22 +1508,22 @@ fa26-opDesertCobra_mission1_b0,Text from a mission briefing.,"You are stationed 
 
 The enemy seeks to destroy the airbase's supplies in order to prevent us from conducting airstrikes in this region.","당신은 적의 국경에서 가장 가까운 공군기지에 주둔하고 있습니다.
 
-적은 우리가 이 지역에서 공습을 하는 것을 막기 위해 공군기지의 보급품을 파괴하려고 합니다."
+적은 우리의 공습을 막기 위해 우리 공군기지의 보급 창고를 파괴하려고 합니다."
 fa26-opDesertCobra_mission1_b1,Text from a mission briefing.,"Intel has revealed that the enemy has launched a multi-pronged effort to attack the airbase.
 
-A small group of hostile self-propelled artillery have mobilized to get into firing range of our supply depots.","정보에 의하면 적이 공군 기지를 공격하기 위해 다각적인 노력을 기울이고 있다고 밝혔습니다.
+A small group of hostile self-propelled artillery have mobilized to get into firing range of our supply depots.","정보에 의하면 적이 공군 기지를 공격하기 위해 노력을 기울이고 있다고 밝혔습니다.
 
 소규모의 적 자주포의 부대가 우리 보급 창고의 사격 범위에 진입하기 위해 동원되었습니다."
 fa26-opDesertCobra_mission1_b2,Text from a mission briefing.,"While it will be necessary to destroy the artillery, we believe that the attack is aimed to distract us from a follow-up airstrike.
 
-The type of attackers, their locations, and numbers are unknown at this time.","자주포를 파괴하는 것은 필요하지만, 우리는 그 공격이 후속 공습으로부터 우리를 분산시키기 위한 것이라고 생각합니다.
+The type of attackers, their locations, and numbers are unknown at this time.","자주포를 파괴하는 것은 필요하지만, 우리는 이것이 시선을 분산시키기 위한 것이라고 생각합니다.
 
-공격자의 유형, 위치 및 숫자는 현재 알 수 없습니다."
+적의 유형, 위치 및 숫자는 현재 알 수 없습니다."
 fa26-opDesertCobra_mission1_b3,Text from a mission briefing.,"An E-4 AWACS will be deployed in order to aid in locating the airborne threats.
 
-Due to our proximity to enemy territory, the AWACS will be vulnerable.  Please defend it if necessary.","공중 위협의 위치를 파악하기 위해 E-4 AWACS가 배치될 것입니다.
+Due to our proximity to enemy territory, the AWACS will be vulnerable.  Please defend it if necessary.","적의 대공 위협의 파악하기 위해 공중조기경보통제기인 E-4가 배치될 것입니다.
 
-우리가 적지에 근접해 있기 때문에, AWACS는 취약할 것입니다.  필요하다면 방어해 주십시오."
+적지에 근접해 있기 때문에, 공중조기경보통제기는 취약할 것입니다. 적이 공격한다면 방어해 주십시오."
 fa26-opDesertCobra_mission1_b4,Text from a mission briefing.,"SUMMARY:
 Objective:
 Defend airbase supply depots.
@@ -1538,25 +1543,25 @@ Bombers and/or attack aircraft.","요약:
 폭격기 및 공격기."
 fa26-opDesertCobra_mission2_b0,Text from a mission briefing.,"Now's our chance to head back out and return the favor to the enemy.
 
-They occupy two airbases -- one to the northeast, and one further due north.","지금이 적에게 은혜를 갚을 기회입니다.
+They occupy two airbases -- one to the northeast, and one further due north.","적에게 복수를 할 기회입니다.
 
-그들은 두 개의 공군기지를 차지하고 있습니다. 하나는 북동쪽이고, 다른 하나는 북쪽입니다."
+적들은 두 곳의 공군기지를 가지고 있습니다. 한 곳은 북동쪽에 있고, 다른 한 곳은 북쪽에 있습니다."
 fa26-opDesertCobra_mission2_b1,Text from a mission briefing.,"You must destroy the 4 supply depots at each base, for a total of 8 targets.
 
 The enemy is most likely expecting us, so they probably beefed up air defenses as well as numerous aircraft on patrol.
 
 Use the cover of darkness and terrain to mask your approach to the targets.","각 기지에 있는 4개의 보급창고를 파괴해야 하며, 총 8개의 목표물을 파괴해야 합니다.
 
-적이 우리를 기다리고 있을 가능성이 높기 때문에, 그들은 아마도 방공망을 강화하고 순찰 중인 수많은 항공기들을 강화했을 것입니다.
+적들이 우리를 기다리고 있을 가능성이 높기 때문에, 적들은 방공망을 강화하고 순찰 중인 수많은 전투기들을 강화했을 것입니다.
 
-어둠과 지형을 이용하여 목표물에 접근하는 것을 막으십시오."
+어둠과 지형을 이용하여 목표물에 접근하세요."
 fa26-opDesertCobra_mission2_b2,Text from a mission briefing.,"We have gathered intel on the near exact locations of their supplies, which will be set as the objective waypoints.
 
 How you want to attack is up to you.
-I recommend to remain radar silent to avoid detection.","우리는 그들의 보급품의 거의 정확한 위치에 대한 정보를 수집했습니다. 그것은 목표 경유지로 설정될 것입니다.
+I recommend to remain radar silent to avoid detection.","우리는 그들의 보급품의 위치에 대한 정보를 수집했습니다. 그 곳은 목표 경유지로 설정될 것입니다.
 
 당신이 어떻게 공격하고 싶은지는 당신에게 달렸습니다.
-레이더에 탐지되지 않도록 상태를 유지하는 것이 좋습니다."
+레이더에 탐지되지 않도록 노력하는 것이 좋습니다."
 fa26-opDesertCobra_mission2_b3,Text from a mission briefing.,"SUMMARY:
 Objective: 
 - Destroy the 8 supply depots at each base (4 each).
@@ -1568,33 +1573,33 @@ Threats:
 - 각 기지에 있는 8개의 보급창고(각 4개)를 파괴합니다.
 
 위협:
-- 다수의 레이더 및 IR SAM 사이트
-- 적대적인 전투 항공 순찰"
+- 다수의 레이더 및 지대공 미사일
+- 적 전투기"
 fa26-opDesertCobra_mission3_b0,Text from a mission briefing.,"You've been transferred to the airbase near Gloom Lake.  
 
 This lake lies on another border between our nation and the enemy's, and is where they conduct tests on naval vessels and aircraft.","당신은 글룸 호수 근처의 공군기지로 이동되었습니다.  
 
-이 호수는 우리나라와 적국 사이의 또 다른 국경에 위치하고 있으며, 해군 함정과 항공기에 대한 실험을 하는 곳입니다."
+이 호수는 우리나라와 적국 사이의 국경에 위치하고 있으며, 적들이 해군 함정과 항공기에 대한 실험을 하는 곳입니다."
 fa26-opDesertCobra_mission3_b1,Text from a mission briefing.,"There have been an unusually high number of enemy drones harassing us recently.  They fly dangerously close to our base and force us to take defensive measures.  
 
-We believe that they're attempting to distract us while they test new military technologies.","최근 우리를 괴롭히는 적의 드론이 유난히 많았습니다.  그들은 우리 기지에 위험하게 가까이 날아와 방어 조치를 취하도록 강요합니다.  
+We believe that they're attempting to distract us while they test new military technologies.","요즘 적의 무인기가 우리 기지에 가까이 날아와 위협을 가합니다.   
 
-우리는 그들이 새로운 군사 기술을 시험하는 동안 우리의 주의를 분산시키려 한다고 믿습니다."
+우리는 적이 새로운 군사 기술을 시험하는 동안 우리의 주의를 분산시키려 한다고 생각합니다."
 fa26-opDesertCobra_mission3_b2,Text from a mission briefing.,"In order to put a damper on their research efforts, we're sending out a group of F/A-26Bs configured to sink their test ships.
 
-Although this is a testing area, the enemy ships are fully functional and armed.","그들의 연구 노력을 약화시키기 위해 우리는 테스트 선박을 침몰시키도록 구성된 F/A-26B 그룹을 파견하고 있습니다.
+Although this is a testing area, the enemy ships are fully functional and armed.","적 연구를 무산시키기 위해 적의 실험용 선박을 침몰하도록 F/A-26B 그룹을 구성하였습니다.
 
-이것은 테스트 지역이지만 적군함은 완벽하게 작동하고 무장하고 있습니다."
+이것은 실험용 선박이지만 완벽하게 무장하고 있습니다."
 fa26-opDesertCobra_mission3_b3,Text from a mission briefing.,"You and your wingmen are tasked to destroy enemy air defenses and patrol aircraft, to allow the strikers to perform the anti-shipping attack.
 
-The strikers will be in the air waiting for you.  Join them and escort them along their attack path.","당신과 당신의 윙맨은 적의 방공망과 초계기를 파괴하여 스트라이커가 대함 공격을 수행할 수 있도록 해야 합니다.
+The strikers will be in the air waiting for you.  Join them and escort them along their attack path.","당신과 당신의 윙맨은 적의 방공망과 초계기를 파괴하여 공격기가 대함 공격을 수행할 수 있도록 해야 합니다.
 
 공격기는 공중에서 당신을 기다리고있을 것입니다. 그들과 합류하여 공격 경로를 따라 호위하십시오."
 fa26-opDesertCobra_mission3_b4,Text from a mission briefing.,"When you reach the end of the attack path, the strikers will begin anti-shipping. Target radars to prevent them from defending against the attack.
 
-Simultaneously, allied combat air patrol will be vectored to the area to help keep enemy aircraft away.","공격 경로 끝에 도달하면 공격기가 방어를 시작합니다. 공격으로부터 방어하지 못하도록 레이더로 공격 대상을 지정합니다.
+Simultaneously, allied combat air patrol will be vectored to the area to help keep enemy aircraft away.","공격 경로에 도달하면 적의 공격기가 방어를 시작합니다. 우리의 공격으로부터 방어하지 못하도록 레이더로 적 공격기를 지정합니다.
 
-동시에, 연합군 전투 항공 순찰대가 적의 항공기가 접근하지 못하도록 그 지역으로 유도될 것입니다."
+동시에, 동맹국 전투공중초계기가 적이 우리에게 접근하지 못하도록 멀리 유도할 것입니다."
 fa26-opDesertCobra_mission3_b5,Text from a mission briefing.,"SUMMARY:
 Objective: Support strikers while they attack enemy ships.
 - Suppress enemy air defenses
@@ -1611,7 +1616,7 @@ Threats:
 - AAA","요약:
 목표: 적함을 공격하는 동안 공격기를 지원하십시오.
 - 적의 방공망을 제압
-- 적의 항공 순찰로부터 공격자 방어
+- 적의 공격로부터 공격기 방어
 
 기본 대상:
 - 레이더
@@ -1619,9 +1624,9 @@ Threats:
 
 위협:
 - 선박
-- 항공기
-- SAM
-- AAA"
+- 전투기
+- 지대공 미사일
+- 대공포"
 fa26-opDesertCobra_mission4_b0,Text from a mission briefing.,"A couple of bombers are returning from a long range mission.  Their fuel reserves are low, so we're sending out a KC-49 tanker to provide air-to-air refuelling.
 
 We are concerned that enemy aircraft will intercept the tanker, which is where you and your wingmen come in.","두 대의 폭격기가 장거리 임무를 마치고 돌아오고 있습니다. 그들의 연료 비축량이 적기 때문에 우리는 공대공 급유를 제공하기 위해 KC-49 유조선을 보내고 있습니다.
@@ -1629,9 +1634,9 @@ We are concerned that enemy aircraft will intercept the tanker, which is where y
 우리는 적 항공기가 당신과 당신의 윙맨이 들어오는 유조선을 요격할 것을 우려하고 있습니다."
 fa26-opDesertCobra_mission4_b1,Text from a mission briefing.,"Fly with the tanker and keep it safe. Maintain active radar and RWR so you are aware of hostiles. 
 
-AWACs will also be available to help spot incoming threats.","유조선과 함께 비행하고 안전하게 지키십시오. 능동 레이더와 RWR을 유지하여 적군을 인식하십시오.
+AWACs will also be available to help spot incoming threats.","공중급유기와 함께 비행하고 안전하게 지키십시오. 적들을 알 수 있도록 활성 레이더와 RWR을 유지하십시오.
 
-AWAC는 들어오는 위협을 탐지하는 데도 사용할 수 있습니다."
+또한 들어오는 위협을 탐지하는 데 조기경보통제기를 사용할 수 있습니다."
 fa26-opDesertCobra_mission4_b2,Text from a mission briefing.,"SUMMARY
 Objective: 
 - Escort the tanker to the rendezvous.  
@@ -1641,20 +1646,20 @@ Objective:
 Threats:
 - Hostile aircraft","요약
 목표: 
-- 유조선을 랑데부까지 호위
-- 접근하는 모든 적대 항공기와 교전
-- 유조선과 폭격기가 기지로 돌아오면 임무 완료
+- 공중급유기를 목적지까지 호위
+- 접근하는 모든 적 전투기와 교전
+- 공중급유기과 폭격기가 기지로 돌아오면 임무 완료
 
 위협:
 - 적 전투기"
 fa26-opDesertCobra_mission5_b0,Text from a mission briefing.,"It's time to send a naval strike group deep into enemy territory.  The aircraft carrier and its escorts will soon be ready to depart, but enemy forces are close.  
 
-They will likely attempt to stop the carrier group before our mission can even begin.","이제 해군 공격대를 적진 깊숙이 보낼 때입니다.  항공모함과 호위대는 곧 출발할 준비가 되겠지만 적군은 근접해 있습니다.  
+They will likely attempt to stop the carrier group before our mission can even begin.","이제 해군 공격기 그룹을 적진 깊숙히 보낼 때입니다.  항공모함과 호위대는 곧 출발할 준비가 되었지만 적군은 생각보다 근접해 있습니다.  
 
-그들은 우리의 임무가 시작되기 전에 항공모함 그룹을 막으려고 할 것 같습니다."
+적들은 우리가 임무를 시작하기 전에 우리를 막으려고 할 것 같습니다."
 fa26-opDesertCobra_mission5_b1,Text from a mission briefing.,"Your job is to protect the ships, onboard aircraft, and the naval base from the enemy attack.  Hostile aircraft and land vehicles are approaching.  
 
-Once the coast is clear, you will land on the carrier and join on the offensive.","당신의 임무는 적의 공격으로부터 함정, 항공기 탑재, 해군 기지를 보호하는 것입니다.  적대적인 항공기와 육상 차량이 접근하고 있습니다.  
+Once the coast is clear, you will land on the carrier and join on the offensive.","당신의 임무는 적의 공격으로부터 함정, 항공기 탑재, 해군 기지를 보호하는 것입니다.  적 전투기와 육상 병력이 접근하고 있습니다.  
 
 일단 해안이 안전해지면, 항공모함에 착륙해서 공세에 합류하게 됩니다."
 fa26-opDesertCobra_mission5_b2,Text from a mission briefing.,"SUMMARY
@@ -1669,34 +1674,34 @@ Threats:
 - Mobile Anti-Air","요약
 
 목표:
-- 해군 타격대 및 해군기지 방어
+- 해군 공격기 및 해군기지 방어
 
 위협:
 - 전투기
 - 폭격기
 - 탱크
-- 기동 대공"
+- 자주대공포"
 fa26-opDesertCobra_mission6_b0,Text from a mission briefing.,"The carrier group's first stop is a small northern island territory occupied by the enemy.
 
-They have a few military bases here and use the island to stage their attacks on our western coast.","항공모함 그룹의 첫 번째 기착지는 적이 점령한 북쪽의 작은 섬 영토입니다.
+They have a few military bases here and use the island to stage their attacks on our western coast.","항공모함의 첫 번째 정박지는 적이 점령한 북쪽의 작은 섬입니다.
 
-그들은 이곳에 몇 개의 군사 기지를 가지고 있고, 섬으로 우리의 서해안을 공격합니다."
+그들은 이곳에 몇 개의 군사 기지를 가지고 있고, 우리의 서쪽에서 공격합니다."
 fa26-opDesertCobra_mission6_b1,Text from a mission briefing.,"The island is a valuable asset to the enemy's air and naval forces, so it's our duty to halt their operations here.
 
-We will launch a full on air assault.","이 섬은 적의 공군과 해군에게 귀중한 자산이므로 이곳에서 적의 작전을 중단하는 것이 우리의 의무입니다.
+We will launch a full on air assault.","이 섬은 적의 공군과 해군에게 귀중한 자산이므로 이곳의 적의 작전을 중단시키는 것이 우리의 목표입니다.
 
-우리는 전면 공격을 시작할 것입니다."
+우리는 전면적인 공중 공격을 개시할 것입니다."
 fa26-opDesertCobra_mission6_b2,Text from a mission briefing.,"There are 4 major components to the attack, which will be split up among 4 specialized air groups.
 
-Whiskey group will suppress enemy air defenses. X-ray group will attack ground targets such as armored vehicles and supply depots.  Bravo will sink the enemy ships.","공격에는 4개의 주요 구성 요소가 있으며 4개의 특수 항공 그룹으로 분할됩니다.
+Whiskey group will suppress enemy air defenses. X-ray group will attack ground targets such as armored vehicles and supply depots.  Bravo will sink the enemy ships.","이번 공격에는 4가지 주요 요소가 있으며, 우리를 이를 위해 4개의 항공 그룹을 구성합니다.
 
-위스키 그룹은 적의 방공망을 제압할 것입니다. 엑스레이 그룹은 장갑차 및 보급창과 같은 지상 목표물을 공격할 것입니다. 브라보는 적의 배를 가라앉힐 것입니다."
+Whiskey 그룹은 적의 방공망을 제압할 것입니다. X-ray 그룹은 장갑차와 보급 창고와 같은 지상 목표물을 공격할 것입니다.  Bravo 그룹은 적 함선을 침몰시킬 것입니다."
 fa26-opDesertCobra_mission6_b3,Text from a mission briefing.,"Kilo group, your group, will fly combat air patrol and keep the enemy fighters away from the other groups.
 
-The enemy only has a few groups of fighters in the air, but they have a carrier full of aircraft ready to go, and an airbase not far from our point of entry.","당신의 그룹인 Kilo 그룹은 전투 항공 순찰을 하고 적 전투기를 다른 그룹으로부터 멀리 유지합니다.
+The enemy only has a few groups of fighters in the air, but they have a carrier full of aircraft ready to go, and an airbase not far from our point of entry.","당신의 그룹인 Kilo 그룹은 전투 항공 초계를 하고, 다른 공격의 영향을 주지 않도록 적 전투기를 멀리 유도합니다.
 
-적군은 공중에 몇 개 그룹의 전투기만 가지고 있지만, 그들은 이동할 준비가 된 항공기로 가득 찬 항공모함과 우리 진입 지점에서 멀지 않은 공군 기지를 보유하고 있습니다."
-fa26-opDesertCobra_mission6_b4,Text from a mission briefing.,"All groups will maintain open communications, but you will only have command over your own group.  Focus on your own objective (CAP) but maintain awareness of the bigger picture.",모든 그룹은 열린 통신을 유지하지만 사용자는 자신의 그룹에 대한 명령만 가질 수 있습니다.  자신의 목표(CAP)에 집중하되 더 큰 그림을 계속 인식하십시오.
+적군은 공중에서 소수의 전투기만을 보유하고 있지만, 항공기를 가득 실은 항공모함이 있고, 우리의 진입 지점에서 멀지 않은 곳에 공군기지가 있습니다."
+fa26-opDesertCobra_mission6_b4,Text from a mission briefing.,"All groups will maintain open communications, but you will only have command over your own group.  Focus on your own objective (CAP) but maintain awareness of the bigger picture.",모든 그룹은 열린 통신을 유지하지만 당신은 자신의 그룹에 대한 명령만 내릴 수 있습니다.  당신의 목표(전투 항공 초계)에 집중하되 전체적인 작전을 생각하세요.
 fa26-opDesertCobra_mission6_b5,Text from a mission briefing.,"SUMMARY
 
 Objective:
@@ -1711,41 +1716,41 @@ Threats:
 - Ships","요약
 
 목표:
-- 전투 항공 순찰 
+- 전투 항공 초계 
 
 대상:
-- 다중 적대 항공기
+- 여러대의 적 전투기
 
 위협:
-- 적대적 항공기
-- SAM
+- 적 전투기
+- 지대공 미사일
 - 선박"
 fa26-opDesertCobra_mission7_b0,Text from a mission briefing.,"We have located the enemy's main source of oil off the shore of some remote islands.  
 
 The carrier group has been sent to destroy the oil platforms and further reduce the enemy's ability to fuel war.","외딴 섬 해안에서 적의 주요 석유 공급원을 찾았습니다.  
 
-항공모함 부대는 석유 플랫폼을 파괴하고 적의 전쟁 연료 능력을 더욱 감소시키기 위해 파견되었습니다."
+항공모함은 적의 석유 플랫폼을 파괴하고 적의 전쟁 연료를 감소시키기 위해 파견되었습니다."
 fa26-opDesertCobra_mission7_b1,Text from a mission briefing.,"There seems to be an unusually high naval military presence here, so the guided missile cruisers will be assisting your attack.
 
-Air groups X-ray and Sierra will be primarily focused on SEAD, while Bravo will provide CAP.","여기는 해군 병력이 유난히 많은 것 같습니다. 그래서 유도탄 순양함들이 당신의 공격을 도울 것입니다.
+Air groups X-ray and Sierra will be primarily focused on SEAD, while Bravo will provide CAP.","여기는 해군 병력이 유난히 많은 것 같습니다. 그래서 순양함들이 당신의 공격을 도울 것입니다.
 
-항공 그룹 X-ray와 Sierra는 주로 SEAD에 초점을 맞추고 Bravo는 CAP를 제공할 것입니다."
+항공 그룹 X-ray와 Sierra는 주로 방공망 제압에 초점을 맞추고 Bravo는 전투 항공 초계를 제공할 것입니다."
 fa26-opDesertCobra_mission7_b2,Text from a mission briefing.,"Your group, Kilo, will be responsible for striking the oil platforms.
 
-We need the platforms to be destroyed beyond all repair, so you can either destroy all key components on the platform, or destroy two support pillars to topple the entire platform.","당신의 그룹, Kilo가 석유 플랫폼을 타격할 책임이 있습니다.
+We need the platforms to be destroyed beyond all repair, so you can either destroy all key components on the platform, or destroy two support pillars to topple the entire platform.","당신의 그룹, Kilo는 석유 공급원을 공격합니다.
 
-플랫폼이 완전히 복구될 수 없을 정도로 파괴되어야 합니다. 따라서 플랫폼의 모든 핵심 구성 요소를 파괴하거나, 전체 플랫폼을 무너뜨리기 위해 두 개의 지원 기둥을 파괴할 수 있습니다."
+석유 공급원이 완전히 복구될 수 없을 정도로 파괴되어야 합니다. 따라서 석유 공급원의 모든 핵심 구성 요소를 파괴하거나, 전체 석유 공급원을 무너뜨리기 위해 두 개의 기둥을 파괴할 수 있습니다."
 fa26-opDesertCobra_mission7_b3,Text from a mission briefing.,"Our cruisers will approach from the north, on the western side of the ridge. 
 
-The air groups will approach on the eastern side of the ridge at low altitude. You should remain undetected until you reach the channel.","우리 순양함들이 능선의 서쪽에서 북쪽에서 접근할 것입니다. 
+The air groups will approach on the eastern side of the ridge at low altitude. You should remain undetected until you reach the channel.","우리 순양함들이 능선의 서쪽과 북쪽에서 접근할 것입니다. 
 
-기단은 낮은 고도에서 산등성이의 동쪽에 접근할 것입니다. 채널에 도달할 때까지 탐지되지 않아야 합니다."
+항공 그룹은 낮은 고도에서 산등성이의 동쪽에 접근할 것입니다. 목쵸에 도달할 때까지 탐지되지 않아야 합니다."
 fa26-opDesertCobra_mission7_b4,Text from a mission briefing.,"The SEAD attack from the east should occur at the same time that the cruiser anti-ship missiles reach the enemy.
 
-This will keep their defenses saturated while Kilo comes in to take down the oil platforms.","순양함 대함 미사일이 적에 도달하는 것과 동시에 동쪽에서 SEAD 공격이 발생해야 합니다.
+This will keep their defenses saturated while Kilo comes in to take down the oil platforms.","순양함 대함 미사일이 적에게 도달하는 것과 동시에 동쪽에서 방공망 제압 공격이 실행되야 합니다.
 
-이렇게 하면 Kilo가 석유 플랫폼을 무너뜨리기 위해 들어오는 동안 방어선을 포화 상태로 유지할 수 있습니다."
-fa26-opDesertCobra_mission7_b5,Text from a mission briefing.,"There may be other ground targets for you, but we will keep you updated on those as we acquire more information.","다른 지상 목표도 있을 수 있지만, 추가 정보를 입수하는 대로 최신 정보를 알려 드리겠습니다."
+이렇게 하면 Kilo 그룹이 석유 공급원을 파괴하기 위해 가는 동안 그들의 병력을 분산시킬 수 있습니다."
+fa26-opDesertCobra_mission7_b5,Text from a mission briefing.,"There may be other ground targets for you, but we will keep you updated on those as we acquire more information.",다른 지상 목표의 추가 정보를 입수하는 대로 최신 정보를 알려 드리겠습니다.
 fa26-opDesertCobra_mission7_b6,Text from a mission briefing.,"SUMMARY
 
 Objective:
@@ -1757,55 +1762,55 @@ Threats
 - Aircraft","요약
 
 목표:
-- 오일 플랫폼 4개 파괴
+- 석유 공급원 4개 파괴
 
 위협
 - 선박
-- SAM
+- 지대공 미사일
 - 항공기"
 fa26-opDesertCobra_mission8_b0,Text from a mission briefing.,"This mission will have two phases.
 On the first phase, Kilo 1-1 will lead the flight into enemy territory.
 
 You will be Kilo 1-2, and are assigned to support the flight lead.  Execute her commands to destroy secondary targets on the way to the enemy base.","이 임무는 두 단계로 구성됩니다.
-첫 번째 단계에서, Kilo 1-1은 적지로의 비행을 이끌 것입니다.
+첫 번째는 Kilo 1-1은 적지로의 비행을 이끌 것입니다.
 
-당신은 Kilo 1-2가 되며, 비행 지휘를 지원하도록 배정됩니다.  그녀의 명령을 실행하여 적 기지로 가는 길에 2차 목표물을 파괴하십시오."
+당신은 Kilo 1-2가 되며, 비행 지휘를 지원하도록 배정됩니다.  윙맨 명령을 통해 적 기지로 가는 길에 있는 부수적인 목표물을 파괴하십시오."
 fa26-opDesertCobra_mission8_b1,Text from a mission briefing.,"The mission is scheduled to start when one of the enemy's coastal defense sites goes down temporarily.
 
-We expect the defenses to resume operation when they spot your approach, but at least it will give you an opportunity to disable them before they can acquire you.","이 임무는 적의 해안 방어 기지 중 하나가 일시적으로 다운되면 시작될 예정입니다.
+We expect the defenses to resume operation when they spot your approach, but at least it will give you an opportunity to disable them before they can acquire you.","이 임무는 적의 해안 방어 기지 중 하나가 일시적으로 무력화되면 시작될 예정입니다.
 
-당신의 접근 방식을 발견하면 방어가 재개될 것으로 예상하지만, 적어도 그들이 당신을 획득하기 전에 방어를 무력화할 수 있는 기회는 줄 것입니다."
+당신의 접근을 적이 발견하면 방어가 재개될 것으로 예상하지만, 당신이 접근하기 전까지 방어선 구축이 힘들 것입니다."
 fa26-opDesertCobra_mission8_b2,Text from a mission briefing.,"The flight path will be low, weaving through the valleys to avoid line of sight with enemy radar.
 
-Maintain formation with Kilo 1 for the entirety of the ingress phase.","적의 레이더로 시야를 피하기 위해 계곡을 가로질러 비행 경로가 낮아질 것입니다.
+Maintain formation with Kilo 1 for the entirety of the ingress phase.","적의 레이더를 피하기 위해 계곡을 가로질러 낮은 비행을 할 것입니다.
 
-전체 입력 단계 동안 Kilo 1로 대형을 유지합니다."
+진입할 동안 Kilo 1 대형을 유지합니다."
 fa26-opDesertCobra_mission8_b3,Text from a mission briefing.,"The secondary targets are coastal defenses at Alpha and two IR SAM units at Bravo. Destroying them will help clear the way for the bomber. 
 
-Again, flight leader Kilo 1-1 will call the shots on these targets.","두 번째 목표는 알파의 해안 방어와 브라보의 두 IR SAM 부대입니다. 그들을 파괴하는 것은 폭격기의 길을 터주는 데 도움이 될 것입니다. 
+Again, flight leader Kilo 1-1 will call the shots on these targets.","두 번째 목표는 Alpha 그룹의 해안 방어 및 Bravo 그룹 두 부대의 지대공 미사일 공격입니다. 그것들을 파괴하는 것은 폭격기의 길을 터주는 데 도움이 될 것입니다. 
 
-다시 한 번, 비행단장 Kilo 1-1이 이 목표들을 지휘할 것입니다."
+다시 한 번 말씀드리지만 Kilo 1-1이 이 들을 지휘할 것입니다."
 fa26-opDesertCobra_mission8_b4,Text from a mission briefing.,"The primary objective will begin when you reach the base at Charlie.
 
-Allied rocket artillery will be in the area launching strikes on the base's air defenses.","첫 번째 목표는 찰리의 기지에 도착하면 시작됩니다.
+Allied rocket artillery will be in the area launching strikes on the base's air defenses.","첫 번째 목표는 Charlie 그룹이 기지에 도착하면 시작됩니다.
 
-연합군 로켓포는 이 지역에 배치되어 기지의 방공망을 타격할 것입니다."
+동맹국 로켓포는 이 지역에 배치되어 기지의 방공망을 타격할 것입니다."
 fa26-opDesertCobra_mission8_b5,Text from a mission briefing.,"The primary targets are rows of cylindrical tents lined up from east to west.
 
 Your flight path will allow you to strike multiple targets in a single low-altitude bombing pass.","주요 타깃은 동쪽에서 서쪽으로 늘어선 원통형 텐트들입니다.
 
-비행 경로를 통해 저고도 폭격 패스로 여러 표적을 타격할 수 있습니다."
-fa26-opDesertCobra_mission8_b6,Text from a mission briefing.,"After the first pass, flight lead duties will be passed over to you (Kilo 1-2).  Lead your wingmen to take down the remaining targets.","첫 번째 통과 후, 비행 선도 업무는 귀하(킬로 1-2)에게 인계됩니다.  나머지 목표물을 격추하도록 윙맨들을 지휘하십시오."
+비행 경로를 통해 저고도 폭격 경로로 여러 표적을 타격할 수 있습니다."
+fa26-opDesertCobra_mission8_b6,Text from a mission briefing.,"After the first pass, flight lead duties will be passed over to you (Kilo 1-2).  Lead your wingmen to take down the remaining targets.","첫 번째 목표 완료 후, 비행 지휘 업무는 당신(Kilo 1-2)에게 인계됩니다.  나머지 목표물을 격추하도록 윙맨들을 지휘하십시오."
 fa26-opDesertCobra_mission8_b7,Text from a mission briefing.,"A group of F-45A's will take off from a nearby FARP to help keep enemy aircraft and other threats off of you and your wingmen.
 
-Once primary targets have been destroyed, an AV-42C will also dispatch from here to deliver troops to the headquarters and capture the enemy leaders.","F-45A의 한 그룹은 적의 항공기와 다른 위협들이 당신과 당신의 비행사들에게 접근하지 못하도록 돕기 위해 근처의 FARP에서 이륙할 것입니다.
+Once primary targets have been destroyed, an AV-42C will also dispatch from here to deliver troops to the headquarters and capture the enemy leaders.","F-45A 그룹이 적 전투기가 아군에게 접근하지 못하도록 돕기 위해 근처에서 이륙할 것입니다.
 
-일단 주요 목표물이 파괴되면, AV-42C도 이곳에 파견되어 본부로 병력을 전달하고 적의 지도자들을 포로로 잡을 것입니다."
+일단 주요 목표물이 파괴되면, AV-42C이 이 곳으로 병력을 수송하고 적의 지도자들을 포로로 잡을 것입니다."
 fa26-opDesertCobra_mission8_b8,Text from a mission briefing.,"You will be tasked to protect them at that time, but we'll update you on that final operation when we get to it.
 
-Focus on supporting your wingmen during the flight through hostile territory and destroying the primary targets.","이 때 보호 작업을 수행하게 되겠지만, 작업이 완료되면 최종 작업에 대해 알려드리겠습니다.
+Focus on supporting your wingmen during the flight through hostile territory and destroying the primary targets.","이 때 호위 임무을 수행하게 되겠지만, 임무가 완료되면 최종 임무에 대해 알려드리겠습니다.
 
-적의 영역을 통과하는 비행 중 윙맨을 지원하고 주요 목표물을 파괴하는 데 집중하십시오."
+적의 영토을 지나면서 윙맨을 지원하고 주요 목표물을 파괴하는 데 집중하십시오."
 fa26-opDesertCobra_mission8_b9,Text from a mission briefing.,"SUMMARY
 
 OBJECTIVES
@@ -1818,16 +1823,16 @@ THREATS
 - Aircraft","요약
 
 목표
--  폭격기를 위한 방공호 확보
+-  폭격기를 위한 방공 상태 유지
 - *적 자산 파괴
 -  병력 수송 보호
 
 위협
-- IR 및 레이더 SAM
-- 항공기"
+- 지대공 미사일
+- 전투기"
 campaign_f45-quickFlight_name,Name of a campaign.,Quick Flight,빠른 비행
 campaign_f45-quickFlight_description,Description of a campaign.,A small collection of quick missions for the F-45A.,F-45A를 위한 간단한 임무 목록입니다.
-f45-quickFlight:45_2StageAttack_name,Name of a mission.,Counter-Bomber,폭격기 카운터
+f45-quickFlight:45_2StageAttack_name,Name of a mission.,Counter-Bomber,폭격기 공격
 f45-quickFlight:45_2StageAttack_description,Description of a mission.,Take the lead on this two-part mission to take down hostile bombers.,적대적인 폭격기들을 격추하는 이 두 가지 임무에 앞장 서십시오.
 F-45A:f45-quickFlight:45_2StageAttack:obj_0:name,A mission objective name,SEAD,방공망 제압
 F-45A:f45-quickFlight:45_2StageAttack:obj_0:info,Mission objective info.,Destroy the long range MAD-4 Radar (M4) near the airbase.,공군기지 근처의 장거리 MAD-4 레이더(M4)를 파괴하십시오.
@@ -1865,44 +1870,44 @@ F-45A:f45-quickFlight:f45_quickMission1:obj_1:name,A mission objective name,RTB,
 F-45A:f45-quickFlight:f45_quickMission1:obj_1:info,Mission objective info.,Return to and land on the helipad.,헬리콥터 착륙장으로 돌아가 착륙합니다.
 f45-quickFlight_45_2StageAttack_b0,Text from a mission briefing.,"You will be the first to launch from the carrier.
 
-Destroy the long range air defenses at the enemy coastal airbase Alpha first so that we can launch fighters.","항공모함에서 가장 먼저 출격합니다.
+Destroy the long range air defenses at the enemy coastal airbase Alpha first so that we can launch fighters.","당신은 항공모함에서 가장 먼저 출격합니다.
 
-우리가 전투기를 발사할 수 있도록 먼저 적 해안 공군 기지 알파에서 장거리 방공망을 파괴하십시오."
-f45-quickFlight_45_2StageAttack_b1,Text from a mission briefing.,"Once the air defenses are destroyed, CAP group India will launch from the carrier to help you clean up the enemy fighters.",방공포가 파괴되면 CAP 그룹 India가 항공모함에서 출격하여 적 전투기를 정리하는 데 도움을 줄 것입니다.
+아군이 전투기를 출격할 수 있도록 당신이 먼저 적 해안 공군 기지(Alpha)의 장거리 방공포을 파괴하십시오."
+f45-quickFlight_45_2StageAttack_b1,Text from a mission briefing.,"Once the air defenses are destroyed, CAP group India will launch from the carrier to help you clean up the enemy fighters.",방공포가 파괴되면 전투 항공 초계 그룹 India가 항공모함에서 출격하여 적 전투기를 공격하는 데 도움을 줄 것입니다.
 f45-quickFlight_45_2StageAttack_b2,Text from a mission briefing.,"After clearing the fighters, land at the FARP to reconfigure for a purely air-to-air role. You will be joined by another F-45 to take down the enemy bombers taking off from airbase Bravo.
 
-SEAD group Romeo will launch from the carrier to disable the SAM sites at Bravo.","전투기를 제거한 후 FARP에 착륙하여 순수한 공대공 역할로 재구성하십시오. 또 다른 F-45와 합류하여 브라보 공군 기지에서 이륙하는 적 폭격기를 격추하게 됩니다.
+SEAD group Romeo will launch from the carrier to disable the SAM sites at Bravo.","전투기를 제거한 후 FARP에 착륙하여 공대공 역할로 재무장하십시오. 그런 다음 다른 F-45와 합류하여 적 공군 기지(Bravo)에서 이륙하는 적 폭격기를 격추하십시오.
 
-SEAD 그룹 Romeo는 Bravo에서 SAM 사이트를 비활성화하기 위해 캐리어에서 시작합니다."
-f45-quickFlight_45_2StageAttack_b3,Text from a mission briefing.,Destroy the two bombers from Bravo then return to carrier to complete the mission!,브라보에서 폭격기 2대를 파괴하고 항공모함으로 돌아가 임무를 완료하세요!
+방공망 제압 그룹 Romeo는 Bravo에서 지대공 미사일을 무력화하기 위해 항공모함에서 시작합니다."
+f45-quickFlight_45_2StageAttack_b3,Text from a mission briefing.,Destroy the two bombers from Bravo then return to carrier to complete the mission!,적 공군 기지(Bravo)에서 폭격기 2대를 파괴하고 항공모함으로 돌아가 임무를 완료하세요!
 f45-quickFlight_45_BayAssault_b0,Text from a mission briefing.,"Complete all of the objectives, then return to the assault carrier.
 
 You can complete them in any order you choose.
 
-There's a mix of hardened surface targets and air targets.","모든 목표를 완료한 다음 돌격 항공모함으로 돌아가십시오.
+There's a mix of hardened surface targets and air targets.","모든 목표를 완료한 다음 항공모함으로 귀환하십시오.
 
-선택한 순서대로 완료할 수 있습니다.
+당신이 정한 순서대로 임무를 진행 할 수 있습니다.
 
-강화된 표면 표적과 공중 표적이 혼합되어 있습니다."
+해상 표적과 공중 표적이 있습니다."
 f45-quickFlight_45_BayAssault_b1,Text from a mission briefing.,"Enemy rocket artillery have moved into range and have begun firing on our fleet from the other side of a mountain.
 
-They have a low hit probability, but we must destroy them.","적의 로켓포가 사정거리로 이동하여 산 반대편에서 우리 함대를 공격하기 시작했습니다.
+They have a low hit probability, but we must destroy them.","산 반대편에서 적의 로켓포가 우리 함대를 공격하기 시작했습니다.
 
 적중 확률은 낮지만 파괴해야 합니다."
-f45-quickFlight_45_BayAssault_b2,Text from a mission briefing.,"Enemy bombers have also been known to operate from this area. If they decide to deploy them against our assault fleet, they will be a high priority target.","적 폭격기 또한 이 지역에서 활동하는 것으로 알려져 있습니다. 그들이 우리의 공격 함대에 배치하기로 결정한다면, 그들은 최우선 목표가 될 것입니다."
-f45-quickFlight_45_BayAssault_b3,Text from a mission briefing.,"We have little intel on their whereabouts, but a handful of enemy stealth fighters are stationed by the bay and must be destroyed.",그들의 행방에 대한 정보는 거의 없지만 소수의 적 스텔스 전투기가 연안에 주둔하고 있어 반드시 파괴해야 합니다.
-f45-quickFlight_45_BayAssault_b4,Text from a mission briefing.,"Finally, you must find the enemy command post and destroy the two bunkers. The bunkers will likely be adjacent to large supply tents.",마지막으로 적의 지휘소를 찾아 두 개의 벙커를 파괴해야 합니다. 벙커는 대형 보급 텐트에 인접할 가능성이 높습니다.
+f45-quickFlight_45_BayAssault_b2,Text from a mission briefing.,"Enemy bombers have also been known to operate from this area. If they decide to deploy them against our assault fleet, they will be a high priority target.","적의 폭격기 또한 이 지역에서 활동하는 것으로 알려져 있습니다. 적이 우리 함대를 공격하기로 결정한다면, 우리는 그들은 최우선적으로 공격하게 될 것입니다."
+f45-quickFlight_45_BayAssault_b3,Text from a mission briefing.,"We have little intel on their whereabouts, but a handful of enemy stealth fighters are stationed by the bay and must be destroyed.",적의 행방에 대한 정보는 거의 없지만 소수의 적 스텔스기가 연안에 주둔하고 있어 반드시 파괴해야 합니다.
+f45-quickFlight_45_BayAssault_b4,Text from a mission briefing.,"Finally, you must find the enemy command post and destroy the two bunkers. The bunkers will likely be adjacent to large supply tents.",마지막으로 적의 지휘소를 찾아 두 개의 벙커를 파괴해야 합니다. 지휘소는 대형 보급 기지과 가까울 가능성이 높습니다.
 f45-quickFlight_45_BayAssault_b5,Text from a mission briefing.,"Enemy bases are well defended, so use caution when operating near them.",적 기지가 잘 방어되고 있으므로 그 근처에서 작전할 때는 주의해야 합니다.
 f45-quickFlight_45_BayAssault_b6,Text from a mission briefing.,The mission will be considered a failure if either of our carriers are destroyed.,우리의 항공모함 중 하나가 파괴되면 임무는 실패한 것으로 간주됩니다.
 f45-quickFlight_45_carrierPractice_b0,Text from a mission briefing.,"No objectives or enemies.
 
 You will start at 300kts, 1000ft above two carriers.  Contact one of them to request clearance to land.","목표도 적도 없습니다.
 
-2개의 항공모함 위 1000피트 높은 300kts로 시작합니다.  그들 중 한 명에게 연락해서 착륙 허가를 요청하세요."
-f45-quickFlight_f45-freeFlight_b0,Text from a mission briefing.,No objectives or enemies.,목표도 적도 없습니다.
-f45-quickFlight_f45_quickMission1_b0,Text from a mission briefing.,"You are stationed at small FARP (forward arming and refueling point) near an enemy airbase.  Unfortunately, you only have enough supplies for one last sortie, and it's a tough one.","당신은 적 공군기지 근처의 작은 FARP(전방 무장 및 급유 지점)에 주둔하고 있습니다. 불행히도, 당신은 마지막 출격을 위한 충분한 보급품만 가지고 있으며, 그것은 힘든 것입니다."
-f45-quickFlight_f45_quickMission1_b1,Text from a mission briefing.,"The mission is to destroy 3 enemy weapon caches.  We don't know exactly where they are, but they are most likely near air defenses.  Based on their radar emissions, we have estimated the positions of 4 sites.  The caches may all be at one site, or spread out between them.","임무는 3개의 적 무기 캐시를 파괴하는 것입니다. 우리는 그들이 어디에 있는지 정확히 알지 못하지만, 방공망 근처에 있을 가능성이 가장 높습니다. 레이더 방출을 기반으로 4개 사이트의 위치를 ??추정했습니다. 캐시는 모두 한 사이트에 있거나 둘 사이에 분산되어 있을 수 있습니다."
-f45-quickFlight_f45_quickMission1_b2,Text from a mission briefing.,"You don't have any support on this mission.  No extra fuel, no rearming, no wingmen, nothing.  With scattered SAM sites and numerous enemy air patrols, the odds are stacked against you.  Use stealthy tactics to maneuver around the area and destroy the targets.","이 임무에 대한 지원이 없습니다. 추가 연료도, 재무장도, 윙맨도, 아무것도 없습니다. 흩어져 있는 SAM 사이트와 수많은 적의 공중 순찰을 통해 당신에게 불리한 확률이 높아집니다. 은밀한 전술을 사용하여 지역 주변을 기동하고 목표물을 파괴하십시오."
+2개의 항공모함 근처인 1000ft 높이에서 300kts로 시작합니다.  항공모함과 통신하여 착륙 허가를 받으세요."
+f45-quickFlight_f45-freeFlight_b0,Text from a mission briefing.,No objectives or enemies.,목표도 적도 없습니다. 그냥 즐기세요!
+f45-quickFlight_f45_quickMission1_b0,Text from a mission briefing.,"You are stationed at small FARP (forward arming and refueling point) near an enemy airbase.  Unfortunately, you only have enough supplies for one last sortie, and it's a tough one.","당신은 적 공군기지 근처의 작은 FARP(전방 무장 및 급유 지점)에 주둔하고 있습니다. 불행히도, 당신은 마지막 출격을 위한 보급품만 가지고 있습니다."
+f45-quickFlight_f45_quickMission1_b1,Text from a mission briefing.,"The mission is to destroy 3 enemy weapon caches.  We don't know exactly where they are, but they are most likely near air defenses.  Based on their radar emissions, we have estimated the positions of 4 sites.  The caches may all be at one site, or spread out between them.",임무는 3개의 적 무기고를 파괴하는 것입니다.  정확히 어디인지는 모르지만 방공호 근처에 있을 가능성이 높습니다.  우리는 그들의 레이더 방출량을 바탕으로 4개 위치를 추정했습니다.  무기고는 모두 한 곳에 있거나 분산되어 있을 수 있습니다.
+f45-quickFlight_f45_quickMission1_b2,Text from a mission briefing.,"You don't have any support on this mission.  No extra fuel, no rearming, no wingmen, nothing.  With scattered SAM sites and numerous enemy air patrols, the odds are stacked against you.  Use stealthy tactics to maneuver around the area and destroy the targets.","이 임무에 대한 지원이 없습니다. 추가 연료도, 재무장도, 윙맨도, 아무것도 없습니다. 흩어져 있는 지대공 미사일과 수많은 적의 항공 초계는 위협적입니다. 은밀한 전술을 사용하여 목표물을 파괴하십시오."
 f45-quickFlight_f45_quickMission1_b3,Text from a mission briefing.,"SUMMARY:
 Objective:
   - Destroy the 3 weapon caches (supply tents)
@@ -1911,11 +1916,11 @@ Threats:
   - SAMs
   - Patrolling aircraft","요약:.
 목표:
-  - 무기 저장고 3개 파괴(공급 텐트)
+  - 무기 저장고 3개 파괴(공급 기지)
 
 위협:
-  - SAM
-  - 초계기"
+  - 지대공 미사일
+  - 적 전투 항공 초계기"
 campaign_arcadeTutorial_name,Name of a campaign.,Tutorials,튜토리얼 목록
 campaign_arcadeTutorial_description,Description of a campaign.,Basic tutorials for the AV-42C,AV -42C에 대한 기본 튜토리얼
 arcadeTutorial:tut_gettingStarted_name,Name of a mission.,Getting Started,시작하기
@@ -1952,7 +1957,7 @@ av42c_tutorials:tut_weapons1_description,Description of a mission.,"Learn how to
 av42c_tutorials:verticalFlight1_name,Name of a mission.,AP Vertical Flight,AP 수직 비행
 av42c_tutorials:verticalFlight1_description,Description of a mission.,Learn how to use the hover autopilot feature.,호버링 자동 조종 기능을 사용하는 방법을 배워 봅시다.
 av42c_tutorials_tut_av42c_agm_b0,Text from a mission briefing.,"Today, you will learn how to use air-to-ground missiles (AGMs) to destroy armored ground targets.",오늘은 공대지 미사일 (AGM)을 사용하여 장갑 지상 목표물을 파괴하는 방법을 배웁니다.
-av42c_tutorials_tut_basicFlight_b0,Text from a mission briefing.,"Learn how to use the virtual flight controls to taxi, take off, and land the AV-42C ""Kestrel"".","가상 비행 컨트롤을 사용하여 AV-42C ""Kestrel""을 택시, 이착륙하는 방법을 알아보십시오."
+av42c_tutorials_tut_basicFlight_b0,Text from a mission briefing.,"Learn how to use the virtual flight controls to taxi, take off, and land the AV-42C ""Kestrel"".","가상 비행 컨트롤을 이용해 AV-42C ""Kestrel""을 주행 및 이착륙하는 방법을 배워보세요."
 av42c_tutorials_tut_gettingStarted_b0,Text from a mission briefing.,"Today we will be learning how to operate the AV-42C.
 
 The start-up procedure is not very complicated, so let's jump in and get started.","오늘은 AV-42C 작동 방법을 배우겠습니다.
@@ -1973,34 +1978,34 @@ F/A-26B:fa26b_tutorials:tut_26_radar:obj_2:info,Mission objective info.,Destroy 
 fa26b_tutorials:tut_26_sead_name,Name of a mission.,SEAD,방공망 제압
 fa26b_tutorials:tut_26_sead_description,Description of a mission.,Learn how to use the ARAD and AGM-88 to destroy radar targets.,ARAD 및 AGM-88을 사용하여 레이더 표적을 파괴하는 방법을 알아보십시오.
 F/A-26B:fa26b_tutorials:tut_26_sead:obj_0:name,A mission objective name,SEAD Tutorial,방공망 제압 튜토리얼
-F/A-26B:fa26b_tutorials:tut_26_sead:obj_0:info,Mission objective info.,Complete the SEAD tutorial,SEAD 튜토리얼 완료
+F/A-26B:fa26b_tutorials:tut_26_sead:obj_0:info,Mission objective info.,Complete the SEAD tutorial,적 방공망 제압(SEAD) 튜토리얼 완료
 F/A-26B:fa26b_tutorials:tut_26_sead:obj_1:name,A mission objective name,SEAD,방공망 제압 임무
 F/A-26B:fa26b_tutorials:tut_26_sead:obj_1:info,Mission objective info.,Destroy the SAM radars.,SAM 레이더를 파괴하십시오.
-fa26b_tutorials_tut_26_radar_b0,Text from a mission briefing.,The F/A-26B is equipped with powerful forward facing radar. Learn how to use it to detect and track other aircraft.  Lock onto enemy targets to allow you to fire radar guided missiles.,F / A-26B에는 강력한 전방 레이더가 장착되어 있습니다. 다른 항공기를 감지하고 추적하는 데 사용하는 방법을 알아 봅니다. 레이더 유도 미사일을 발사 할 수 있도록 적 표적에 고정하세요.
+fa26b_tutorials_tut_26_radar_b0,Text from a mission briefing.,The F/A-26B is equipped with powerful forward facing radar. Learn how to use it to detect and track other aircraft.  Lock onto enemy targets to allow you to fire radar guided missiles.,F / A-26B에는 강력한 전방 레이더가 장착되어 있습니다. 다른 항공기를 감지하고 추적하는 데 사용하는 방법을 알아 봅니다. 레이더 유도 미사일을 발사 할 수 있도록 적을 표적에 고정하세요.
 fa26b_tutorials_tut_26_sead_b0,Text from a mission briefing.,"One of the most abundant and dangerous threats to aircraft are Surface-to-Air Missiles (SAMs), most of which rely on radar to find and track targets.
 
 Suppression of Enemy Air Defense (SEAD) operations neutralize or destroy these threats.","
 항공기에 대한 가장 풍부하고 위험한 위협 중 하나는 지대공 미사일(SAM)이며, 대부분 레이더에 의존하여 표적을 찾고 추적합니다.
 
-SEAD(Suppression of Enemy Air Defense) 작전은 이러한 위협을 무력화하거나 파괴합니다."
+방공망 제압(SEAD) 작전은 이러한 위협을 무력화하거나 파괴합니다."
 fa26b_tutorials_tut_26_sead_b1,Text from a mission briefing.,"One method of performing SEAD involves destroying the radar used by the SAMs.
 
-You will learn how to use the Anti-Radar Attack Display (ARAD) in conjunction with the AGM-88 weapon to locate, target, and destroy enemy radars.","SEAD를 수행하는 한 가지 방법은 SAM에서 사용하는 레이더를 파괴하는 것입니다.
+You will learn how to use the Anti-Radar Attack Display (ARAD) in conjunction with the AGM-88 weapon to locate, target, and destroy enemy radars.","방공망 제압을 수행하는 한 가지 방법은 지대공 미사일에서 사용하는 레이더를 파괴하는 것입니다.
 
 AGM-88 무기와 함께 ARAD(Anti-Radar Attack Display)를 사용하여 적의 레이더를 찾고, 표적으로 지정하고, 파괴하는 방법을 배우게 됩니다."
 :example1_name,Name of a mission.,Dangerous Transport,위험한 운송
 :example1_description,Description of a mission.,Example AV-42C scenario.,AV-42C 시나리오의 예.
 AV-42C::example1:obj_0:name,A mission objective name,Pick-up,픽업
-AV-42C::example1:obj_0:info,Mission objective info.,Pick up the soldiers at the waypoint.,웨이 포인트에서 병사를 태우십시오.
+AV-42C::example1:obj_0:info,Mission objective info.,Pick up the soldiers at the waypoint.,경유지에서 병사를 태우십시오.
 AV-42C::example1:obj_1:name,A mission objective name,Drop Off,수송
-AV-42C::example1:obj_1:info,Mission objective info.,Transport the soldiers to the objective waypoint.,병사를 목표 웨이 포인트로 수송합니다.
-AV-42C::example1:obj_2:name,A mission objective name,CAS,CAS
+AV-42C::example1:obj_1:info,Mission objective info.,Transport the soldiers to the objective waypoint.,병사를 목표 경유지로 수송합니다.
+AV-42C::example1:obj_2:name,A mission objective name,CAS,전투항공초계
 AV-42C::example1:obj_2:info,Mission objective info.,Destroy the enemy units on the road towards our soldiers.,아군를 향해 진격중인 적군을 파괴하십시오.
 AV-42C::example1:obj_3:name,A mission objective name,RTB,기지로 귀환
-AV-42C::example1:obj_3:info,Mission objective info.,Return to the carrier.,항모로 귀환
+AV-42C::example1:obj_3:info,Mission objective info.,Return to the carrier.,항공모함으로 귀환하십시오.
 AV-42C::example1:obj_4:name,A mission objective name,Clear LZ,착륙지점 확보
 AV-42C::example1:obj_4:info,Mission objective info.,Destroy the units in the city by the landing zone.,착륙 구역에서 도시의 유닛을 파괴하십시오.
-:hmap2Test_name,Name of a mission.,Large Map Test,대형 지도 테스트
+:hmap2Test_name,Name of a mission.,Large Map Test,대형 지도 실험
 :hmap2Test_description,Description of a mission.,Strike enemy artillery. This mission is intended to test the performance of a large custom map.,적의 포병을 공격하십시오. 이 임무는 대형 사용자 지정 맵 로딩 성능을 테스트하기 위한 것입니다.
 F/A-26B::hmap2Test:obj_0:name,A mission objective name,Patrol,순찰
 F/A-26B::hmap2Test:obj_0:info,Mission objective info.,"Form up with your air group and fly the patrol path, MSN-1",항공 그룹을 구성하고 순찰 경로 MSN-1을 비행하십시오.
@@ -2122,7 +2127,7 @@ fa26b_tutorials:tut_26_radar:-1152007029,Text from a tutorial.,Welcome to the Ra
 fa26b_tutorials:tut_26_radar:-1256886870,Text from a tutorial.,"Today, you will learn how to use the radar to find and track other aircraft, as well as designate targets for air to air missiles","오늘, 여러분은 공대공 미사일의 목표물을 지정할 뿐만 아니라 다른 항공기를 찾고 추적하기 위해 레이더를 사용하는 방법을 배울 것입니다."
 fa26b_tutorials:tut_26_radar:12089749,Text from a tutorial.,Open the RADAR MFD page,RADAR MFD 페이지를 엽니다.
 fa26b_tutorials:tut_26_radar:-1499035627,Text from a tutorial.,Turn ON the radar,레이더를 켜세요.
-fa26b_tutorials:tut_26_radar:168404510,Text from a tutorial.,The display shows you a compressed representation of the radar's 120 degree field of view,디스플레이에는 레이더의 120도 시야에 대한 압축된 표시가 나타납니다.
+fa26b_tutorials:tut_26_radar:168404510,Text from a tutorial.,The display shows you a compressed representation of the radar's 120 degree field of view,디스플레이에는 레이더의 120도 시야에 대한 표시가 나타납니다.
 fa26b_tutorials:tut_26_radar:-1576442623,Text from a tutorial.,The displayed range can be adjusted using the R+ and R- buttons,표시되는 범위는 R+버튼과 R-버튼을 사용하여 조정할 수 있습니다.
 fa26b_tutorials:tut_26_radar:1184134746,Text from a tutorial.,Press R+ repeatedly until the display is at max range,표시 범위가 최대가 될 때까지 R+를 반복해 누릅니다.
 fa26b_tutorials:tut_26_radar:636060045,Text from a tutorial.,"As the radar sweeps over other aircraft, they will be displayed as blue icons for friends and orange icons for foes","레이더가 다른 항공기를 스캔하면 아군은 파란색, 적은 주황색 아이콘으로 표시됩니다."
@@ -2132,8 +2137,8 @@ fa26b_tutorials:tut_26_radar:-103120712,Text from a tutorial.,"Now, you can slew
 fa26b_tutorials:tut_26_radar:1284478201,Text from a tutorial.,"Slew the designator over a contact, and press in on the center of the thumb control to start tracking it",대상에 표적을 대고 조이스틱의 엄지 버튼 중앙을 눌러 추적을 시작합니다.
 fa26b_tutorials:tut_26_radar:-694142307,Text from a tutorial.,You can track up to 4 contacts while still being able to scan the rest of the sky,나머지 하늘을 스캔하면서 최대 4개의 대상을 추적할 수 있습니다.
 fa26b_tutorials:tut_26_radar:-1026100394,Text from a tutorial.,"They will appear as small circle on your HUD, along with their corresponding number",HUD에는 대응하는 번호와 함께 작은 원으로 표시됩니다.
-fa26b_tutorials:tut_26_radar:-813131710,Text from a tutorial.,"In order to lock a target for weapons, click on a track again using the designator, or press the numbered MFD button on the left",무기 타깃을 고정하려면 지정자를 사용하여 트랙을 다시 클릭하거나 왼쪽 번호가 붙은 MFD 버튼을 누릅니다.
-fa26b_tutorials:tut_26_radar:2035875223,Text from a tutorial.,"While a target is locked, the other tracks will continue to be displayed, but the radar will not be able to scan for new targets",타겟이 잠겨 있는 동안 다른 트랙은 계속 표시되지만 레이더는 새로운 타겟을 스캔할 수 없습니다.
+fa26b_tutorials:tut_26_radar:-813131710,Text from a tutorial.,"In order to lock a target for weapons, click on a track again using the designator, or press the numbered MFD button on the left",무기 타깃을 고정하려면 지정자를 사용하여 추적 대상을 다시 클릭하거나 왼쪽 번호가 붙은 MFD 버튼을 누릅니다.
+fa26b_tutorials:tut_26_radar:2035875223,Text from a tutorial.,"While a target is locked, the other tracks will continue to be displayed, but the radar will not be able to scan for new targets",타겟이 잠겨 있는 동안 다른 추적 대상은 계속 표시되지만 레이더는 새로운 타겟을 스캔할 수 없습니다.
 fa26b_tutorials:tut_26_radar:-153465804,Text from a tutorial.,"Information about the locked target's bearing, range, altitude, airspeed, and aircraft type will appear on the bottom right of the display","잠긴 타겟의 방위, 범위, 고도, 비행 속도, 항공기 종류에 대한 정보가 디스플레이 오른쪽 하단에 표시됩니다."
 fa26b_tutorials:tut_26_radar:2097160122,Text from a tutorial.,"Use the UNLCK button to unlock the target, and the CLR button to clear the tracks",UNLCK 버튼을 사용하여 타겟을 잠금 해제하고 CLR 버튼을 사용하여 트랙을 초기화합니다.
 fa26b_tutorials:tut_26_radar:-157117776,Text from a tutorial.,"For close in engagements, the radar can be switched to boresight mode using the MODE button",근접 교전의 경우 MODE 버튼을 사용하여 범위내에 포착한 적이 우선적으로 레이더에 추적되도록 전환할 수 있습니다.
@@ -2143,15 +2148,15 @@ fa26b_tutorials:tut_26_radar:-2128388179,Text from a tutorial.,"Now for some wea
 fa26b_tutorials:tut_26_radar:-110964317,Text from a tutorial.,Good. Now arm your weapon system and switch to the AIM-120,좋습니다. 그럼 무기 시스템을 활성화하고 AIM-120으로 전환합시다.
 fa26b_tutorials:tut_26_radar:1861317894,Text from a tutorial.,"On the HUD, the locked target will appear as a small square.  The small dot is the shot lead cue",HUD에서는 고정 대상이 작은 정사각형으로 표시됩니다.  작은 점이 유도 조준선입니다.
 fa26b_tutorials:tut_26_radar:1404162479,Text from a tutorial.,"When firing air to air missiles, aim for the lead cue to help the missile conserve energy as it steers toward the target",공대공 미사일을 발사할 때 미사일이 목표물을 향해갈 수 있도록 유도 신호를 조준하십시오.
-fa26b_tutorials:tut_26_radar:1341649093,Text from a tutorial.,The DLZ is displayed on the right side of the HUD. The missile should be fired when the target chevron lies between the min and max marks,DLZ는 HUD의 오른쪽에 표시됩니다. 표적 갈매기 모양이 최소 표시와 최대 표시 사이에 있을 때 미사일을 발사해야 합니다.
+fa26b_tutorials:tut_26_radar:1341649093,Text from a tutorial.,The DLZ is displayed on the right side of the HUD. The missile should be fired when the target chevron lies between the min and max marks,DLZ는 HUD의 오른쪽에 표시됩니다. 표적이 갈매기 모양의 최소 표시와 최대 표시 사이에 있을 때 미사일을 발사해야 합니다.
 fa26b_tutorials:tut_26_radar:731572550,Text from a tutorial.,Try shooting down the target.,목표물을 격추해보세요.
 fa26b_tutorials:tut_26_radar:-1955766950,Text from a tutorial.,Splash!  Good kill!,잘 하셨습니다!
 fa26b_tutorials:tut_26_radar:1669702430,Text from a tutorial.,"By tracking multiple contacts, you can fire up to 4 AIM-120s on separate targets as long as you maintain line of sight with each of them",여러 대상을 추적함으로써 각각의 대상을 주시하는 한 최대 4개의 AIM-120을 다른 목표물로 발사할 수 있습니다.
 fa26b_tutorials:tut_26_radar:1356151209,Text from a tutorial.,"When the AIM-120's time to impact counter displays the letter M, it has switched to active homing and you no longer need to track it.",AIM-120의 충돌 카운터에 문자 M이 표시되면 활성 귀환으로 전환되면 더 이상 추적할 필요가 없습니다.
 fa26b_tutorials:tut_26_radar:-1605626095,Text from a tutorial.,"Now, try shooting down the rest of the enemy air targets.",이제 나머지 적 공중 목표물을 격추해 보십시오.
 fa26b_tutorials:tut_26_radar:797323745,Text from a tutorial.,Good job!,좋습니다!
-fa26b_tutorials:tut_26_sead:-1145857779,Text from a tutorial.,Out of missiles!  You hit some of the targets though!,미사일이 다 떨어졌습니다!  타겟을 맞췄습니다!
-fa26b_tutorials:tut_26_sead:-2102549622,Text from a tutorial.,Out of missiles!  You didn't hit anything.  Want to try again?,미사일이 다 떨어졌습니다! 타겟을 맞추지 못했습니다. 다시 해보시겠습니까?
+fa26b_tutorials:tut_26_sead:-1145857779,Text from a tutorial.,Out of missiles!  You hit some of the targets though!,미사일이 다 떨어졌습니다!  목표을 맞췄습니다!
+fa26b_tutorials:tut_26_sead:-2102549622,Text from a tutorial.,Out of missiles!  You didn't hit anything.  Want to try again?,미사일이 다 떨어졌습니다! 목표을 맞추지 못했습니다. 다시 해보시겠습니까?
 fa26b_tutorials:tut_26_sead:-292426932,Text from a tutorial.,Welcome to the SEAD tutorial!,SEAD 튜토리얼에 오신 것을 환영합니다!
 fa26b_tutorials:tut_26_sead:47968318,Text from a tutorial.,SEAD stands for Suppression of Enemy Air Defenses,SEAD는 적 방공망을 제압하기(Suppression of Enemy Air Defenses)의 약자입니다.
 fa26b_tutorials:tut_26_sead:353600754,Text from a tutorial.,You will use a combination of radar detecting sensors and special weapons to disable SAM sites,레이더 감지 센서와 특수 무기의 조합을 사용하여 SAM 사이트를 비활성화합니다.
@@ -2167,7 +2172,7 @@ fa26b_tutorials:tut_26_sead:-451981482,Text from a tutorial.,"Slew the cursor on
 fa26b_tutorials:tut_26_sead:588166704,Text from a tutorial.,A square will appear on the selected target in both the MFD and the HUD,MFD 및 HUD에서 선택한 대상에 정사각형이 나타납니다.
 fa26b_tutorials:tut_26_sead:60198174,Text from a tutorial.,Now arm the weapon system,이제 무기 시스템을 가동하세요.
 fa26b_tutorials:tut_26_sead:63223606,Text from a tutorial.,Switch to the AGM-88,AGM-88로 전환하세요.
-fa26b_tutorials:tut_26_sead:54082973,Text from a tutorial.,"This is a high speed, fire-and-forget anti-radiation missile (ARM)",이것은 빠른 스피드를 가진 레이더에 탐지되지 않고 발사 후 신경쓰지 않아도 되는 미사일(ARM)입니다.
+fa26b_tutorials:tut_26_sead:54082973,Text from a tutorial.,"This is a high speed, fire-and-forget anti-radiation missile (ARM)",이것은 빠른 속도를 가지고 있고 레이더에 탐지되지 않고 발사 후 신경쓰지 않아도 되는 미사일(ARM)입니다.
 fa26b_tutorials:tut_26_sead:-1408042184,Text from a tutorial.,"When fired, it will home in on the radar source designated in the ARAD","발사될 때, 그것은 ARAD에 지정된 레이더에 집중됩니다."
 fa26b_tutorials:tut_26_sead:-686456908,Text from a tutorial.,"Once you have a target selected, all you need to do is fly toward the target, and fire once the missile is in range",목표물을 선택한 후에는 목표물을 향해 날아가서 미사일이 사정권에 들어오면 발사하기만 하면 됩니다.
 fa26b_tutorials:tut_26_sead:-1438673069,Text from a tutorial.,Try taking out the SAM radars using the AGM-88,AGM-88을 사용하여 SAM 레이더를 꺼내 보세요.

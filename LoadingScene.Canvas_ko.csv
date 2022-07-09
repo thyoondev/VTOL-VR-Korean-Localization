@@ -6,6 +6,6 @@ Equip helmet when ready.","시작하기 전에 앉아있는 위치를 정렬하�
 준비가 완료되면 우측의 헬멧을 착용하세요."
 Ready_776022,UI Text,READY,준비
 LoadingText_775290,UI Text,LOADING,불러오는 중…
-loading_helmet,VR Interactable,Equip when ready.,위치 정렬을 완료하고 헬멧을 착용하세요.
+loading_helmet,VR Interactable,Equip when ready.,헬멧을 착용하세요.
 recenterInteractable_-28298290,VR Interactable,Re-center,재정렬
 Text_-28298296,UI Text,Re-center Seat,의자 재정렬
