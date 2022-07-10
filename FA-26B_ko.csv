@@ -8,7 +8,7 @@ AdjFwdButton_954070,VR Interactable,Adjust Forward,앞으로 조정
 AdjBackButton_954494,VR Interactable,Adjust Back,뒤로 조정
 AdjUpButton_956738,VR Interactable,Adjust Up,위로 조정
 AdjDownButton_955744,VR Interactable,Adjust Down,아래로 조정
-ToggleAdjustJoyInteractable_952782,VR Interactable,Toggle Auto Adjust,자동 조정 활성화 
+ToggleAdjustJoyInteractable_952782,VR Interactable,Toggle Auto Adjust,"자동 조정 활성화 "
 Text_955910,UI Text,AUTO,AUTO
 throttleInteractable_956892,VR Interactable,Throttle,출력 스로틀
 ejectInteractable_952116,VR Interactable,Eject,긴급 탈출
@@ -82,7 +82,7 @@ JettisonEmptyInteractable_953786,VR Interactable,Jettison Empty,빈 것 버리�
 ClearJettisonInteractable_955908,VR Interactable,Clear Jettison Marks,버리기 표시 초기화
 JettTanksInteractable_956154,VR Interactable,Jettison Ext Tanks,외부 연료통 버리기
 Label (1)_956422,UI Text,QUICK START,QUICK START
-QuickStartInteractable_954058,VR Interactable,Quickstart Engines, 빠른 엔진 시동
+QuickStartInteractable_954058,VR Interactable,Quickstart Engines," 빠른 엔진 시동"
 Label (1)_954266,UI Text,QUICK FLY,QUICK FLY
 QuickFlyButton_956882,VR Interactable,QuickFly,빠른 비행
 raiseSeatInter_952934,VR Interactable,Raise Seat,좌석 올리기
