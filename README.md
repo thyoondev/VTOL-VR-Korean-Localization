@@ -5,7 +5,7 @@
 ![main image](https://user-images.githubusercontent.com/64685759/178081480-ae379512-0a0b-4694-8803-63753f3c07c9.jpg)  
 [VTOL VR Steam 상점 페이지 바로가기](https://store.steampowered.com/app/667970/VTOL_VR)
 
-이 프로젝트는 [randomhan](https://steamcommunity.com/id/cycitic2hr/recommended/667970?snr=1_5_9__402)님의 번역본을 기반으로 진행 되었으며, 미번역 부분의 추가적인 번역 및 수정을 진행하였습니다.
+이 프로젝트는 공식 한국어화에 대응하여 추가적인 번역 및 수정을 진행하였습니다.
 
 [번역 내역](https://github.com/thyoondev/VTOL-VR-Korean-Localization/commit/9e60a3eb3da0c5606b8009ae607001b77477e431)
 
@@ -34,6 +34,6 @@
 
 # 히스토리
 
-2022-07-09 v1.0.0   
-2022-07-10 v1.1.0 미션 번역 개선, 용어 정리    
-2022-07-11 v2.0.0 멀티플레이 및 신규 무기 번역 추가, 기존 번역 개선   
+[2022-07-09 v1.0.0](https://github.com/thyoondev/VTOL-VR-Korean-Localization/commit/9e60a3eb3da0c5606b8009ae607001b77477e431)        
+[2022-07-10 v1.1.0 미션 번역 개선, 용어 정리](https://github.com/thyoondev/VTOL-VR-Korean-Localization/commit/1f58be7e58336d8535f047380915748e2ccc5f29)    
+[2022-07-11 v2.0.0 멀티플레이 및 신규 무기 번역 추가, 기존 번역 개선](https://github.com/thyoondev/VTOL-VR-Korean-Localization/commit/b7112409746b6166251b9a378a95d6838a84c87d)   
