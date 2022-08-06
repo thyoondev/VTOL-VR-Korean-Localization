@@ -1,16 +1,17 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fthyoondev%2FVTOL-VR-Korean-Localization&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-# VTOL VR 한글화
+# VTOL VR Korean Localization
 
 ![main image](https://user-images.githubusercontent.com/64685759/178081480-ae379512-0a0b-4694-8803-63753f3c07c9.jpg)  
+
+이 프로젝트는 VTOL VR의 공식 한국어 번역 프로젝트입니다.   
 [VTOL VR Steam 상점 페이지 바로가기](https://store.steampowered.com/app/667970/VTOL_VR)
-
-이 프로젝트는 공식 한국어화에 대응하여 추가적인 번역 및 수정을 진행하였습니다.
-
-[번역 내역](https://github.com/thyoondev/VTOL-VR-Korean-Localization/commit/9e60a3eb3da0c5606b8009ae607001b77477e431)
 
 # 적용 방법
 
+스팀에서 게임 설치 시 자동으로 적용 됩니다.
+
+## 수동 패치 방법
 기본 설치 경로 : `C:\Program Files (x86)\Steam\steamapps\common\VTOL VR`
 
 1. 게임 설치 경로로 이동합니다.
@@ -20,8 +21,7 @@
 
 # 주의 사항
 
-- 항공 용어의 통일이 안되어있습니다.
-- 기계 번역을 사용하여 매끄럽지 못한 문장이 있습니다.
+- 기계 번역을 혼용하여 매끄럽지 못한 문장이 있을 수 있습니다.
 - 한국어 패치 관련 오류 발생시 `issues` 생성 부탁드립니다.
 
 > 번역에 기여해서 위 주의사항에 대한 문제를 해결해주세요!
