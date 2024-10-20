@@ -1,0 +1,29 @@
+Key,Description,en,korean
+cloudDiagnostics_title,UI Text,Cloud Diagnostics,클라우드로 검사
+cloudDiagnostics_descript,UI Text,"Would you like to opt-in to enable cloud diagnostics? Anonymous information such as error messages, system specifications, and game version will be sent to the developer to help track down bugs and provide a smoother game experience. It would be a huge help! This setting can be changed at any time in the game settings menu.",클라우드 검사에 참여하시겠습니까? 익명의 정보로 저희들은 게임 개발자에게 더 많은 정보를 전달하여 개발을 하는데 있어 정말로 큰 도움을 줄 수 있습니다. 이 설정은 언제든지 게임 설정 메뉴에서 바꿀 수 있습니다.
+Text (2)_761854,UI Text,Accept,확인
+Text (2)_757242,UI Text,Deny,거부
+news_workshop,Workshop notification window,"Download, play, and rate community-made missions and campaigns without leaving VR!
+
+Upload custom missions and maps in VTEditor!","커뮤니티 캠패인과 미션을 즐기기 위해서 VR을 벗을 필요가 없습니다!
+
+또한 직접 만든 미션과 지도를 VREditor로 업로드 하세요!"
+quitButton_709596,VR Interactable,Quit Game,게임을 종료합니다.
+quitButtonText_711462,UI Text,Quit,게임 종료
+acceptEulaToPlay_655458,UI Text,Accept EULA to play,EULA를 확인 후 플레이 해주세요.
+startGameButton_714120,VR Interactable,Start Game,게임 시작
+startGameLabel_705546,UI Text,Start Game,게임 시작
+disclaimerText_707784,UI Text,"Motion Sickness Warning:
+This game may induce motion sickness.  
+It may take some time to get used to, but the feeling of nausea will diminish with practice. 
+
+If at any point you feel nauseous, please remove the HMD and take a break.","멀미 경고:
+이 게임은 멀미를 유발할 수 있습니다.
+익숙해지는 데 시간이 좀 걸릴 수 있지만, 연습을 하면 메스꺼움이 줄어들 것입니다.
+
+혹시라도 메스꺼움이 느껴지면 VR을 벗고 휴식을 취하세요."
+Title_764004,UI Text,Language,언어
+AcceptButton_766562,VR Interactable,Accept,확인
+DenyButton_760444,VR Interactable,Deny,거부
+SelectLangButton_2211708,VR Interactable,Select Language,언어 선택
+Handle_759118,VR Interactable,Scroll,스크롤
