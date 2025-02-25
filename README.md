@@ -30,10 +30,4 @@
 
 1. 이 저장소를 `fork` 하고, `master` 브랜치로 부터 새 브랜치를 생성합니다.
 2. 수정 후 `commit` 해주세요.
-3. `master` 브랜치로 PR 요청을 보내주세요.
-
-# 히스토리
-
-[2022-07-09 v1.0.0](https://github.com/thyoondev/VTOL-VR-Korean-Localization/commit/9e60a3eb3da0c5606b8009ae607001b77477e431)        
-[2022-07-10 v1.1.0 미션 번역 개선, 용어 정리](https://github.com/thyoondev/VTOL-VR-Korean-Localization/commit/1f58be7e58336d8535f047380915748e2ccc5f29)    
-[2022-07-11 v2.0.0 멀티플레이 및 신규 무기 번역 추가, 기존 번역 개선](https://github.com/thyoondev/VTOL-VR-Korean-Localization/commit/b7112409746b6166251b9a378a95d6838a84c87d)   
+3. `master` 브랜치로 PR 요청을 보내주세요. 
