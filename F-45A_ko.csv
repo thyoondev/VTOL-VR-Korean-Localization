@@ -1,5 +1,5 @@
 ﻿Key,Description,en,ko
-ejectInteractable_911648,VR Interactable,Eject,긴급 탈출
+ejectInteractable_911648,VR Interactable,Eject,비상 탈출
 neckPTT_2582164,VR Interactable,Radio PTT,라디오 PTT
 ButtonText_952188,UI Text,"Recenter
 seat","좌석
@@ -9,7 +9,7 @@ mission","임무
 나가기"
 ButtonText_915708,UI Text,"Recenter
 seat","좌석
- 중앙
+중앙
 정렬"
 ButtonText_913026,UI Text,Restart,재시작
 ButtonText_913894,UI Text,"exit
@@ -17,13 +17,13 @@ mission","임무
 나가기"
 ButtonText_913940,UI Text,"Quick
 save","빠른
-저장 "
+저장"
 ButtonText_915630,UI Text,Load,불러오기
 ButtonText_913374,UI Text,Save,저장
 Label_280922,HUD Unit label (mach),M,M
 Label_280582,HUD Unit label (g-force),G,G
 helmVisorInteractable_913784,VR Interactable,Visor,바이저
-helmNVGInteractable_916002,VR Interactable,NVG,야간 투시경
+helmNVGInteractable_916002,VR Interactable,NVG,야간투시경
 PendingText_912704,UI Text,in progress...,진행 중...
 CompleteText_915034,UI Text,COMPLETE,완료
 MissionText_913392,UI Text,"MISSION
@@ -33,28 +33,28 @@ FailedText_916378,UI Text,FAILED,실패
 Handle_395644,VR Interactable,Scroll,스크롤
 Text_913356,UI Text,Restart Mission,임무 재시작
 ReturnButton_915862,VR Interactable,Return to Main,메인 화면으로 돌아가기
-Text_916314,UI Text,Finish Mission,임무 마치기
-ToggleLogButton_915924,VR Interactable,Toggle Flight Log,비행 기록 열람
-Text_915514,UI Text,Show/Hide Flight Log,비행 기록 보이기/숨기기
+Text_916314,UI Text,Finish Mission,임무 종료
+ToggleLogButton_915924,VR Interactable,Toggle Flight Log,비행 기록 표시 전환
+Text_915514,UI Text,Show/Hide Flight Log,비행 기록 표시/숨김
 ContinueFlightButton_914390,VR Interactable,Continue Flight,비행 계속하기
 Quickload_414134,VR Interactable,Quickload,빠른 불러오기
-Text_913888,UI Text,Flight log,비행기록
+Text_913888,UI Text,Flight log,비행 기록
 UpIcon_915836,VR Interactable,Scroll Up,위로 스크롤
 DnIcon_916128,VR Interactable,Scroll Down,아래로 스크롤
 BottomIcon_913766,VR Interactable,To Bottom,맨 아래로
 SaveToDiskText_912244,VR Interactable,Save Flight Log,비행 기록 저장
 completionTimeLabel_-10687514,UI Text,Completion Time:,완료 시각:
-joyInteractable_915260,VR Interactable,Joystick,조이스틱
-joyAdjustInteractable_916106,VR Interactable,Adjust Joystick,조이스틱 조정
+joyInteractable_915260,VR Interactable,Joystick,조종간
+joyAdjustInteractable_916106,VR Interactable,Adjust Joystick,조종간 위치 조정
 AdjLeftButton_916408,VR Interactable,Adjust Left,왼쪽으로 조정
 AdjRightButton_913538,VR Interactable,Adjust Right,오른쪽으로 조정
 AdjFwdButton_915546,VR Interactable,Adjust Forward,앞으로 조정
 AdjBackButton_916410,VR Interactable,Adjust Back,뒤로 조정
 AdjUpButton_912256,VR Interactable,Adjust Up,위로 조정
 AdjDownButton_915128,VR Interactable,Adjust Down,아래로 조정
-ToggleAdjustJoyInteractable_911908,VR Interactable,Toggle Auto Adjust,자동 조정 토글
+ToggleAdjustJoyInteractable_911908,VR Interactable,Toggle Auto Adjust,자동 조정 전환
 Text_915188,VT Text,AUTO,AUTO
-releaseLabel_912934,UI Text,RELEASE,RELEASE
+releaseLabel_912934,UI Text,RELEASE,투하
 loalText_299878,HUD when lock-on-after-launch AGM mode is active,LOAL,LOAL
 Label_915698,UI Text,SPEED,SPEED
 Label_916182,UI Text,HULL,HULL
@@ -64,7 +64,7 @@ RDRAltText_911650,UI Text,RDR,RDR
 Text_912910,UI Text,[ COLLISION      WARNING ],[ 충돌         경고 ]
 Text_915452,UI Text,[ STALL          WARNING ],[ 실속         경고 ]
 Label_914952,UI Text,HDG,HDG
-HudBrakeLock_912300,UI Text,[ BRAKE LOCK ],[ 브레이크   잠금]
+HudBrakeLock_912300,UI Text,[ BRAKE LOCK ],[ 브레이크 잠금 ]
 Text_913428,UI Text,-[ CHECK GEAR ]-,-[ 기어 확인 ]-
 Label_913926,UI Text,"HVR
 ALT","HVR
@@ -76,7 +76,7 @@ BORESIGHT"
 HudWingFold_914040,UI Text,[ WING FOLD ],[ 날개 접힘 ]
 Label_912968,UI Text,TILT,TILT
 Text_409944,UI Text,PULL UP!,PULL UP!
-PresetsLabel_912374,UI Text,LAYOUT SET,사전 설정 저장
+PresetsLabel_912374,UI Text,LAYOUT SET,화면 배치 설정
 PortalPresetButton1_913502,VR Interactable,Preset 1,사전 설정 1
 PortalPresetButton2_914226,VR Interactable,Preset 2,사전 설정 2
 PortalPresetButton3_913676,VR Interactable,Preset 3,사전 설정 3
@@ -86,47 +86,47 @@ Text_914576,UI Text,"LAUNCH
 WARNING","발사
 경고"
 Text_412452,UI Text,MWS,MWS
-MastCautFlash_915446,VR Interactable,Dismiss,무시
+MastCautFlash_915446,VR Interactable,Dismiss,해제
 Text_912896,UI Text,"MASTER
-CAUTION","MASTER
-CAUTION"
+CAUTION","주
+경고등"
 Text_930208,UI Text,AB,AB
-Text_410182,UI Text,SHOOT,SHOOT
+Text_410182,UI Text,SHOOT,발사
 ClrWptButton_911890,VR Interactable,Clear Waypoint,경유지 삭제
 txt_914312,UI Text,CLR WPT,경유지 삭제
 AltModeButton_914516,VR Interactable,Altitude Mode,고도 모드
 txt_914352,UI Text,ALT MODE,고도 모드
-ChaffLabel_410848,UI Text,CHAFF,체프
+ChaffLabel_410848,UI Text,CHAFF,채프
 FlareLabel_412694,UI Text,FLARE,플레어
 FuelInfoButton_413878,VR Interactable,Show Fuel,연료 표시
 txt_411628,UI Text,FUEL,연료
-AutoPilotDisplayButton_409942,VR Interactable,Show Autopilot,오토파일럿 표시
-txt_412918,UI Text,AUTOPILOT,오토파일럿
-AltAPButton_411832,VR Interactable,Altitude AP,고도 오토파일럿
+AutoPilotDisplayButton_409942,VR Interactable,Show Autopilot,자동 조종 표시
+txt_412918,UI Text,AUTOPILOT,자동 조종
+AltAPButton_411832,VR Interactable,Altitude AP,고도 자동 조종
 txt_413182,UI Text,ALT,고도
-HeadingAPButton_414054,VR Interactable,Heading AP,헤딩 오토파일럿
-NavAPButton_411372,VR Interactable,Nav Waypoint AP,내비 경유지 오토파일럿
-txt_410280,UI Text,NAV,내비
-APOffButton_413514,VR Interactable,AP Off,오토파일럿 끄기
+HeadingAPButton_414054,VR Interactable,Heading AP,방위 자동 조종
+NavAPButton_411372,VR Interactable,Nav Waypoint AP,항법 경유지 자동 조종
+txt_410280,UI Text,NAV,항법
+APOffButton_413514,VR Interactable,AP Off,자동 조종 끄기
 txt_413324,UI Text,OFF,끄기
-HeadingRight_415110,VR Interactable,Heading Right,헤딩 오른쪽으로
-HeadingLeft_411474,VR Interactable,Heading Left,헤딩 왼쪽으로
+HeadingRight_415110,VR Interactable,Heading Right,방위 오른쪽
+HeadingLeft_411474,VR Interactable,Heading Left,방위 왼쪽
 AltUp_410754,VR Interactable,Alt +,고도 +
 AltDown_413378,VR Interactable,Alt -,고도 -
 Text (1)_395816,UI Text,FUEL,연료
-Text_914572,Internal fuel,INTERNAL,내장 연료
+Text_914572,Internal fuel,INTERNAL,내부 연료
 Text_912264,External Fuel,EXTERNAL,외장 연료
-fuelDrainLabel_916118,UI Text,FUEL DRAIN,연료 소비량
+fuelDrainLabel_916118,UI Text,FUEL DRAIN,연료 소모율
 estTimeLabel_913460,UI Text,EST TIME,예상 시간
 estDistLabel_913976,UI Text,"EST DIST
-","예상 이동거리
+","예상 거리
 "
 twrLabel_914716,UI Text,MAX TWR,MAX TWR
 SwapButton_916316,VR Interactable,Swap Displays,디스플레이 위치 전환
 Text_911674,UI Text,SWAP,전환
 MenuButton_911602,VR Interactable,Open Menu,메뉴 열기
 Text_913308,UI Text,MENU,메뉴
-HideSubsButton_915178,TSD window config,Hide Subportals,서브포탈 숨김
+HideSubsButton_915178,TSD window config,Hide Subportals,서브포탈 숨기기
 ShowSubsButton_916154,TSD window config,Show Subportals,서브포탈 표시
 MaximizeButton_915918,TSD window config,Maximize,최대화
 UnMaximizeButton_911968,TSD window config,Return,이전
@@ -134,7 +134,7 @@ SubButtonLeft_912568,VR Interactable,Interactable,상호작용 가능
 RadarPwrButton_911576,VR Interactable,Radar Power,레이더 전원
 txt_3677856,UI Text,RDR PWR,RDR PWR
 SOI Button_915502,VR Interactable,Toggle SOI,센서 활성화
-txt_913014,UI Text,SOI,활성화
+txt_913014,UI Text,SOI,SOI
 ResetButton_912504,VR Interactable,Reset View,시점 초기화
 txt_914802,UI Text,RESET,초기화
 ZoomInButton_915158,VR Interactable,Zoom +,확대
@@ -156,9 +156,9 @@ RTBWPButton_915740,VR Interactable,Set RTB Waypoint,귀환 경유지 설정
 txt_911618,UI Text,RTB,귀환
 ObjWpButton_915190,VR Interactable,Set Objective Waypoint,목표 경유지 설정
 txt_912214,UI Text,OBJ,목표
-ModeButton_931214,VR Interactable,Toggle Rotation Mode,회전 모드 토글
+ModeButton_931214,VR Interactable,Toggle Rotation Mode,회전 모드 전환
 tgpMode (1)_912938,UI Text,MODE,모드
-Subsized_393072,UI Text,NAV,내비
+Subsized_393072,UI Text,NAV,항법
 PrevButton_911806,VR Interactable,Previous Objective,이전 목표
 txt_915846,UI Text,PREV,이전
 NextButton_912640,VR Interactable,Next Objective,다음 목표
@@ -167,9 +167,9 @@ WptButton_915876,VR Interactable,Set Waypoint,경유지 지정
 txt_912902,UI Text,SET WPT,경유지 지정
 MissionText_913922,UI Text,OBJECTIVES,임무 목표
 Title_915150,UI Text,Spectator Camera,관전 카메라
-PreviewBtn_912556,VR Interactable,Toggle Preview,미리보기 토글
+PreviewBtn_912556,VR Interactable,Toggle Preview,미리보기 전환
 txt_914652,UI Text,PREVIEW,미리보기
-AutoFOVText_913340,UI Text,AutoFOV,자동시야각
+AutoFOVText_913340,UI Text,AutoFOV,자동 시야각
 StartButton_912580,VR Interactable,Start,켜기
 txt_929168,UI Text,START,켜기
 StopButton_916412,VR Interactable,Stop,끄기
@@ -188,11 +188,11 @@ SSBtn_911784,VR Interactable,4k Screenshot,4K 스크린샷
 txt_915184,UI Text,SS,캡처
 Subsized_911678,UI Text,SPEC CAM,관전 캠
 ToggleCMSModeButton_317010,VR Interactable,Toggle Mode,모드 전환
-eqNameText_930458,UI Text,VEHICLE OPTIONS,장비 옵션
-JoyModeText_916046,VR Interactable,Joystick Mode,조이스틱 모드
-JoyModeText_txt_-2288018,UI Text,JOYSTICK MODE,조이스틱 모드
-JoySensText_-6385166,VR Interactable,Joystick Sensitivity,조이스틱 감도
-JoySensText_txt_-2287244,UI Text,JOY SENS,스틱 감도
+eqNameText_930458,UI Text,VEHICLE OPTIONS,기체 옵션
+JoyModeText_916046,VR Interactable,Joystick Mode,조종간 모드
+JoyModeText_txt_-2288018,UI Text,JOYSTICK MODE,조종간 모드
+JoySensText_-6385166,VR Interactable,Joystick Sensitivity,조종간 감도
+JoySensText_txt_-2287244,UI Text,JOY SENS,조종간 감도
 UnitsButton_2553924,VR Interactable,Unit Options,단위계 설정
 UnitsButton_txt_-3699322,UI Text,UNITS,단위
 AltWarnButton_265846,VR Interactable,Altitude Warning Options,고도 경보 설정
@@ -217,7 +217,7 @@ ToggleModeButton_400002,VR Interactable,Toggle Altitude Mode,고도 모드 전�
 Subsized_914204,UI Text,OPTION,옵션
 wpnInfoInteractable_913170,VR Interactable,Config,설정
 txt_916366,UI Text,MASTER SAFE,무장 안전
-BayOverridesButton_930920,VR Interactable,Weapon Bay Door Overrides,무장창 문 제어
+BayOverridesButton_930920,VR Interactable,Weapon Bay Door Overrides,무장창 문 수동 제어
 txt_930770,UI Text,"BAY DOOR
 OVERRIDES","무장창
 문 제어"
@@ -225,41 +225,41 @@ FuelConfigButton_-387262,VR Interactable,Fuel Configuration,연료 설정
 txt_413290,Fuel Config Button,"FUEL
 CONFIG","연료
 설정"
-ModeButton_-387576,VR Interactable,Action Mode,엑션 모드
+ModeButton_-387576,VR Interactable,Action Mode,액션 모드
 CMSConfigButton_414354,VR Interactable,CMS Configuration,CMS 설정
 txt_409780,CMS Config Button,CMS,CMS
-armedInteractable_-50098,SMS equip arming button,Toggle Arming,무장 토글
+armedInteractable_-50098,SMS equip arming button,Toggle Arming,무장 전환
 jettisonText_152168,SMS equip jettison button,JETTISON,버리기
-jettisonInteractable_-49280,SMS equip jettison button,Toggle Jettison,버리기 토글
+jettisonInteractable_-49280,SMS equip jettison button,Toggle Jettison,버리기 전환
 eqNameText_413016,UI Text,"WEAPON BAY DOOR
 OVERRIDES","무장창
-문 제어"
-SideBayLeftOverride_930680,VR Interactable,Toggle Bay Override,무장창 제어 토글
+문 수동 제어"
+SideBayLeftOverride_930680,VR Interactable,Toggle Bay Override,무장창 제어 전환
 optionLabel_929256,UI Text,SIDE BAY LEFT,측면 무장창 좌측
 optionLabel_930046,UI Text,SIDE BAY RIGHT,측면 무장창 우측
 optionLabel_930498,UI Text,MAIN BAY LEFT,중앙 무장창 좌측
 optionLabel_929734,UI Text,MAIN BAY RIGHT,중앙 무장창 우측
 optionLabel_930724,UI Text,ALL BAYS,모든 무장창
 eqNameText_414772,UI Text,FUEL CONFIG,연료 설정
-BingoAdjustTitle_-439040,UI Text,BINGO LEVEL,BINGO LEVEL
-BingoUp_-438640,VR Interactable,Bingo +,Bingo +
-BingoDown_-438642,VR Interactable,Bingo -,Bingo -
-FuelDumpTitle_414318,UI Text,FUEL DUMP,연료 버리기
-StartDumpButton_409584,Start Fuel Dump,Start Dump,연료 버리기
-txt_414010,Start Fuel Dump,START,버리기
-StopDumpButton_409644,Stop Fuel Dump,Stop Dump,버리기 중지
+BingoAdjustTitle_-439040,UI Text,BINGO LEVEL,귀환 한계 연료
+BingoUp_-438640,VR Interactable,Bingo +,귀환 한계 +
+BingoDown_-438642,VR Interactable,Bingo -,귀환 한계 -
+FuelDumpTitle_414318,UI Text,FUEL DUMP,연료 방출
+StartDumpButton_409584,Start Fuel Dump,Start Dump,방출 시작
+txt_414010,Start Fuel Dump,START,시작
+StopDumpButton_409644,Stop Fuel Dump,Stop Dump,방출 중지
 txt_414948,Stop Fuel Dump,STOP,중지
 cmsUINameText_319304,UI Text,COUNTERMEASURE SYSTEM,기만체 시스템
-Chaff_396040,VR Interactable,Toggle Chaff,체프 토글
-titleText_412036,UI Text,CHAFF,체프
-Flares_395820,VR Interactable,Toggle Flares,플레어 토글
+Chaff_396040,VR Interactable,Toggle Chaff,채프 전환
+titleText_412036,UI Text,CHAFF,채프
+Flares_395820,VR Interactable,Toggle Flares,플레어 전환
 titleText_319618,UI Text,FLARES,플레어
 txt_413196,CMS Release Mode,RELEASE MODE,방출 모드
 RateAdjustTitle_321828,UI Text,RELEASE RATE,방출 속도
 RateUp_318734,VR Interactable,Rate +,방출 속도 +
-RateDown_317472,VR Interactable,Rate -,방츨 속도 -
+RateDown_317472,VR Interactable,Rate -,방출 속도 -
 Subsized_912990,UI Text,SMS,SMS
-Subsized_dumpTxt_410998,UI Text,FUEL DUMP,연료 버리기
+Subsized_dumpTxt_410998,UI Text,FUEL DUMP,연료 방출
 title_911810,UI Text,"LOCK
 B
 R
@@ -268,16 +268,16 @@ B
 R
 A"
 OffObj_913268,UI Text,RADAR OFF,레이더 꺼짐
-FOVText_916096,UI Text,BORESIGHT,중심 조준
+FOVText_916096,UI Text,BORESIGHT,정면 조준
 txt_914320,UI Text,POWER,전원
 Text_916224,UI Text,RADAR,레이더
-FOVText ButtonLabel_912576,VR Interactable,Toggle Scan Angle,스캔 각도 토글
-FOVText ButtonLabel_txt_-99372,UI Text,SCAN ANGLE,스캔 각도
+FOVText ButtonLabel_912576,VR Interactable,Toggle Scan Angle,탐색 각도 전환
+FOVText ButtonLabel_txt_-99372,UI Text,SCAN ANGLE,탐색 각도
 RangePlusButton_914332,VR Interactable,Range +,거리 +
 RangeMinusButton_912506,VR Interactable,Range -,거리 -
 TgtsTitle_916300,UI Text,TARGETS,표적
-UpIcon_912786,VR Interactable,Prev Target,이전 목표
-DnIcon_914006,VR Interactable,Next Target,다음 목표
+UpIcon_912786,VR Interactable,Prev Target,이전 표적
+DnIcon_914006,VR Interactable,Next Target,다음 표적
 MoveDnIcon_912108,VR Interactable,Move Down,아래로 이동
 MoveUpIcon_911912,VR Interactable,Move Up,위로 이동
 GroupsTitle_914306,UI Text,GROUPS,그룹
@@ -295,7 +295,7 @@ NewGrp_911746,new gps group button tooltip,New Group,그룹 만들기
 NewGrp_txt_-104494,new gps group button label,"NEW
 GROUP","그룹
 만들기"
-pathLabel_915232,gps group path mode tooltip,Toggle Path Mode,경로 모드
+pathLabel_915232,gps group path mode tooltip,Toggle Path Mode,경로 모드 전환
 gpsWptButton_txt_-106506,set gps point waypoint label,SET WPT,경유지 설정
 SendData_-6646600,Send GPS group to friendlies in multiplayer,Send Data,데이터 전송
 SendData_txt_-6646598,delete gps target button label,"SEND
@@ -303,27 +303,27 @@ DATA","데이터
 전송"
 Subsized_911596,UI Text,"GPS
 TARGETS","GPS
-목표"
+표적"
 NoSignalText_913810,UI Text,NO SIGNAL,신호 없음
 Text_915098,UI Text,AREA,지역
-Text_915864,UI Text,POINT,원점
-Text_915242,UI Text,IFF:FRIEND,식별:아군
-Text_914872,UI Text,IFF:FOE,식별:적군
+Text_915864,UI Text,POINT,지점
+Text_915242,UI Text,IFF:FRIEND,IFF:아군
+Text_914872,UI Text,IFF:FOE,IFF:적군
 HeadModeText_915908,UI Text,"USE HELMET VISOR/HMCS
 
-AUGMENTED VIEW ENABLED","헬멧 바이저/HMCS 를 사용하세요
+AUGMENTED VIEW ENABLED","헬멧 바이저/HMCS를 사용하세요
 
-증강현실 시야 작동중"
-gimbalLimit_913148,UI Text,GIMBAL LIMIT,구동 한계 초과
-ModeButton_914818,VR Interactable,Targeting Mode,목표 조준 모드
+증강 시야 활성화됨"
+gimbalLimit_913148,UI Text,GIMBAL LIMIT,구동 한계
+ModeButton_914818,VR Interactable,Targeting Mode,조준 모드
 SensButton_914330,VR Interactable,Sensor Mode,센서 모드
 txt_912372,UI Text,SENS,센서
-HeadButton_914894,VR Interactable,HMD Mode,시야 모드
+HeadButton_914894,VR Interactable,HMD Mode,HMD 모드
 tgpMode_914458,UI Text,HEAD,시야
 FwdButton_912778,VR Interactable,Reset Forward,전방 주시 재설정
 txt_916362,UI Text,FWD,전방
 GPS-S Button_915296,VR Interactable,GPS Send,GPS 좌표 송신
-GPS-A Button_915520,VR Interactable,GPS Acquire,GPS 좌표 수신
+GPS-A Button_915520,VR Interactable,GPS Acquire,GPS 좌표 포착
 txt_913352,UI Text,GPS-A,GPS-A
 ToWptButton_914462,VR Interactable,To Waypoint,경유지로
 txt_914632,UI Text,TO WPT,경유지
@@ -346,7 +346,7 @@ RestartButton_911636,VR Interactable,Quicksave Menu,빠른 저장 메뉴
 txt_410560,UI Text,QUICKSAVE,빠른 저장
 ExitButton_912780,VR Interactable,Exit Mission,임무 나가기
 txt_916092,UI Text,EXIT,나가기
-FlightLog Button_414124,VR Interactable,Flight Log,비행기록 열람
+FlightLog Button_414124,VR Interactable,Flight Log,비행 기록
 txt_409254,UI Text,LOG,기록
 PlayersButton_-29308950,VR Interactable,View Players,유저 보기
 playerstxt_-29308946,UI Text,PLAYERS,유저
@@ -362,11 +362,11 @@ txt_410172,UI Text,Save to disk,디스크에 저장
 saveText_-13568996,VR Interactable,Quicksave,빠른 저장
 saveText_txt_-100236,quicksave button label,SAVE,저장
 availableLabel_956208,UI Text,"SAVES
-AVAILABLE:","가능한
-저장:"
+AVAILABLE:","저장 가능
+횟수:"
 NoQsText_955496,UI Text,"QUICKSAVE
-NOT AVAILABLE","빠른저장
-사용불가"
+NOT AVAILABLE","빠른 저장
+사용 불가"
 lastSaveLabel_954396,UI Text,Last Save:,마지막 저장:
 loadText_-13568992,VR Interactable,Quickload,빠른 불러오기
 loadText_txt_-101050,quickload button label,LOAD,불러오기
@@ -376,7 +376,7 @@ ManagePlayersButton_521164,VR Interactable,Manage Players,유저 관리
 txt_526582,UI Text,MANAGE,관리
 upArrow_527248,VR Interactable,Scroll Up,위로 스크롤
 downArrow_521412,VR Interactable,Scroll Down,아래로 스크롤
-netAnalyticsTtle_-29380092,UI Text,vt net analytics,
+netAnalyticsTtle_-29380092,UI Text,vt net analytics,VT 네트워크 분석
 NetworkReturnButton_521328,VR Interactable,Return,이전
 txt_523966,UI Text,RETURN,이전
 ScaleButton_393616,VR Interactable,Zoom +,확대 +
@@ -389,12 +389,12 @@ A"
 MHLabel_911876,UI Text,"M
 H","M
 H"
-SlewTGPButton_912226,VR Interactable,Slew EOTS,EOTs 조절
+SlewTGPButton_912226,VR Interactable,Slew EOTS,EOTS 이동
 txt_916166,UI Text,EOTS,EOTS
 RadarAngleButton_913540,VR Interactable,Sweep Angle,탐색 각도
 txt_912826,Radar angle label,ANGLE,각도
-RadarPointButton_5515842,VR Interactable,Toggle Point Track,원점 추적
-txt_5602762,Radar point lock label,POINT,원점
+RadarPointButton_5515842,VR Interactable,Toggle Point Track,지점 추적 전환
+txt_5602762,Radar point lock label,POINT,지점
 RadarSettingsButton_914450,VR Interactable,Radar Settings,레이더 설정
 RadarPowerButton_911976,VR Interactable,Show Allies,아군 표시
 txt_914476,UI Text,ALLY,아군
@@ -419,57 +419,57 @@ MFD1PowerInteractable_912850,VR Interactable,MFD Power,MFD 전원
 MFDBrightnessKnob_916384,VR Interactable,MFD Brightness,MFD 밝기
 HMCSPowerInteractable_914036,VR Interactable,HMD Power,HMD 전원
 HUDBrightKnob_915916,VR Interactable,HUD Brightness,HUD 밝기
-masterArmSwitchInteractable_912532,VR Interactable,Master Arm Switch,MASTER ARM 스위치
+masterArmSwitchInteractable_912532,VR Interactable,Master Arm Switch,무장 안전 스위치(마스터 암)
 coverSwitchInteractable_masterArm_915432,VR Interactable,Switch Cover,스위치 커버
 raiseSeatInter_915664,VR Interactable,Raise Seat,좌석 올리기
 lowerSeatInter_915488,VR Interactable,Lower Seat,좌석 내리기
-visorButtonInteractable_-7865812,VR Interactable,Toggle Visor,바이져 전환
-nvgButtonInteractable_-7865816,VR Interactable,Toggle NVG,야시경 전환
+visorButtonInteractable_-7865812,VR Interactable,Toggle Visor,바이저 전환
+nvgButtonInteractable_-7865816,VR Interactable,Toggle NVG,야간투시경 전환
 clearButton_4853888,Clear joined/left notifications,Clear,지우기
-info_userLeft,UI Text,has left!,이 (가) 나갔습니다!
+info_userLeft,UI Text,has left!,님이 나갔습니다!
 membersTitle_6548730,UI Text,Invite Friends,친구 초대
-ToggleMute_-118434,VR Interactable,Toggle Mute,뮤트 토글
+ToggleMute_-118434,VR Interactable,Toggle Mute,음소거 전환
 Kick_-113880,VR Interactable,Kick,추방
 kickText_-113882,UI Text,Kick,추방
-Ban_-116098,VR Interactable,Block,블락
-banText_-116094,UI Text,Block,블락
+Ban_-116098,VR Interactable,Block,차단
+banText_-116094,UI Text,Block,차단
 ScrollInteractable_-645206,VR Interactable,Scroll,스크롤
-ErrorOKButton_-8378960,VR Interactable,Okay,예
+ErrorOKButton_-8378960,VR Interactable,Okay,확인
 okText_-8378962,UI Text,Cancel,취소
 Deny_1950982,VR Interactable,Cancel,취소
 Invite_-47166,VR Interactable,Invite,초대
 inviteText_-47202,UI Text,Invite,초대
 invitedText_-48900,UI Text,Invited,초대됨
-GearInteractable_911944,VR Interactable,Landing Gear,착륙용 바퀴
+GearInteractable_911944,VR Interactable,Landing Gear,착륙 장치(랜딩 기어)
 WingSwitchInteractable_915584,VR Interactable,Wing Fold,날개 접힘
 JettisonSwitchInteractable_916390,VR Interactable,Jettison Switch,버리기 스위치
-vtAPButton_916132,VR Interactable,Vertical Control AP Mode,수직 조정 오토파일럿 모드
+vtAPButton_916132,VR Interactable,Vertical Control AP Mode,수직 제어 자동 조종 모드
 parkingBrakeInteractable_913796,VR Interactable,Parking Brake,주차 브레이크
-LandingLightInteractable_916204,VR Interactable,Landing Lights,착륙등 조명
-StrobLightInteractable_914704,VR Interactable,Strobe Lights,섬광등 조명
-NavLightInteractable_913426,VR Interactable,Nav Lights,탐색등 조명
-FormationGlowInteractable_915506,VR Interactable,Formation Lights,편대등 조명
-InsturmentLightInteractable_930484,VR Interactable,Instrument Lights,내부 조명
-LabelBrightnessKnob_929958,VR Interactable,Instrument Brightness,계기 조명
+LandingLightInteractable_916204,VR Interactable,Landing Lights,착륙등
+StrobLightInteractable_914704,VR Interactable,Strobe Lights,충돌 방지등(스트로브)
+NavLightInteractable_913426,VR Interactable,Nav Lights,항법등
+FormationGlowInteractable_915506,VR Interactable,Formation Lights,편대등
+InsturmentLightInteractable_930484,VR Interactable,Instrument Lights,계기 조명
+LabelBrightnessKnob_929958,VR Interactable,Instrument Brightness,계기 밝기
 RadioVolumeKnob_912288,VR Interactable,Radio Volume,라디오 음량
-PrevButton_912222,VR Interactable,Prev Song,이전 노래
-NextButton_915694,VR Interactable,Next Song,다음 노래
-radioPlayPauseInteractable_914658,VR Interactable,Play/Pause,재생/ 일시정지
-CatHookInteractable_914178,VR Interactable,Launch Bar,런치 바(Launch Bar)
-FuelPort_916140,VR Interactable,Fuel Port,연료 포트
-HookInteractable_914364,VR Interactable,Arrestor Hook,어레스팅 후크
+PrevButton_912222,VR Interactable,Prev Song,이전 곡
+NextButton_915694,VR Interactable,Next Song,다음 곡
+radioPlayPauseInteractable_914658,VR Interactable,Play/Pause,재생/일시정지
+CatHookInteractable_914178,VR Interactable,Launch Bar,캐터펄트 연결 바(런치 바)
+FuelPort_916140,VR Interactable,Fuel Port,공중급유구
+HookInteractable_914364,VR Interactable,Arrestor Hook,착함 후크
 engineSwitchInteractable_914400,VR Interactable,Engine,엔진
-mainBattSwitchInteractable_916302,VR Interactable,Main Battery,주 배터리 전원
-apuSwitchInteractable_916246,VR Interactable,Auxilliary Power,APU 전원
-CommsVolumeKnob_953158,VR Interactable,Comm Radio Volume,통신 라디오 볼륨
+mainBattSwitchInteractable_916302,VR Interactable,Main Battery,주 배터리
+apuSwitchInteractable_916246,VR Interactable,Auxilliary Power,보조 동력(APU)
+CommsVolumeKnob_953158,VR Interactable,Comm Radio Volume,통신 라디오 음량
 Text_95182,UI Text,"GAME WINDOW
 NOT IN FOCUS","게임 화면
 포커스 벗어남"
 RadioInteractable_2581494,VR Interactable,Radio Mode,라디오 모드
 RadioChannelInteractable_2581172,VR Interactable,Radio Channel,라디오 채널
-CommsVolumeKnobMP_-18677120,VR Interactable,Team Radio Volume,팀 라디오 볼륨
+CommsVolumeKnobMP_-18677120,VR Interactable,Team Radio Volume,팀 라디오 음량
 CanopyInteractable_914266,VR Interactable,Canopy Switch,캐노피 스위치
 CamcorderObj_385876,VR Interactable,Move Camera,카메라 이동
-throttleInteractable_915500,VR Interactable,Throttle,출력 스로틀
+throttleInteractable_915500,VR Interactable,Throttle,스로틀
 Label (1)_956422,UI Text,QUICK START,빠른 시동
 Label (1)_954266,UI Text,QUICK FLY,빠른 비행
