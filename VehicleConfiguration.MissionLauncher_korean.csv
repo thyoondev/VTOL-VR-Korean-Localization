@@ -1,0 +1,10 @@
+Key,Description,en,korean
+pageTitle_757220,UI Text,Ready to fly?,출격 하시겠습니까?
+launchMissionButton_764254,VR Interactable,Launch Mission,임무 시작
+Text_761930,UI Text,Launch,출격
+denyTitle_761654,UI Text,Launch Denied,출격 거부됨
+envName_763252,UI Text,Morning,아침
+NextENVButton_763744,VR Interactable,Next Environment,다음 환경
+PrevENVButton_765098,VR Interactable,Prev Environment,이전 환경
+quitButton_763700,VR Interactable,Return to Main,메인으로 돌아가기
+Text_761850,UI Text,Back,돌아가기

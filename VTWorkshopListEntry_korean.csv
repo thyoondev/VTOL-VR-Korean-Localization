@@ -1,0 +1,12 @@
+Key,Description,en,korean
+Icon_734792,VR Interactable,Show Info,정보 표시
+Text_734764,UI Text,Info,정보
+ButtonUp_734786,VR Interactable,Vote Up,좋아요 투표
+ButtonDown_734790,VR Interactable,Vote Down,싫어요 투표
+Button_734788,VR Interactable,Favorite,즐겨찾기
+ButtonActive_734758,VR Interactable,Unfavorite,즐겨찾기 취소
+Button_734784,VR Interactable,Subscribe & Download,구독&다운로드
+Text_734748,UI Text,ADD,추가
+ButtonActive_734798,VR Interactable,Remove Subscription,구독에서 제외하기
+Text (1)_734794,UI Text,REMOVE,삭제
+ButtonPlay_734746,VR Interactable,Play,시작
