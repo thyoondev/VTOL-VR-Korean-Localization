@@ -29,7 +29,7 @@ mission","임무
 ButtonText_859092,UI Text,"Quick
 save","빠른
 저장"
-ButtonText_857740,UI Text,Load,불러오기
+ButtonText_857740,UI Text,Load,로드
 ButtonText_856918,UI Text,Save,저장
 helmVisorInteractable_857720,VR Interactable,Visor,바이저
 helmNVGInteractable_856016,VR Interactable,NVG,야간투시경
@@ -62,13 +62,13 @@ RDRAltText_858872,UI Text,RDR,RDR
 Text_857542,UI Text,[ COLLISION      WARNING ],[ 충돌         경고 ]
 Text_859692,UI Text,[ STALL          WARNING ],[ 실속         경고 ]
 Label_857754,UI Text,HDG,HDG
-HudBrakeLock_858050,UI Text,[ BRAKE LOCK],[ 브레이크   잠금]
+HudBrakeLock_858050,UI Text,[ BRAKE LOCK],[ BRAKE LOCK]
 Label_164444,HUD unit label (g-force),G,G
 Label_168976,HUD unit label (mach),M,M
 Label_857238,UI Text,"HVR
 ALT","HVR
 ALT"
-Label_857834,UI Text,BRAKE,브레이크
+Label_857834,UI Text,BRAKE,BRAKE
 Text_859476,UI Text,-[ CHECK GEAR ]-,-[ 기어 확인 ]-
 Text_703132,UI Text,PULL UP!,기수 상승!
 visorButtonInteractable_855374,VR Interactable,Toggle Visor,바이저 전환
@@ -82,7 +82,7 @@ AltitudeModeInteractable_859776,VR Interactable,Toggle Altitude Mode,고도 모�
 headingAPButton_858104,VR Interactable,Heading Hold,방위 유지
 altitudeAPButton_855514,VR Interactable,Altitude Hold,고도 유지
 hoverAPButton_858476,VR Interactable,Hover Mode,호버링 모드
-offAPButton_857466,VR Interactable,All AP Off,자동 조종 모두 끄기
+offAPButton_857466,VR Interactable,All AP Off,AP 모두 끄기
 navAPButton_855348,VR Interactable,Navigation Mode,항법 모드
 hudPowerInteractable_855558,VR Interactable,HUD Power,HUD 전원
 hmcsPowerInteractable_856320,VR Interactable,HMCS Power,HMCS 전원
@@ -139,7 +139,7 @@ NoQsText_856498,UI Text,"QUICKSAVE
 NOT AVAILABLE","빠른 저장
 사용 불가"
 lastSaveLabel_859496,UI Text,Last Save:,마지막 저장:
-loadText_858842,UI Text,LOAD,불러오기
+loadText_858842,UI Text,LOAD,로드
 text_855302,UI Text,SAVED,저장됨
 Quicksave Title_123840,UI Text,Quicksave,빠른 저장
 TgtsTitle_857670,UI Text,GPS TARGETS,GPS 목표
@@ -161,35 +161,36 @@ Text_856590,UI Text,IFF:FRIEND,IFF:아군
 Text_859178,UI Text,IFF:FOE,IFF:적군
 HeadModeText_855284,UI Text,"USE HELMET VISOR/HMCS
 
-AUGMENTED VIEW ENABLED","헬멧 바이저/HMCS를 사용하세요
+AUGMENTED VIEW ENABLED","USE HELMET VISOR/HMCS
 
-증강 시야 활성화됨"
+AUGMENTED VIEW ENABLED"
 gimbalLimit_858032,UI Text,GIMBAL LIMIT,짐벌 한계
 hmdViewStatus_856300,UI Text,HMD,HMD
 titleText_456206,UI Text,FLARES,플레어
 titleText_455052,UI Text,CHAFF,채프
-eqNameText_456958,UI Text,COUNTERMEASURE SYSTEM,기만체 시스템
+eqNameText_456958,UI Text,COUNTERMEASURE SYSTEM,기만 장비 시스템
 ReleaseRateTitle_456222,UI Text,RELEASE RATE,살포 간격
 releaseModeTxt_455244,UI Text,RELEASE MODE,살포 모드
 eqNameText_930458,UI Text,VEHICLE OPTIONS,기체 옵션
 AltModeLabel_953220,UI Text,UNITS,단위
 unitOptsText_702428,UI Text,FUEL,연료
 unitOptsText_702142,UI Text,ALT WARN,고도 경보
-JoyModeText_952514,UI Text,JOY SENS,조종간 감도
+JoyModeText_952514,UI Text,JOY SENS,JOY SENS
 eqNameText_701656,UI Text,UNIT OPTIONS,단위 옵션
 Text_954730,UI Text,"Sit comfortably
 and press menu
 (top button)
-to recenter","편안히 앉은 뒤
-menu(상단 버튼)를 눌러
-시점을 재정렬하세요"
+to recenter","편안한 자세로 앉아
+menu(상단 버튼)를
+눌러 시점을
+재정렬하세요"
 AltModeLabel_701584,UI Text,Alt Units,고도 단위
 DistModeLabel_954954,UI Text,Dist Units,거리 단위
 SpeedModeLabel_955738,UI Text,Speed Units,속도 단위
 eqNameText_702892,UI Text,FUEL CONFIG,연료 설정
 internalFuelText_-432922,Internal Fuel,INTERNAL,내부 연료
 externalFuelText_701646,External fuel,EXTERNAL,외부 연료
-BingoAdjustTitle_-439040,UI Text,BINGO LEVEL,귀환 한계 연료
+BingoAdjustTitle_-439040,UI Text,BINGO LEVEL,BINGO LEVEL
 eqNameText_701974,UI Text,ALTITUDE WARNINGS,고도 경보
 title_702284,UI Text,MIN ALTITUDE,최저 고도
 title_701018,UI Text,MAX ALTITUDE,최고 고도

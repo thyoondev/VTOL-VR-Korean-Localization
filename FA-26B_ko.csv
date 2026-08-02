@@ -14,8 +14,7 @@ throttleInteractable_956892,VR Interactable,Throttle,스로틀
 ejectInteractable_952116,VR Interactable,Eject,비상 탈출
 ButtonText_952188,UI Text,"Recenter
 seat","좌석
-중앙
-정렬"
+재정렬"
 ButtonText_954848,UI Text,Restart,재시작
 ButtonText_954842,UI Text,"exit
 mission","임무
@@ -23,7 +22,7 @@ mission","임무
 ButtonText_955448,UI Text,"Quick
 save","빠른
 저장"
-ButtonText_953872,UI Text,Load,불러오기
+ButtonText_953872,UI Text,Load,로드
 ButtonText_955618,UI Text,Save,저장
 helmVisorInteractable_955814,VR Interactable,Visor,바이저
 helmNVGInteractable_955816,VR Interactable,NVG,야간투시경
@@ -35,7 +34,7 @@ MissionText_954156,UI Text,"MISSION
 FailedText_955730,UI Text,FAILED,실패
 Handle_115524,VR Interactable,Scroll,스크롤
 Text_952430,UI Text,Restart Mission,임무 재시작
-ReturnButton_955218,VR Interactable,Return to Main,메인 화면으로 돌아가기
+ReturnButton_955218,VR Interactable,Return to Main,메인으로 돌아가기
 Text_952202,UI Text,Finish Mission,임무 종료
 ToggleLogButton_953462,VR Interactable,Toggle Flight Log,비행 기록 전환
 Text_956176,UI Text,Show/Hide Flight Log,비행 기록 표시/숨기기
@@ -55,7 +54,7 @@ ClrWptButton_956888,VR Interactable,Clear Waypoint,경유지 해제
 headingAPButton_956800,VR Interactable,Heading Hold,방위 유지
 altitudeAPButton_952938,VR Interactable,Altitude Hold,고도 유지
 speedAPButton_-3021126,VR Interactable,Airspeed Hold,속도 유지
-offAPButton_953862,VR Interactable,All AP Off,자동 조종 모두 끄기
+offAPButton_953862,VR Interactable,All AP Off,AP 모두 끄기
 navAPButton_953656,VR Interactable,Navigation Mode,항법 모드
 hudPowerInteractable_952146,VR Interactable,HUD Power,HUD 전원
 hmcsPowerInteractable_952122,VR Interactable,HMCS Power,HMCS 전원
@@ -160,7 +159,8 @@ and press
 [menu]
 to recenter","편안한 자세로 앉아
 [menu]를 눌러
-시점을 재정렬하세요"
+시점을
+재정렬하세요"
 saveText_952280,UI Text,SAVE,저장
 availableLabel_956208,UI Text,"SAVES
 AVAILABLE:","남은 저장
@@ -169,12 +169,12 @@ NoQsText_955496,UI Text,"QUICKSAVE
 NOT AVAILABLE","빠른 저장
 사용 불가"
 lastSaveLabel_954396,UI Text,Last Save:,마지막 저장:
-loadText_957016,UI Text,LOAD,불러오기
-text_956760,UI Text,SAVED,저장 완료
+loadText_957016,UI Text,LOAD,로드
+text_956760,UI Text,SAVED,SAVED
 Quicksave Title_121936,UI Text,Quicksave,빠른 저장
 titleText_620198,UI Text,FLARES,플레어
 titleText_618466,UI Text,CHAFF,채프
-eqNameText_930458,UI Text,COUNTERMEASURE SYSTEM,기만체 시스템
+eqNameText_930458,UI Text,COUNTERMEASURE SYSTEM,기만 장비 시스템
 BingoAdjustTitle_-439040,UI Text,RELEASE RATE,방출 간격
 txt_929168,UI Text,RELEASE MODE,방출 모드
 NoSignalText_955176,UI Text,NO SIGNAL,신호 없음
@@ -184,9 +184,9 @@ Text_954786,UI Text,IFF:FRIEND,IFF:아군
 Text_952462,UI Text,IFF:FOE,IFF:적군
 HeadModeText_956034,UI Text,"USE HELMET VISOR/HMCS
 
-AUGMENTED VIEW ENABLED","헬멧 바이저/HMCS를 사용하세요
+AUGMENTED VIEW ENABLED","USE HELMET VISOR/HMCS
 
-증강 시야 활성화됨"
+AUGMENTED VIEW ENABLED"
 gimbalLimit_956102,UI Text,GIMBAL LIMIT,짐벌 한계
 hmdViewStatus_953932,UI Text,HMD,HMD
 eqNameText_619628,UI Text,VEHICLE OPTIONS,기체 옵션
@@ -194,19 +194,20 @@ Text_954730,UI Text,"Sit comfortably
 and press menu
 (top button)
 to recenter","편안한 자세로 앉아
-menu(상단 버튼)를 눌러
-시점을 재정렬하세요"
+menu(상단 버튼)를
+눌러 시점을
+재정렬하세요"
 AltModeLabel_953220,UI Text,UNITS,단위
 unitOptsText_621558,UI Text,ALT WARN,고도 경보
 JoyModeText_952514,UI Text,JOYSTICK MODE,조종간 모드
-JoyModeText_368540,UI Text,JOY SENS,조종간 감도
+JoyModeText_368540,UI Text,JOY SENS,JOY SENS
 eqNameText_621662,UI Text,UNIT OPTIONS,단위 설정
 AltModeLabel_614816,UI Text,Alt Units,고도 단위
 DistModeLabel_954954,UI Text,Dist Units,거리 단위
 SpeedModeLabel_955738,UI Text,Speed Units,속도 단위
-BackText_954528,UI Text,BACK,뒤로가기
+BackText_954528,UI Text,BACK,뒤로
 eqNameText_618502,UI Text,FUEL CONFIG,연료 설정
-BingoAdjustTitle_621278,UI Text,BINGO LEVEL,귀환 한계 연료
+BingoAdjustTitle_621278,UI Text,BINGO LEVEL,BINGO LEVEL
 eqNameText_620238,UI Text,ALTITUDE WARNINGS,고도 경보
 title_620100,UI Text,MIN ALTITUDE,최소 고도
 title_619128,UI Text,MAX ALTITUDE,최대 고도
@@ -275,14 +276,14 @@ RDRAltText_952740,UI Text,RDR,RDR
 Text_955274,UI Text,[ COLLISION      WARNING ],[ 충돌         경고 ]
 Text_956286,UI Text,[ STALL          WARNING ],[ 실속         경고 ]
 Label_954766,UI Text,HDG,HDG
-HudBrakeLock_955152,UI Text,[ BRAKE LOCK ],[ 브레이크 잠금 ]
+HudBrakeLock_955152,UI Text,[ BRAKE LOCK ],[ BRAKE LOCK ]
 Label_206876,HUD Unit label (g-force),G,G
 Label_205078,HUD Unit label (mach),M,M
 Text_955612,UI Text,-[ CHECK GEAR ]-,-[ 기어 확인 ]-
 Label_953774,UI Text,"HVR
 ALT","HVR
 ALT"
-Label_953448,UI Text,BRAKE,브레이크
+Label_953448,UI Text,BRAKE,BRAKE
 Label_953434,UI Text,"RDR
 BORESIGHT","RDR
 BORESIGHT"

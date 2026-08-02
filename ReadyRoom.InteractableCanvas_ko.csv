@@ -19,7 +19,7 @@ VTEDIT (1)_729932,UI Text,VT,VT
 VTOL VR_744834,UI Text,VTOL VR,VTOL VR
 Text_ACReadyToFly,UI Text,Ready to fly?,출격하시겠습니까?
 Text_AC_SelectVehicle,UI Text,Select Vehicle,기체 선택
-Text_ACNewPilot,UI Text,New Pilot?,새 파일럿을 생성하시겠습니까?
+Text_ACNewPilot,UI Text,New Pilot?,새 파일럿 생성?
 Tutorials Button_-4966024,VR Interactable,Tutorials,튜토리얼
 Text_ACTutorial,UI Text,Tutorial,튜토리얼
 Label_514208,UI Text,Pilot Name:,파일럿 이름:
@@ -29,7 +29,7 @@ BackButton_744184,VR Interactable,Back To Main,메인으로 돌아가기
 Text_742734,UI Text,Back,뒤로
 StartButton_745400,VR Interactable,Start New Pilot,새 파일럿 생성
 Text_744692,UI Text,Start,시작
-InvalidName_740436,UI Text,[ Invalid Name ],[ 사용할 수 없는 이름 ]
+InvalidName_740436,UI Text,[ Invalid Name ],[ 잘못된 이름 ]
 DeleteButton_740016,VR Interactable,Delete Pilot,파일럿 삭제
 PILOTS_745628,UI Text,Pilots,파일럿
 NextPilotButton_747706,VR Interactable,Next Pilot,다음 파일럿
@@ -75,8 +75,8 @@ VotesTab_743458,VR Interactable,Votes,추천 순
 FavesTab_744050,VR Interactable,Favorited,즐겨찾기 순
 VotesTxt_747534,UI Text,Faves,즐겨찾기
 SubsTab_746936,VR Interactable,Subscriptions,구독 순
-VotesTxt_740374,UI Text,Subs,구독 수
-NewTab_744656,VR Interactable,New,최신 순
+VotesTxt_740374,UI Text,Subs,구독
+NewTab_744656,VR Interactable,New,최신
 VotesTxt_740444,UI Text,Newest,최신 순
 ButtonPrevious_746534,VR Interactable,Previous Page,이전 페이지
 ButtonNext_743488,VR Interactable,Next Page,다음 페이지
@@ -124,7 +124,7 @@ Text_732526,UI Text,MISSIONS,임무
 TrainingButton_-645594,VR Interactable,Training,훈련
 Text_-645732,UI Text,TRAINING,훈련
 BackButton_-645608,VR Interactable,Back to Campaigns,캠페인으로 돌아가기
-triggerToSkip_-645838,UI Text,hold trigger to skip,건너뛰려면 트리거를 길게 누르세요
+triggerToSkip_-645838,UI Text,hold trigger to skip,트리거를 길게 눌러 건너뛰기
 titleText_-645888,UI Text,"New Training Mission: ","새 훈련 임무: "
 MISSION BRIEFING_744042,UI Text,MISSION BRIEFING,임무 브리핑
 NextNoteButton_743764,VR Interactable,Next Note,다음 노트
@@ -184,7 +184,7 @@ Text_742294,UI Text,Clear,해제
 InvertButton_731022,VR Interactable,Invert Axis,축 반전
 Text_724774,UI Text,Invert,반전
 Text_746160,UI Text,Apply,적용
-Title_744764,UI Text,Launch Editor?,편집기를 실행하시겠습니까?
+Title_744764,UI Text,Launch Editor?,편집기를 실행할까요?
 Title (1)_740936,UI Text,The mission editor will run on your monitor.,임무 편집기가 모니터에서 실행됩니다.
 OkayButton_742216,VR Interactable,Launch Editor,편집기 실행
 BackButton_507224,VR Interactable,Back to Main Menu,메인 메뉴로 돌아가기

@@ -1,6 +1,6 @@
 ﻿Key,Description,en,ko
 cloudDiagnostics_title,UI Text,Cloud Diagnostics,클라우드 진단
-cloudDiagnostics_descript,UI Text,"Would you like to opt-in to enable cloud diagnostics? Anonymous information such as error messages, system specifications, and game version will be sent to the developer to help track down bugs and provide a smoother game experience. It would be a huge help! This setting can be changed at any time in the game settings menu.",클라우드 진단에 참여하시겠습니까? 오류 메시지, 시스템 사양, 게임 버전 같은 익명 정보가 개발자에게 전송되어 버그를 찾고 더 쾌적한 게임 환경을 만드는 데 사용됩니다. 참여해 주시면 큰 도움이 됩니다! 이 설정은 언제든지 게임 설정 메뉴에서 변경할 수 있습니다.
+cloudDiagnostics_descript,UI Text,"Would you like to opt-in to enable cloud diagnostics? Anonymous information such as error messages, system specifications, and game version will be sent to the developer to help track down bugs and provide a smoother game experience. It would be a huge help! This setting can be changed at any time in the game settings menu.","클라우드 진단에 참여하시겠습니까? 오류 메시지, 시스템 사양, 게임 버전 같은 익명 정보가 개발자에게 전송되어 버그를 찾고 더 쾌적한 게임 환경을 만드는 데 사용됩니다. 참여해 주시면 큰 도움이 됩니다! 이 설정은 언제든지 게임 설정 메뉴에서 변경할 수 있습니다."
 Text (2)_761854,UI Text,Accept,확인
 Text (2)_757242,UI Text,Deny,거부
 news_workshop,Workshop notification window,"Download, play, and rate community-made missions and campaigns without leaving VR!
@@ -9,8 +9,8 @@ Upload custom missions and maps in VTEditor!","VR을 벗지 않고도 커뮤니�
 
 직접 만든 임무와 지도는 VTEditor로 업로드할 수 있습니다!"
 quitButton_709596,VR Interactable,Quit Game,게임 종료
-quitButtonText_711462,UI Text,Quit,게임 종료
-acceptEulaToPlay_655458,UI Text,Accept EULA to play,플레이하려면 EULA에 동의하세요
+quitButtonText_711462,UI Text,Quit,종료
+acceptEulaToPlay_655458,UI Text,Accept EULA to play,플레이하려면 EULA 동의 필요
 startGameButton_714120,VR Interactable,Start Game,게임 시작
 startGameLabel_705546,UI Text,Start Game,게임 시작
 disclaimerText_707784,UI Text,"Motion Sickness Warning:

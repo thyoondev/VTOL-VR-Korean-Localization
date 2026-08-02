@@ -6,5 +6,5 @@ denyTitle_761654,UI Text,Launch Denied,출격 거부됨
 envName_763252,UI Text,Morning,아침
 NextENVButton_763744,VR Interactable,Next Environment,다음 환경
 PrevENVButton_765098,VR Interactable,Prev Environment,이전 환경
-quitButton_763700,VR Interactable,Return to Main,메인 화면으로 돌아가기
-Text_761850,UI Text,Back,돌아가기
+quitButton_763700,VR Interactable,Return to Main,메인으로 돌아가기
+Text_761850,UI Text,Back,뒤로

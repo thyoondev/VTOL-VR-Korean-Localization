@@ -2,20 +2,20 @@
 AIM-120 Advanced Radar Missile_fullName,Full equip name of: AIM-120 Advanced Radar Missile,AIM-120 Advanced Radar Missile,AIM-120 중거리 레이더 유도 미사일
 AIM-120 Advanced Radar Missile_description,Item description of: AIM-120 Advanced Radar Missile,"Radar guided medium range air to air missile.
 ",레이더 유도 중거리 공대공 미사일입니다.
-eqSublabel_RADAR-AAM,HUD sub-label of an equip,RADAR AAM,레이더 공대공
+eqSublabel_RADAR-AAM,HUD sub-label of an equip,RADAR AAM,RADAR AAM
 AGM-89 Anti-ship Cruise Missile x2_fullName,Full equip name of: AGM-89 Anti-ship Cruise Missile x2,AGM-89 Anti-ship Cruise Missile x2,AGM-89 대함 순항 미사일 x2
-AGM-89 Anti-ship Cruise Missile x2_description,Item description of: AGM-89 Anti-ship Cruise Missile x2,"Air-launched anti-ship cruise missile.  Equipped with waypoint following, radar target acquisition, and terminal maneuvering technology.","공중에서 발사되는 대함 순항 미사일입니다. 경유지 추적, 레이더 목표 포착, 종말 유도 기술을 갖추고 있습니다."
+AGM-89 Anti-ship Cruise Missile x2_description,Item description of: AGM-89 Anti-ship Cruise Missile x2,"Air-launched anti-ship cruise missile.  Equipped with waypoint following, radar target acquisition, and terminal maneuvering technology.","공중에서 발사되는 대함 순항 미사일입니다. 경유지 추적, 레이더 목표 포착 기능과 명중 직전 단계에 회피 기동하는 종말 유도 기술을 갖추고 있습니다."
 eqSublabel_ANTI-SHIP-CRUISE,HUD sub-label of an equip,ANTI-SHIP CRUISE,대함 순항
-asml_terminalMode,An option for anti-ship cruise missiles' flight behavior in the last (terminal) phase of guidance.,TERMINAL MODE,종말 유도 모드
+asml_terminalMode,An option for anti-ship cruise missiles' flight behavior in the last (terminal) phase of guidance.,TERMINAL MODE,TERMINAL MODE
 asml_noTarget,HUD label shown when the selected anti-ship missile has no target.,NO TARGET,목표 없음
 asml_overRange,HUD label shown when the selected anti-ship missile has a target that is too far away.,OVER RANGE,사거리 초과
 asml_inRange,HUD label shown when the selected anti-ship missile has a target that is within firing range.,IN RANGE,사거리 내
 asml_path,HUD label shown when the selected anti-ship missile will follow a flight path.,PATH,경로
 asml_point,HUD label shown when the selected anti-ship missile will fly to a specific target point.,POINT,지점
-s_asmTmode_0,Antiship terminal guidance mode,Direct,직접 공격
-s_asmTmode_1,Antiship terminal guidance mode,SeaSkim,해면 밀착 비행
-s_asmTmode_2,Antiship terminal guidance mode,SSEvasive,해면 밀착 회피
-s_asmTmode_3,Antiship terminal guidance mode,Popup,급상승 공격
+s_asmTmode_0,Antiship terminal guidance mode,Direct,Direct
+s_asmTmode_1,Antiship terminal guidance mode,SeaSkim,SeaSkim
+s_asmTmode_2,Antiship terminal guidance mode,SSEvasive,SSEvasive
+s_asmTmode_3,Antiship terminal guidance mode,Popup,Popup
 ASM-66LR_fullName,Full equip name of: ASM-66LR,ASM-66LR,ASM-66LR
 ASM-66LR_description,Item description of: ASM-66LR,Active radar-guided surface to air missile. Equipped with first stage booster for extended range.,능동 레이더 유도 지대공 미사일입니다. 1단 부스터를 장착해 사거리를 연장했습니다.
 GBU-38 Bomb x3_fullName,Full equip name of: GBU-38 Bomb x3,GBU-38 Bomb x3,GBU-38 폭탄 x3
@@ -28,16 +28,16 @@ s_gbu_mode_1,Targeting mode label for GPS bomb,AUTO,자동
 s_gbu_mode_2,Targeting mode label for GPS bomb,DUMB,무유도
 interactable_button_grip,,Grip,그립
 interactable_button_trigger,,Trigger,트리거
-vehicleConfig_denyBusy,Denial message for vehicle configurator,BUSY: RELOADING,작업 중: 재무장 중
+vehicleConfig_denyBusy,Denial message for vehicle configurator,BUSY: RELOADING,재무장 중
 vehicleConfig_invalidReload,Denial message for vehicle configurator,Full reload will be over budget!,전체 재무장은 예산을 초과합니다!
 vehicleConfig_totalMass,,Total mass:,총 질량:
 vehicleConfig_fuelKnob,,Set fuel,연료 설정
 vehicleConfig_flightCost,,Flight cost:,출격 비용:
 vehicleConfig_budget,,Budget:,예산:
-vehicleConfig_countermeasures,,Countermeasures,기만체
-vehicleConfig_flareLabel,,IR Flares,플레어(적외선 기만)
+vehicleConfig_countermeasures,,Countermeasures,기만 장비
+vehicleConfig_flareLabel,,IR Flares,적외선 플레어
 vehicleConfig_flareKnob,,Set flares,플레어 설정
-vehicleConfig_chaffLabel,,ECM Chaff,채프(레이더 교란)
+vehicleConfig_chaffLabel,,ECM Chaff,레이더 채프
 vehicleConfig_chaffKnob,,Set chaff,채프 설정
 vehicleConfig_repairButton,,Repair,수리
 vehicleConfig_repairButtonText,,Repair,수리
@@ -71,12 +71,12 @@ vehicleConfig_delete,,Delete,삭제하기
 500L Fuel Drop Tank_description,Item description of: 500L Fuel Drop Tank,A 500 liter fuel tank.,500L 연료 탱크입니다.
 AIM-9E Sidewinder x2_fullName,Full equip name of: AIM-9E Sidewinder x2,AIM-9E Sidewinder x2,AIM-9E 사이드와인더 x2
 AIM-9E Sidewinder x2_description,Item description of: AIM-9E Sidewinder x2,"A rack of two AIM-9E. An older short range, rear-aspect, heat seeking air to air missile.",AIM-9E 2발 랙입니다. 후방에서만 조준할 수 있는 구형 단거리 열추적 공대공 미사일입니다.
-eqSublabel_IR,HUD sub-label of an equip,IR,적외선
+eqSublabel_IR,HUD sub-label of an equip,IR,IR
 ON,,ON,ON
 OFF,,OFF,OFF
 irml_seekMode,Option title for IR missiles' heat-seeking mode,SEEK MODE,추적 모드
-irml_trigUncage,"Option title for IR missiles' seeker to be uncaged by the trigger (trigger uncage, shortened for UI space).",TRIG UNCAGE,트리거 시커 해제
-s_seekerMode_0,Label for heatseeker mode,Caged,시커 고정
+irml_trigUncage,"Option title for IR missiles' seeker to be uncaged by the trigger (trigger uncage, shortened for UI space).",TRIG UNCAGE,TRIG UNCAGE
+s_seekerMode_0,Label for heatseeker mode,Caged,고정
 s_seekerMode_1,Label for heatseeker mode,Uncaged,시커 해제
 s_seekerMode_2,Label for heatseeker mode,Vertical Scan,수직 스캔
 s_seekerMode_3,Label for heatseeker mode,Head Track,시야 추적
@@ -84,7 +84,7 @@ s_seekerMode_4,Label for heatseeker mode,Hard Lock,하드 록
 Hydra-70 x19 Rocket Pod_fullName,Full equip name of: Hydra-70 x19 Rocket Pod,Hydra-70 x19 Rocket Pod,Hydra-70 x19 로켓 포드
 Hydra-70 x19 Rocket Pod_description,Item description of: Hydra-70 x19 Rocket Pod,"A pod carrying a total of 19 high explosive rockets.  Can be fired in single shot mode, or rapid fire (ripple).",19발의 고폭 로켓을 탑재한 포드입니다. 단발 또는 연속 발사가 가능합니다.
 eqSublabel_ROCKET,HUD sub-label of an equip,ROCKET,로켓
-s_rocket_salvo,Rocket launcher salvo option,SALVO,일제 발사
+s_rocket_salvo,Rocket launcher salvo option,SALVO,SALVO
 M62 Vulcan 20mm_fullName,Full equip name of: M62 Vulcan 20mm,M62 Vulcan 20mm,M62 발칸 20mm
 M62 Vulcan 20mm_description,Item description of: M62 Vulcan 20mm,A modern 20mm rotary cannon.,현대식 20mm 회전식 기관포입니다.
 eqSublabel_CANNON,HUD sub-label of an equip,CANNON,기관포
@@ -93,8 +93,8 @@ ASF-SRM x2_description,Item description of: ASF-SRM x2,A rack of two standard he
 RG25 Twin Revolving Cannons_fullName,Full equip name of: RG25 Twin Revolving Cannons,RG25 Twin Revolving Cannons,RG25 이중 총열 리볼버 기관포
 RG25 Twin Revolving Cannons_description,Item description of: RG25 Twin Revolving Cannons,Twin 25mm revolving cannons.,이중 총열 25mm 리볼버 기관포입니다.
 AIM-7 SARH Missile_fullName,Full equip name of: AIM-7 SARH Missile,AIM-7 SARH Missile,AIM-7 반능동 레이더 미사일
-AIM-7 SARH Missile_description,Item description of: AIM-7 SARH Missile,An older semi-active radar guided medium range air to air missile. The missile requires a radar lock from launch until impact.,구형 반능동 레이더 유도 중거리 공대공 미사일입니다. 발사부터 명중까지 레이더 록온을 유지해야 합니다.
-eqSublabel_SARH-AAM,HUD sub-label of an equip,SARH AAM,반능동 레이더 공대공
+AIM-7 SARH Missile_description,Item description of: AIM-7 SARH Missile,An older semi-active radar guided medium range air to air missile. The missile requires a radar lock from launch until impact.,구형 중거리 공대공 미사일입니다. 반능동 레이더 유도 방식이라 발사 후에도 명중할 때까지 기체 레이더로 계속 조준을 유지해야 합니다.
+eqSublabel_SARH-AAM,HUD sub-label of an equip,SARH AAM,SARH AAM
 WR-25 Rocket Pod_fullName,Full equip name of: WR-25 Rocket Pod,WR-25 Rocket Pod,WR-25 로켓 포드
 WR-25 Rocket Pod_description,Item description of: WR-25 Rocket Pod,A hexagonal pod carrying 25 unguided rockets.,25발의 무유도 로켓을 탑재한 육각형 로켓 포드입니다.
 ASMRM-7 x1_fullName,Full equip name of: ASMRM-7 x1,ASMRM-7 x1,ASMRM-7 x1
@@ -103,7 +103,7 @@ Mk-82 Bomb x3_fullName,Full equip name of: Mk-82 Bomb x3,Mk-82 Bomb x3,Mk-82 폭
 Mk-82 Bomb x3_description,Item description of: Mk-82 Bomb x3,Standard un-guided 500lb bombs.,표준형 무유도 500파운드 폭탄입니다.
 eqSublabel_BOMB,HUD sub-label of an equip,BOMB,폭탄
 bombRack_releaseArea,An option for bomb weapons - how wide of a target area to automatically release bombs in.,RELEASE AREA,투하 반경
-SALVO,,SALVO,일제 발사
+SALVO,,SALVO,SALVO
 bomb_lowG,"HUD label shown when aircraft is under low or negative g-forces, preventing bomb release.","LOW G
 NO RELEASE","G 낮음
 투하 불가"
@@ -112,20 +112,19 @@ AIRS-T Advanced SRM x2_fullName,Full equip name of: AIRS-T Advanced SRM x2,AIRS-
 AIRS-T Advanced SRM x2_description,Item description of: AIRS-T Advanced SRM x2,"Short range heat seeking air to air missile with thrust vectoring.
 Improved maneuverability, range, and counter-countermeasure system.
 Advanced technology allows it to intercept incoming missiles.","추력 편향 기술을 갖춘 단거리 열추적 공대공 미사일입니다.
-기동성, 사거리, 기만체 대응 능력이 향상되었습니다.
+기동성, 사거리, 기만 장비 대응 능력이 향상되었습니다.
 날아오는 미사일을 요격할 수도 있습니다."
 Conformal Fuel Tank_fullName,Full equip name of: Conformal Fuel Tank,Conformal Fuel Tank,일체형 연료 탱크
 Conformal Fuel Tank_description,Item description of: Conformal Fuel Tank,A modification that allows the aircraft to hold an extra 6400L of fuel.,기체에 6400L의 연료를 추가로 탑재할 수 있게 하는 개조 장비입니다.
 AGM-88 ARM_fullName,Full equip name of: AGM-88 ARM,AGM-88 ARM,AGM-88 대레이더 미사일
 AGM-88 ARM_description,Item description of: AGM-88 ARM,Medium range anti-radiation missile.,중거리 대레이더 미사일입니다.
-eqSublabel_ARM,HUD sub-label of an equip,ARM,대레이더
+eqSublabel_ARM,HUD sub-label of an equip,ARM,ARM
 AGM-65 x3_fullName,Full equip name of: AGM-65 x3,AGM-65 x3,AGM-65 x3
-AGM-65 x3_description,Item description of: AGM-65 x3,"A medium range optically guided ""fire-and-forget"" anti-tank missile.",중거리 광학 유도 발사 후 망각 대전차 미사일입니다.
-eqSublabel_OPTICAL-FF,HUD sub-label of an equip,OPTICAL FF,"광학식
-발사 후 망각"
+AGM-65 x3_description,Item description of: AGM-65 x3,"A medium range optically guided ""fire-and-forget"" anti-tank missile.",중거리 광학 유도 대전차 미사일입니다. 발사 후에는 알아서 목표를 향해 유도됩니다(발사 후 망각).
+eqSublabel_OPTICAL-FF,HUD sub-label of an equip,OPTICAL FF,OPTICAL FF
 AUTO,,AUTO,자동
 MANUAL,,MANUAL,수동
-oml_uncageMode,Option title for optical missiles' seeker uncage mode (unlocking from the forward aiming position).,UNCAGE MODE,시커 해제 모드
+oml_uncageMode,Option title for optical missiles' seeker uncage mode (unlocking from the forward aiming position).,UNCAGE MODE,UNCAGE MODE
 oml_noTgp,Optical AGM is selected but there is no TGP attached,NO TGP,TGP 없음
 AN/AAQ-28 Targeting Pod_fullName,Full equip name of: AN/AAQ-28 Targeting Pod,AN/AAQ-28 Targeting Pod,AN/AAQ-28 조준 포드
 AN/AAQ-28 Targeting Pod_description,Item description of: AN/AAQ-28 Targeting Pod,Sensor pod for acquiring and tracking targets using optics and lasers.  A necessary component for certain guided missiles.,광학 장비와 레이저로 목표를 포착하고 추적하는 센서 포드입니다. 일부 유도 미사일에 반드시 필요한 장비입니다.
@@ -139,15 +138,15 @@ GBU-12 Laser Guided Bomb_fullName,Full equip name of: GBU-12 Laser Guided Bomb,G
 GBU-12 Laser Guided Bomb_description,Item description of: GBU-12 Laser Guided Bomb,A 500lb laser guided bomb.,500파운드 레이저 유도 폭탄입니다.
 eqSublabel_LASER-BOMB,HUD sub-label of an equip,LASER BOMB,레이저 폭탄
 lgb_targetMode,Option title for laser guided bombs' targeting mode.,TARGET MODE,목표 모드
-s_LOAL,Lock on after launch HUD label for laser bomb,LOAL,발사 후 록온
+s_LOAL,Lock on after launch HUD label for laser bomb,LOAL,LOAL
 s_lgbMode_0,Laser guided bomb targeting mode,LASER,레이저
 s_lgbMode_1,Laser guided bomb targeting mode,DUMB,무유도
 AGM-65_fullName,Full equip name of: AGM-65,AGM-65,AGM-65
-AGM-65_description,Item description of: AGM-65,"A medium range optically guided ""fire-and-forget"" anti-tank missile.",중거리 광학 유도 발사 후 망각 대전차 미사일입니다.
+AGM-65_description,Item description of: AGM-65,"A medium range optically guided ""fire-and-forget"" anti-tank missile.",중거리 광학 유도 대전차 미사일입니다. 발사 후에는 알아서 목표를 향해 유도됩니다(발사 후 망각).
 CBU-97 Bomb x1_fullName,Full equip name of: CBU-97 Bomb x1,CBU-97 Bomb x1,CBU-97 폭탄 x1
 CBU-97 Bomb x1_description,Item description of: CBU-97 Bomb x1,A smart cluster bomb that fires 40 explosively shaped armor penetrators at targets.,40개의 성형작약 관통탄을 목표에 발사하는 스마트 확산탄입니다.
 eqSublabel_CLUSTER-BOMB,HUD sub-label of an equip,CLUSTER BOMB,확산탄
-s_cbuAlt,HUD when below submunition deploy altitude of cluster bomb,BELOW CBU ALT,확산탄 투하 고도 미만
+s_cbuAlt,HUD when below submunition deploy altitude of cluster bomb,BELOW CBU ALT,BELOW CBU ALT
 M230 Chain Gun_fullName,Full equip name of: M230 Chain Gun,M230 Chain Gun,M230 체인 건
 M230 Chain Gun_description,Item description of: M230 Chain Gun,A single-barrel 30mm automatic cannon mounted on a gimbal. The gimbal will be locked forward above a certain airspeed.,짐벌에 장착된 단총열 30mm 자동 기관포입니다. 일정 속도 이상에서는 짐벌이 전방으로 고정됩니다.
 eqSublabel_CANNON-GIMBAL,HUD sub-label of an equip,CANNON GIMBAL,기관포 짐벌
@@ -159,12 +158,11 @@ AIRS-T Advanced SRM x3_fullName,Full equip name of: AIRS-T Advanced SRM x3,AIRS-
 AIRS-T Advanced SRM x3_description,Item description of: AIRS-T Advanced SRM x3,"Short range heat seeking air to air missile with thrust vectoring.
 Improved maneuverability, range, and counter-countermeasure system.
 Advanced technology allows it to intercept incoming missiles.","추력 편향 기술을 갖춘 단거리 열추적 공대공 미사일입니다.
-기동성, 사거리, 기만체 대응 능력이 향상되었습니다.
+기동성, 사거리, 기만 장비 대응 능력이 향상되었습니다.
 날아오는 미사일을 요격할 수도 있습니다."
 AGM-145 Ballista x4_fullName,Full equip name of: AGM-145 Ballista x4,AGM-145 Ballista x4,AGM-145 발리스타 x4
-AGM-145 Ballista x4_description,Item description of: AGM-145 Ballista x4,"Small anti-tank missiles with advanced optics, ""fire and forget"", and smart self-targeting technology. Can be fired without line of sight to the designated target point, and will acquire hostile targets automatically.","고성능 광학 장비와 ""발사 후 망각"", 스마트 자동 조준 기술을 갖춘 소형 대전차 미사일입니다. 지정한 목표 지점이 보이지 않아도 발사할 수 있으며, 적 목표를 자동으로 포착합니다."
-eqSublabel_OPTICAL-FAF,HUD sub-label of an equip,OPTICAL FAF,"광학식
-발사 후 망각"
+AGM-145 Ballista x4_description,Item description of: AGM-145 Ballista x4,"Small anti-tank missiles with advanced optics, ""fire and forget"", and smart self-targeting technology. Can be fired without line of sight to the designated target point, and will acquire hostile targets automatically.","고성능 광학 장비와 발사 후 알아서 유도되는 '발사 후 망각' 기능, 스마트 자동 조준 기술을 갖춘 소형 대전차 미사일입니다. 지정한 목표 지점이 보이지 않아도 발사할 수 있으며, 적 목표를 자동으로 포착합니다."
+eqSublabel_OPTICAL-FAF,HUD sub-label of an equip,OPTICAL FAF,OPTICAL FAF
 tutName_Hover Tutorial,Name of a legacy tutorial objective,Hover Tutorial,호버링 튜토리얼
 tutDesc_Hover Tutorial,Description of a legacy tutorial,Learn to hover.,호버링하는 법을 배웁니다.
 tut:Hover Tutorial:Intro10,A tutorial label,Welcome to the hover tutorial.,호버링 튜토리얼에 오신 것을 환영합니다.
@@ -205,7 +203,7 @@ GBU-38 Bomb x2_fullName,Full equip name of: GBU-38 Bomb x2,GBU-38 Bomb x2,GBU-38
 GBU-38 Bomb x2_description,Item description of: GBU-38 Bomb x2,500lb GPS guided direct attack munition. It's a Mk.82 bomb with a guidance package strapped on.,500파운드 GPS 유도 직격 폭탄입니다. Mk.82 폭탄에 유도 장치를 부착한 것입니다.
 AIM-9 Sidewinder x2_fullName,Full equip name of: AIM-9 Sidewinder x2,AIM-9 Sidewinder x2,AIM-9 사이드와인더 x2
 AIM-9 Sidewinder x2_description,Item description of: AIM-9 Sidewinder x2,A rack of two standard heat-seeking Sidewinder anti-air missiles.,표준형 열추적 사이드와인더 대공 미사일 2발 랙입니다.
-eqSublabel_IR-AAM,HUD sub-label of an equip,IR AAM,적외선 공대공
+eqSublabel_IR-AAM,HUD sub-label of an equip,IR AAM,IR AAM
 GBU-38 Bomb x1_fullName,Full equip name of: GBU-38 Bomb x1,GBU-38 Bomb x1,GBU-38 폭탄 x1
 GBU-38 Bomb x1_description,Item description of: GBU-38 Bomb x1,500lb GPS guided direct attack munition. It's a Mk.82 bomb with a guidance package strapped on.,500파운드 GPS 유도 직격 폭탄입니다. Mk.82 폭탄에 유도 장치를 부착한 것입니다.
 menu_back,"General ""back"" button for menus.",Back,뒤로가기
@@ -225,7 +223,7 @@ s_cms_rate_single,CMS release rate - single fire mode,Single,단발
 s_cms_rMode_0,CMS release mode,Single Auto,단발 자동
 s_cms_rMode_1,CMS release mode,Single L,단발 좌측
 s_cms_rMode_2,CMS release mode,Single R,단발 우측
-s_cms_rMode_3,CMS release mode,Double,좌우 동시
+s_cms_rMode_3,CMS release mode,Double,동시
 tutName_Getting Started,Name of a legacy tutorial objective,Getting Started,시작하기
 tutDesc_Getting Started,Description of a legacy tutorial,Complete the intro tutorial.,인트로 튜토리얼을 완료하세요.
 tut:Getting Started:Intro10,A tutorial label,Welcome to the AV-42C,AV-42C에 탑승하신 것을 환영합니다.
@@ -254,7 +252,7 @@ s_endMission_dumpedLog,Label for end-mission entry when flight log is saved to d
 vpdt_ContinueFlightText,[xxx] tags will be replaced by platform specific controls. Keep them.,"Continue Flight
 (Press [menu] to return to this screen)","비행 계속하기
 (이 화면으로 돌아오려면 [menu]를 누르십시오)"
-hud_noArm,A short HUD label when no weapons are armed.,NO ARM,무장 해제
+hud_noArm,A short HUD label when no weapons are armed.,NO ARM,NO ARM
 s_newObj,Objective popup message in HUD,NEW OBJECTIVE,새로운 목표
 s_objComplete,Objective popup message in HUD,OBJECTIVE COMPLETE,목표 완료
 s_objFailed,Objective popup message in HUD,OBJECTIVE FAILED,목표 실패
@@ -307,7 +305,7 @@ MFDOption:Spread Med,Label of an MFD option,Spread Med,기본 대형
 MFDOption:Spread Far,Label of an MFD option,Spread Far,산개 대형
 MFDOption:Go Refuel,Label of an MFD option,Go Refuel,연료 재보급
 MFDOption:RTB,Label of an MFD option,RTB,기지로 귀환
-MFDOption:RTB & Re-arm,Label of an MFD option,RTB & Re-arm,기지로 귀환 & 재무장
+MFDOption:RTB & Re-arm,Label of an MFD option,RTB & Re-arm,기지 귀환 & 재무장
 MFDOptionPage:Wingmen / Equipment,Title of an MFD option page,Wingmen / Equipment,윙맨 / 장비
 MFDOption:Radar On,Label of an MFD option,Radar On,레이더 켜기
 MFDOption:Radar Off,Label of an MFD option,Radar Off,레이더 끄기
@@ -326,8 +324,8 @@ MFDOption:Vert Landing,Label of an MFD option,Vert Landing,수직 착륙
 MFDOption:Last Contact,Label of an MFD option,Last Contact,최종 교신 대상
 MFDOptionPage:Contact Tower,Title of an MFD option page,Contact Tower,관제탑 교신
 MFDOptionPage:AWACS,Title of an MFD option page,AWACS,AWACS
-MFDOption:Bogey Dope,Label of an MFD option,Bogey Dope,근접 목표물 정보 요청
-MFDOption:Picture,Label of an MFD option,Picture,모든 목표물 정보 요청
+MFDOption:Bogey Dope,Label of an MFD option,Bogey Dope,근접 적기 정보
+MFDOption:Picture,Label of an MFD option,Picture,상황 보고
 MFDOption:Request RTB Vector,Label of an MFD option,Request RTB Vector,기지 귀환 경로 요청
 MFDOptionPage:Comms,Title of an MFD option page,Comms,통신
 MFDOption:Wingmen,Label of an MFD option,Wingmen,윙맨
@@ -337,7 +335,7 @@ MFDOption:AWACS,Label of an MFD option,AWACS,AWACS
 next,,Next,다음
 prev,,Prev,이전
 ripple_single,Label when a rapid-fire weapon is set to only fire one shot at a time.,SINGLE,단발
-wmui_ripple,Option title for selecting a rocket/missile's ripple (rapid fire) rate.,RIPPLE,연속 발사
+wmui_ripple,Option title for selecting a rocket/missile's ripple (rapid fire) rate.,RIPPLE,RIPPLE
 wmui_rippleTooltip,Tooltip for button to cycle a weapon's ripple (rapid fire) rate.,Cycle Ripple Rates,연속 발사 속도 변경
 s_masterArmed,Master armed label in EQUIP MFD page,MASTER ARMED,마스터 암 켜짐
 s_masterDisarmed,Master disarmed label in EQUIP MFD page,MASTER DISARMED,마스터 암 꺼짐
@@ -350,7 +348,7 @@ s_eqMode_2,Equip MFD page mode label,JETTISON,버리기
 AV-42C_mfd_cam:B3,Label for an MFD button (short!).,PREV,이전
 AV-42C_mfd_cam:B5,Label for an MFD button (short!).,NEXT,다음
 dashMissionDisplay_noMissions,Label in the mission objectives display when the current mission has no objectives.,No objectives.,임무 목표 없음.
-AV-42C_mfd_mission:B1,Label for an MFD button (short!).,WPT,경유지
+AV-42C_mfd_mission:B1,Label for an MFD button (short!).,WPT,WPT
 AV-42C_mfd_mission:B1_tooltip,Tooltip for an MFD button.,Set Waypoint,경유지 지정
 AV-42C_mfd_mission:B3,Label for an MFD button (short!).,NEXT,다음
 AV-42C_mfd_mission:B3_tooltip,Tooltip for an MFD button.,Next Objective,다음 임무 목표
@@ -360,7 +358,7 @@ AV-42C_mfd_home:B1,Label for an MFD button (short!).,NAV,지도
 AV-42C_mfd_home:B1_tooltip,Tooltip for an MFD button.,Navigation,항법 지도
 AV-42C_mfd_home:B2,Label for an MFD button (short!).,OBJ,목표
 AV-42C_mfd_home:B2_tooltip,Tooltip for an MFD button.,Objectives,임무 목표
-AV-42C_mfd_home:B3,Label for an MFD button (short!).,CAM,카메라
+AV-42C_mfd_home:B3,Label for an MFD button (short!).,CAM,CAM
 AV-42C_mfd_home:B3_tooltip,Tooltip for an MFD button.,External Cameras,외부 카메라
 AV-42C_mfd_home:B4,Label for an MFD button (short!).,TGP,TGP
 AV-42C_mfd_home:B4_tooltip,Tooltip for an MFD button.,Targeting,조준 포드
@@ -378,10 +376,10 @@ AV-42C_mfd_home:L3,Label for an MFD button (short!).,OPTION,옵션
 AV-42C_mfd_home:L3_tooltip,Tooltip for an MFD button.,Options,옵션
 AV-42C_mfd_home:L4,Label for an MFD button (short!).,COMMS,통신
 AV-42C_mfd_home:L4_tooltip,Tooltip for an MFD button.,Communications,통신
-AV-42C_mfd_home:T5,Label for an MFD button (short!).,ARAD,대레이더
+AV-42C_mfd_home:T5,Label for an MFD button (short!).,ARAD,ARAD
 AV-42C_mfd_home:T5_tooltip,Tooltip for an MFD button.,Antiradar Attack Display,대레이더 공격 디스플레이
 AV-42C_mfd_home:L5,Label for an MFD button (short!).,CMS,CMS
-AV-42C_mfd_home:L5_tooltip,Tooltip for an MFD button.,Countermeasure System,기만체 시스템
+AV-42C_mfd_home:L5_tooltip,Tooltip for an MFD button.,Countermeasure System,기만 장비 시스템
 AV-42C_mfd_flightLog:R2_tooltip,Tooltip for an MFD button.,Scroll Up,위로 스크롤
 AV-42C_mfd_flightLog:R4_tooltip,Tooltip for an MFD button.,Scroll Down,아래로 스크롤
 AV-42C_mfd_flightLog:R5_tooltip,Tooltip for an MFD button.,Scroll Bottom,맨 아래로 스크롤
@@ -394,7 +392,7 @@ AV-42C_mfd_flyCam:B1,Label for an MFD button (short!).,VIEW,보기
 AV-42C_mfd_flyCam:B1_tooltip,Tooltip for an MFD button.,Toggle Preview,미리보기 전환
 AV-42C_mfd_flyCam:R1,Label for an MFD button (short!).,RANDM,랜덤
 AV-42C_mfd_flyCam:R1_tooltip,Tooltip for an MFD button.,Toggle Random,랜덤 전환
-AV-42C_mfd_flyCam:L3,Label for an MFD button (short!).,FOV:,시야각:
+AV-42C_mfd_flyCam:L3,Label for an MFD button (short!).,FOV:,FOV:
 AV-42C_mfd_flyCam:L3_tooltip,Tooltip for an MFD button.,Toggle FOV,시야각 전환
 AV-42C_mfd_flyCam:L4,Label for an MFD button (short!)., ,
 AV-42C_mfd_flyCam:L4_tooltip,Tooltip for an MFD button.,Toggle AutoFOV,자동 시야각 전환
@@ -423,7 +421,7 @@ NONE,,NONE,없음
 AV-42C_mfd_hardpointInfoPage:R1_tooltip,Tooltip for an MFD button.,Return to Equip,장비 장착으로 돌아가기
 AV-42C_mfd_hardpointInfoPage:B2_tooltip,Tooltip for an MFD button.,Toggle Arming,무장 설정 전환
 AV-42C_mfd_hardpointInfoPage:B5_tooltip,Tooltip for an MFD button.,Toggle Jettison,버리기 설정 전환
-AV-42C_mfd_antiRad:T5,Label for an MFD button (short!).,SOI,활성화
+AV-42C_mfd_antiRad:T5,Label for an MFD button (short!).,SOI,SOI
 AV-42C_mfd_antiRad:T5_tooltip,Tooltip for an MFD button.,Sensor of Interest,센서 활성화
 AV-42C_mfd_antiRad:R4,Label for an MFD button (short!).,HUD,HUD
 AV-42C_mfd_antiRad:R4_tooltip,Tooltip for an MFD button.,HUD Mode,HUD 모드
@@ -445,7 +443,7 @@ AV-42C_mfd_map:R1,Label for an MFD button (short!).,RESET,초기화
 AV-42C_mfd_map:R1_tooltip,Tooltip for an MFD button.,Reset Offset,오프셋 초기화
 AV-42C_mfd_map:T4,Label for an MFD button (short!).,MODE,회전
 AV-42C_mfd_map:T4_tooltip,Tooltip for an MFD button.,Toggle Rotation Mode,회전 모드 전환
-AV-42C_mfd_map:T5,Label for an MFD button (short!).,SOI,활성화
+AV-42C_mfd_map:T5,Label for an MFD button (short!).,SOI,SOI
 AV-42C_mfd_map:T5_tooltip,Tooltip for an MFD button.,Toggle Sensor of Interest,센서 활성화 전환
 AV-42C_mfd_map:L4,Label for an MFD button (short!).,FUEL,연료
 AV-42C_mfd_map:L4_tooltip,Tooltip for an MFD button.,Set Fuel Waypoint,연료 경유지 설정
@@ -471,7 +469,7 @@ AV-42C_mfd_fuelConfig:T5_tooltip,Tooltip for an MFD button.,Back,뒤로가기
 AV-42C_mfd_fuelConfig:L4_tooltip,Tooltip for an MFD button.,Bingo Fuel +,귀환 한계 연료 +
 AV-42C_mfd_fuelConfig:L5_tooltip,Tooltip for an MFD button.,Bingo Fuel -,귀환 한계 연료 -
 altWarn_mode_radar,Radar altimeter mode for altitude warning settings.,RADAR,레이더
-altWarn_mode_asl,Sea level/barometric altimeter mode for altitude warning settings.,ASL,해수면
+altWarn_mode_asl,Sea level/barometric altimeter mode for altitude warning settings.,ASL,ASL
 AV-42C_mfd_altitudeSettings:T5_tooltip,Tooltip for an MFD button.,Back,뒤로가기
 AV-42C_mfd_altitudeSettings:L3_tooltip,Tooltip for an MFD button.,Set Min Alt,최소 고도 +
 AV-42C_mfd_altitudeSettings:L4_tooltip,Tooltip for an MFD button.,Min Alt -,최소 고도 -
@@ -480,7 +478,7 @@ AV-42C_mfd_altitudeSettings:R4_tooltip,Tooltip for an MFD button.,Max Alt -,최�
 AV-42C_mfd_altitudeSettings:L2_tooltip,Tooltip for an MFD button.,Toggle Alt Mode,고도계 모드 전환
 AV-42C_mfd_gpsTgts:T2,Label for an MFD button (short!).,MAP,지도
 AV-42C_mfd_gpsTgts:T2_tooltip,Tooltip for an MFD button.,Nav Map,항법 지도
-AV-42C_mfd_gpsTgts:T3,Label for an MFD button (short!).,WPT,경유지
+AV-42C_mfd_gpsTgts:T3,Label for an MFD button (short!).,WPT,WPT
 AV-42C_mfd_gpsTgts:T3_tooltip,Tooltip for an MFD button.,Set Waypoints,경유지 지정
 AV-42C_mfd_gpsTgts:L2_tooltip,Tooltip for an MFD button.,Previous Group,이전 그룹
 AV-42C_mfd_gpsTgts:L3_tooltip,Tooltip for an MFD button.,Next Group,다음 그룹
@@ -513,9 +511,9 @@ AV-42C_mfd_target:L2,Label for an MFD button (short!).,MODE,모드
 AV-42C_mfd_target:L2_tooltip,Tooltip for an MFD button.,Cycle Modes,모드 순환
 AV-42C_mfd_target:L3,Label for an MFD button (short!).,SENS,센서
 AV-42C_mfd_target:L3_tooltip,Tooltip for an MFD button.,Sensor Mode,센서 모드
-AV-42C_mfd_target:T3,Label for an MFD button (short!).,WPT,경유지
+AV-42C_mfd_target:T3,Label for an MFD button (short!).,WPT,WPT
 AV-42C_mfd_target:T3_tooltip,Tooltip for an MFD button.,To Waypoint,경유지로
-AV-42C_mfd_target:T5,Label for an MFD button (short!).,SOI,활성화
+AV-42C_mfd_target:T5,Label for an MFD button (short!).,SOI,SOI
 AV-42C_mfd_target:T5_tooltip,Tooltip for an MFD button.,Toggle Sensor of Interest,센서 활성화 전환
 AV-42C_mfd_target:B4_tooltip,Tooltip for an MFD button.,Toggle HMD View,HMD 시야 전환
 AV-42C_mfd_target:L4,Label for an MFD button (short!).,LIM,경계
@@ -526,7 +524,7 @@ s_hmd,TGP page label,HMD,HMD
 s_tgp_noLock,TGP page error,NO LOCK,록온 없음
 s_tgp_noGpsGroup,TGP page error,NO GPS GROUP,GPS 그룹 없음
 s_tgp_noTarget,TGP page error,NO TARGET,목표 없음
-s_tgp_notSOI,TGP page error,NOT SOI,센서 활성화 안 됨
+s_tgp_notSOI,TGP page error,NOT SOI,NOT SOI
 s_tgpMode_0,TGP mode label,TGT,TGT
 s_tgpMode_1,TGP mode label,PIP,PIP
 s_tgpMode_2,TGP mode label,HEAD,시야
@@ -540,7 +538,7 @@ AV-42C_mfd_gameMenu:B4,Label for an MFD button (short!).,EXIT,나가기
 AV-42C_mfd_gameMenu:B4_tooltip,Tooltip for an MFD button.,Return to Briefing Room,브리핑실로 돌아가기
 AV-42C_mfd_gameMenu:R2,Label for an MFD button (short!).,CENTER,재정렬
 AV-42C_mfd_gameMenu:R2_tooltip,Tooltip for an MFD button.,Recenter Seat Position,좌석 위치 재정렬
-AV-42C_mfd_gameMenu:L3,Label for an MFD button (short!).,QSAVE,빠른 저장
+AV-42C_mfd_gameMenu:L3,Label for an MFD button (short!).,QSAVE,QSAVE
 AV-42C_mfd_gameMenu:L3_tooltip,Tooltip for an MFD button.,Quick Save Menu,빠른 저장 메뉴
 AV-42C_mfd_gameMenu:R4,Label for an MFD button (short!).,PLAYERS,유저
 AV-42C_mfd_gameMenu:R4_tooltip,Tooltip for an MFD button.,View Players,유저 보기
@@ -550,23 +548,23 @@ vpdt_MFDRecenterText,[xxx] tags will be replaced by platform specific controls. 
 and press
 [menu]
 to recenter","편안한 자세로 앉아
-[menu]
-를 눌러
-좌석 위치를 재정렬하십시오"
+[menu]를 눌러
+좌석 위치를
+재정렬하십시오"
 AV-42C_mfd_quicksave:L3_tooltip,Tooltip for an MFD button.,Save,저장
 AV-42C_mfd_quicksave:B4_tooltip,Tooltip for an MFD button.,Load,불러오기
-AV-42C_mfd_quicksave:T5,Label for an MFD button (short!).,BACK,뒤로가기
+AV-42C_mfd_quicksave:T5,Label for an MFD button (short!).,BACK,BACK
 AV-42C_mfd_quicksave:T5_tooltip,Tooltip for an MFD button.,Back,뒤로가기
-AV-42C_mfd_mpPlayers:B1,Label for an MFD button (short!).,BACK,뒤로가기
+AV-42C_mfd_mpPlayers:B1,Label for an MFD button (short!).,BACK,BACK
 AV-42C_mfd_mpPlayers:B1_tooltip,Tooltip for an MFD button.,Back,뒤로가기
 AV-42C_mfd_mpPlayers:T5,Label for an MFD button (short!).,MANAGE,관리
 AV-42C_mfd_mpPlayers:T5_tooltip,Tooltip for an MFD button.,Manage Players,유저 관리
 AV-42C_mfd_mpPlayers:R4_tooltip,Tooltip for an MFD button.,Scroll Up,위로 스크롤
 AV-42C_mfd_mpPlayers:R5_tooltip,Tooltip for an MFD button.,Scroll Down,아래로 스크롤
 mpPlayers_teamA,Team A title in players MFD page,Team a,팀 A
-mpPlayers_KAD,Kills Assists Deaths column headers in MP players MFD page,K         a        d,사살         도움        죽음
+mpPlayers_KAD,Kills Assists Deaths column headers in MP players MFD page,K         a        d,K         a        d
 mpPlayers_teamB,Team B title in players MFD page,Team b,팀 B
-AV-42C_mfd_netAnalytics:B1,Label for an MFD button (short!).,BACK,뒤로가기
+AV-42C_mfd_netAnalytics:B1,Label for an MFD button (short!).,BACK,BACK
 AV-42C_mfd_netAnalytics:B1_tooltip,Tooltip for an MFD button.,Back,뒤로가기
 rwrMode_0,RWR mode,On,켜기
 rwrMode_1,RWR mode,Silent,침묵
@@ -595,12 +593,12 @@ SB-1 Bomb x3_description,Item description of: SB-1 Bomb x3,Standard un-guided 50
 2200L Fuel Drop Tank_fullName,Full equip name of: 2200L Fuel Drop Tank,2200L Fuel Drop Tank,2200L 외부 연료 탱크
 2200L Fuel Drop Tank_description,Item description of: 2200L Fuel Drop Tank,A 2200 liter fuel tank.,2200L 연료 탱크입니다.
 MAD-4 Missile_fullName,Full equip name of: MAD-4 Missile,MAD-4 Missile,MAD-4 미사일
-MAD-4 Missile_description,Item description of: MAD-4 Missile,Standard semi-active radar-guided missile built for the Mobile Air Defense launcher. It has a range of about 55km (30nm).,이동식 방공 발사대용으로 제작된 표준형 반능동 레이더 유도 미사일입니다. 사거리는 약 55km(30해리)입니다.
+MAD-4 Missile_description,Item description of: MAD-4 Missile,Standard semi-active radar-guided missile built for the Mobile Air Defense launcher. It has a range of about 55km (30nm).,이동식 방공 발사대용으로 제작된 표준형 반능동 레이더 유도 미사일입니다(발사대 레이더가 목표를 계속 비춰 주어야 유도되는 방식). 사거리는 약 55km(30해리)입니다.
 PGM-27 x7_fullName,Full equip name of: PGM-27 x7,PGM-27 x7,PGM-27 x7
 PGM-27 x7_description,Item description of: PGM-27 x7,"A rack of 2.75 inch rockets which have been fitted with a laser guidance package, turning them into precision guided munitions.
 Requires continuous lock for guidance (not fire-and-forget).","레이저 유도 장치를 장착해 정밀 유도 무기로 개조한 2.75인치 로켓 랙입니다.
-유도를 위해 계속 록온을 유지해야 합니다(발사 후 망각이 아님)."
-eqSublabel_LG,HUD sub-label of an equip,LG,레이저 유도
+명중할 때까지 계속 조준을 유지해야 합니다(발사 후 알아서 유도되는 방식이 아님)."
+eqSublabel_LG,HUD sub-label of an equip,LG,LG
 loadoutConfig_cannon,Cannon hardpoint label,Cannon,기관포
 vehicleConfig_reloadAll,,Reload all,전체 재무장
 vehicleConfig_endMission,,End mission,임무 종료
@@ -616,7 +614,7 @@ AH-94_mfd_home:B1,Label for an MFD button (short!).,NAV,지도
 AH-94_mfd_home:B1_tooltip,Tooltip for an MFD button.,Navigation,항법 지도
 AH-94_mfd_home:B2,Label for an MFD button (short!).,OBJ,목표
 AH-94_mfd_home:B2_tooltip,Tooltip for an MFD button.,Objectives,임무 목표
-AH-94_mfd_home:B3,Label for an MFD button (short!).,CAM,카메라
+AH-94_mfd_home:B3,Label for an MFD button (short!).,CAM,CAM
 AH-94_mfd_home:B3_tooltip,Tooltip for an MFD button.,External Cameras,외부 카메라
 AH-94_mfd_home:B4,Label for an MFD button (short!).,TADS,TADS
 AH-94_mfd_home:B4_tooltip,Tooltip for an MFD button.,Targeting,조준 장비(TADS)
@@ -639,12 +637,12 @@ AH-94_mfd_home:T4_tooltip,Tooltip for an MFD button.,Radar,레이더
 AH-94_mfd_home:R4,Label for an MFD button (short!).,DATA,데이터
 AH-94_mfd_home:R4_tooltip,Tooltip for an MFD button.,Flight Data,비행 데이터
 AH-94_mfd_home:L5,Label for an MFD button (short!).,CMS,CMS
-AH-94_mfd_home:L5_tooltip,Tooltip for an MFD button.,Countermeasure System,기만체 시스템
+AH-94_mfd_home:L5_tooltip,Tooltip for an MFD button.,Countermeasure System,기만 장비 시스템
 AH-94_mfd_flightLog:R2_tooltip,Tooltip for an MFD button.,Scroll Up,위로 스크롤
 AH-94_mfd_flightLog:R4_tooltip,Tooltip for an MFD button.,Scroll Down,아래로 스크롤
 AH-94_mfd_flightLog:R5_tooltip,Tooltip for an MFD button.,Scroll Bottom,맨 아래로 스크롤
 AH-94_mfd_flightLog:B3_tooltip,Tooltip for an MFD button.,Dump log to file.,비행 기록 파일로 저장
-AH-94_mfd_mission:B1,Label for an MFD button (short!).,WPT,경유지
+AH-94_mfd_mission:B1,Label for an MFD button (short!).,WPT,WPT
 AH-94_mfd_mission:B1_tooltip,Tooltip for an MFD button.,Set Waypoint,경유지 설정
 AH-94_mfd_mission:B3,Label for an MFD button (short!).,NEXT,다음
 AH-94_mfd_mission:B3_tooltip,Tooltip for an MFD button.,Next Objective,다음 목표
@@ -652,7 +650,7 @@ AH-94_mfd_mission:B5,Label for an MFD button (short!).,PREV,이전
 AH-94_mfd_mission:B5_tooltip,Tooltip for an MFD button.,Previous Objective,이전 목표
 AH-94_mfd_gpsTgts:T2,Label for an MFD button (short!).,MAP,지도
 AH-94_mfd_gpsTgts:T2_tooltip,Tooltip for an MFD button.,Nav Map,항법 지도
-AH-94_mfd_gpsTgts:T3,Label for an MFD button (short!).,WPT,경유지
+AH-94_mfd_gpsTgts:T3,Label for an MFD button (short!).,WPT,WPT
 AH-94_mfd_gpsTgts:T3_tooltip,Tooltip for an MFD button.,Set Waypoints,경유지 설정
 AH-94_mfd_gpsTgts:L2_tooltip,Tooltip for an MFD button.,Previous Group,이전 그룹
 AH-94_mfd_gpsTgts:L3_tooltip,Tooltip for an MFD button.,Next Group,다음 그룹
@@ -674,7 +672,7 @@ AH-94_mfd_flyCam:B1,Label for an MFD button (short!).,VIEW,보기
 AH-94_mfd_flyCam:B1_tooltip,Tooltip for an MFD button.,Toggle Preview,미리보기 전환
 AH-94_mfd_flyCam:R1,Label for an MFD button (short!).,RANDM,랜덤
 AH-94_mfd_flyCam:R1_tooltip,Tooltip for an MFD button.,Toggle Random,랜덤 전환
-AH-94_mfd_flyCam:L3,Label for an MFD button (short!).,FOV:,시야각:
+AH-94_mfd_flyCam:L3,Label for an MFD button (short!).,FOV:,FOV:
 AH-94_mfd_flyCam:L3_tooltip,Tooltip for an MFD button.,Toggle FOV,시야각 전환
 AH-94_mfd_flyCam:L4,Label for an MFD button (short!)., ,
 AH-94_mfd_flyCam:L4_tooltip,Tooltip for an MFD button.,Toggle AutoFOV,자동 시야각 전환
@@ -690,7 +688,7 @@ AH-94_mfd_flyCam:B5,Label for an MFD button (short!)., ,
 AH-94_mfd_flyCam:B5_tooltip,Tooltip for an MFD button.,Cycle Reset Time,리셋 시간 순환
 AH-94_mfd_flyCam:T3,Label for an MFD button (short!).,SS,캡처
 AH-94_mfd_flyCam:T3_tooltip,Tooltip for an MFD button.,4K Screenshot,4K 스크린샷
-AH-94_mfd_antiRad:T5,Label for an MFD button (short!).,SOI,활성화
+AH-94_mfd_antiRad:T5,Label for an MFD button (short!).,SOI,SOI
 AH-94_mfd_antiRad:T5_tooltip,Tooltip for an MFD button.,Sensor of Interest,센서 활성화
 AH-94_mfd_antiRad:R4,Label for an MFD button (short!).,HUD,HUD
 AH-94_mfd_antiRad:R4_tooltip,Tooltip for an MFD button.,HUD Mode,HUD 모드
@@ -703,7 +701,7 @@ AH-94_mfd_gameMenu:B3,Label for an MFD button (short!).,EXIT,나가기
 AH-94_mfd_gameMenu:B3_tooltip,Tooltip for an MFD button.,Return to Briefing Room,브리핑실로 돌아가기
 AH-94_mfd_gameMenu:R2,Label for an MFD button (short!).,CENTER,재정렬
 AH-94_mfd_gameMenu:R2_tooltip,Tooltip for an MFD button.,Recenter Seat,좌석 위치 재정렬
-AH-94_mfd_gameMenu:L3,Label for an MFD button (short!).,QSAVE,빠른 저장
+AH-94_mfd_gameMenu:L3,Label for an MFD button (short!).,QSAVE,QSAVE
 AH-94_mfd_gameMenu:L3_tooltip,Tooltip for an MFD button.,Quick Save Menu,빠른 저장 메뉴
 AH-94_mfd_gameMenu:R4,Label for an MFD button (short!).,PLAYERS,플레이어
 AH-94_mfd_gameMenu:R4_tooltip,Tooltip for an MFD button.,View Players,플레이어 보기
@@ -757,9 +755,9 @@ AH-94_mfd_target:L2,Label for an MFD button (short!).,MODE,모드
 AH-94_mfd_target:L2_tooltip,Tooltip for an MFD button.,Cycle Modes,모드 순환
 AH-94_mfd_target:L3,Label for an MFD button (short!).,SENS,센서
 AH-94_mfd_target:L3_tooltip,Tooltip for an MFD button.,Sensor Mode,센서 모드
-AH-94_mfd_target:T3,Label for an MFD button (short!).,WPT,경유지
+AH-94_mfd_target:T3,Label for an MFD button (short!).,WPT,WPT
 AH-94_mfd_target:T3_tooltip,Tooltip for an MFD button.,To Waypoint,경유지로 조준
-AH-94_mfd_target:T4,Label for an MFD button (short!).,SOI,활성화
+AH-94_mfd_target:T4,Label for an MFD button (short!).,SOI,SOI
 AH-94_mfd_target:T4_tooltip,Tooltip for an MFD button.,Toggle Sensor of Interest,센서 활성화
 AH-94_mfd_target:B4,Label for an MFD button (short!).,HMD,HMD
 AH-94_mfd_target:B4_tooltip,Tooltip for an MFD button.,Toggle HMD View,HMD 표시 전환
@@ -779,7 +777,7 @@ AH-94_mfd_map:R1,Label for an MFD button (short!).,RESET,리셋
 AH-94_mfd_map:R1_tooltip,Tooltip for an MFD button.,Reset Offset,오프셋 리셋
 AH-94_mfd_map:T3,Label for an MFD button (short!).,MODE,모드
 AH-94_mfd_map:T3_tooltip,Tooltip for an MFD button.,Toggle Rotation Mode,회전 모드 전환
-AH-94_mfd_map:T4,Label for an MFD button (short!).,SOI,활성화
+AH-94_mfd_map:T4,Label for an MFD button (short!).,SOI,SOI
 AH-94_mfd_map:T4_tooltip,Tooltip for an MFD button.,Toggle Sensor of Interest,센서 활성화
 AH-94_mfd_map:L4,Label for an MFD button (short!).,FUEL,연료
 AH-94_mfd_map:L4_tooltip,Tooltip for an MFD button.,Set Fuel Waypoint,연료 경유지 설정
@@ -793,15 +791,15 @@ AH-94_mfd_map:B2,Label for an MFD button (short!).,ALT+,고도+
 AH-94_mfd_map:B2_tooltip,Tooltip for an MFD button.,Raise Target Alt,목표 고도 상승
 AH-94_mfd_map:B3,Label for an MFD button (short!).,GPS-S,GPS-S
 AH-94_mfd_map:B3_tooltip,Tooltip for an MFD button.,Send GPS Target,GPS 표적 전송
-AH-94_mfd_radar:R1,Label for an MFD button (short!).,R+,거리+
+AH-94_mfd_radar:R1,Label for an MFD button (short!).,R+,R+
 AH-94_mfd_radar:R1_tooltip,Tooltip for an MFD button.,Range +,거리+
-AH-94_mfd_radar:R2,Label for an MFD button (short!).,R-,거리-
+AH-94_mfd_radar:R2,Label for an MFD button (short!).,R-,R-
 AH-94_mfd_radar:R2_tooltip,Tooltip for an MFD button.,Range -,거리-
 AH-94_mfd_radar:B1,Label for an MFD button (short!).,PWR,전원
 AH-94_mfd_radar:B1_tooltip,Tooltip for an MFD button.,Radar Power,레이더 전원
-AH-94_mfd_radar:B2,Label for an MFD button (short!).,UNLCK,고정 해제
+AH-94_mfd_radar:B2,Label for an MFD button (short!).,UNLCK,UNLCK
 AH-94_mfd_radar:B2_tooltip,Tooltip for an MFD button.,Unlock,고정 해제
-AH-94_mfd_radar:T4,Label for an MFD button (short!).,SOI,활성화
+AH-94_mfd_radar:T4,Label for an MFD button (short!).,SOI,SOI
 AH-94_mfd_radar:T4_tooltip,Tooltip for an MFD button.,Sensor of Interest,센서 활성화
 AH-94_mfd_radar:B4,Label for an MFD button (short!).,SLAVE,연동
 AH-94_mfd_radar:B4_tooltip,Tooltip for an MFD button.,Slave TADS,TADS 연동
@@ -884,7 +882,7 @@ tut:Vertical Flight:Congrats36,A tutorial label,Congratulations!  Next time: Man
 PGM-27 x19_fullName,Full equip name of: PGM-27 x19,PGM-27 x19,PGM-27 x19
 PGM-27 x19_description,Item description of: PGM-27 x19,"A rack of 2.75 inch rockets which have been fitted with a laser guidance package, turning them into precision guided munitions.
 Requires continuous lock for guidance (not fire-and-forget).","레이저 유도 장치를 장착해 정밀 유도 무기로 개조된 2.75인치 로켓 랙입니다.
-유도를 위해 명중할 때까지 조준을 유지해야 합니다(발사 후 망각 방식이 아님)."
+명중할 때까지 계속 조준을 유지해야 합니다(발사 후 알아서 유도되는 방식이 아님)."
 EUCAV GUN_fullName,Full equip name of: EUCAV GUN,EUCAV GUN,EUCAV GUN
 EUCAV GUN_description,Item description of: EUCAV GUN,EUCAV GUN,EUCAV GUN
 eqSublabel_GPS-BOMB-INTERNAL,HUD sub-label of an equip,GPS BOMB INTERNAL,내장 GPS 폭탄
@@ -895,38 +893,38 @@ ASF-SRM-RA x2_description,Item description of: ASF-SRM-RA x2,A rack of two older
 AGM-114 x4_fullName,Full equip name of: AGM-114 x4,AGM-114 x4,AGM-114 x4
 AGM-114 x4_description,Item description of: AGM-114 x4,"A rack of 4 laser guided anti-tank missiles.
 Requires continuous lock for guidance (not fire-and-forget).","레이저 유도 대전차 미사일 4발입니다.
-유도를 위해 명중할 때까지 조준을 유지해야 합니다(발사 후 망각 방식이 아님)."
+명중할 때까지 계속 조준을 유지해야 합니다(발사 후 알아서 유도되는 방식이 아님)."
 Mk-82AIR High Drag Bomb x2_fullName,Full equip name of: Mk-82AIR High Drag Bomb x2,Mk-82AIR High Drag Bomb x2,Mk-82AIR 고저항 폭탄 x2
 Mk-82AIR High Drag Bomb x2_description,Item description of: Mk-82AIR High Drag Bomb x2,Standard un-guided 500lb bombs. Deploys an inflatable drag chute to slow descent for low altitude bombing.,표준형 무유도 500파운드 폭탄입니다. 저고도 폭격 시 낙하 속도를 늦추는 팽창식 감속 낙하산을 전개합니다.
 GMA-6 x2_fullName,Full equip name of: GMA-6 x2,GMA-6 x2,GMA-6 x2
-GMA-6 x2_description,Item description of: GMA-6 x2,"A medium range optically guided ""fire-and-forget"" anti-tank missile.","중거리 광학 유도 ""발사 후 망각"" 대전차 미사일입니다."
+GMA-6 x2_description,Item description of: GMA-6 x2,"A medium range optically guided ""fire-and-forget"" anti-tank missile.","중거리 광학 유도 대전차 미사일입니다. 발사 후에는 알아서 목표를 향해 유도됩니다(발사 후 망각)."
 GBU-39 SD Bomb x4_fullName,Full equip name of: GBU-39 SD Bomb x4,GBU-39 SD Bomb x4,GBU-39 소형 폭탄 x4
 GBU-39 SD Bomb x4_description,Item description of: GBU-39 SD Bomb x4,GPS guided small diameter bomb. It has built-in folding wings that allow it to glide for long distances and hit targets with precision.,GPS 유도 소구경 폭탄입니다. 내장된 접이식 날개로 장거리를 활공하여 목표를 정밀하게 타격할 수 있습니다.
 BSM-66LR_fullName,Full equip name of: BSM-66LR,BSM-66LR,BSM-66LR
-BSM-66LR_description,Item description of: BSM-66LR,Standard semi-active radar-guided surface to air missile. Equipped with first stage booster for extended range.,표준형 반능동 레이더 유도 지대공 미사일입니다. 사거리 연장을 위한 1단 부스터를 갖추고 있습니다.
+BSM-66LR_description,Item description of: BSM-66LR,Standard semi-active radar-guided surface to air missile. Equipped with first stage booster for extended range.,표준형 반능동 레이더 유도 지대공 미사일입니다(발사한 쪽 레이더가 목표를 계속 비춰 주어야 유도되는 방식). 사거리 연장을 위한 1단 부스터를 갖추고 있습니다.
 ASF-SRM x3_fullName,Full equip name of: ASF-SRM x3,ASF-SRM x3,ASF-SRM x3
 ASF-SRM x3_description,Item description of: ASF-SRM x3,A rack of three standard heat-seeking anti-air missiles.,표준형 열추적 대공 미사일 3발입니다.
 eqSublabel_LASER-BOMB-INTERNAL,HUD sub-label of an equip,LASER BOMB INTERNAL,내장 레이저 폭탄
 AGM-145 Ballista x2_fullName,Full equip name of: AGM-145 Ballista x2,AGM-145 Ballista x2,AGM-145 발리스타 x2
-AGM-145 Ballista x2_description,Item description of: AGM-145 Ballista x2,"Small anti-tank missiles with advanced optics, ""fire and forget"", and smart self-targeting technology. Can be fired without line of sight to the designated target point, and will acquire hostile targets automatically.","첨단 광학 장비와 ""발사 후 망각"", 스마트 자동 표적 지정 기술을 갖춘 소형 대전차 미사일입니다. 지정된 목표 지점이 보이지 않아도 발사할 수 있으며, 적 목표를 자동으로 포착합니다."
+AGM-145 Ballista x2_description,Item description of: AGM-145 Ballista x2,"Small anti-tank missiles with advanced optics, ""fire and forget"", and smart self-targeting technology. Can be fired without line of sight to the designated target point, and will acquire hostile targets automatically.","첨단 광학 장비와 발사 후 알아서 유도되는 '발사 후 망각' 기능, 스마트 자동 표적 지정 기술을 갖춘 소형 대전차 미사일입니다. 지정된 목표 지점이 보이지 않아도 발사할 수 있으며, 적 목표를 자동으로 포착합니다."
 AGM-188 MARM_fullName,Full equip name of: AGM-188 MARM,AGM-188 MARM,AGM-188 MARM
 AGM-188 MARM_description,Item description of: AGM-188 MARM,Medium range anti-radiation missile with a unique top down attack angle.,위에서 내리꽂는 독특한 공격 각도를 가진 중거리 대레이더 미사일입니다.
 ASRM-93 x2_fullName,Full equip name of: ASRM-93 x2,ASRM-93 x2,ASRM-93 x2
 ASRM-93 x2_description,Item description of: ASRM-93 x2,Heat seeking short range air to air missiles.  Internally stowed.,열추적 단거리 공대공 미사일입니다. 내부 무장창에 탑재됩니다.
 AGM-145 Ballista x3_fullName,Full equip name of: AGM-145 Ballista x3,AGM-145 Ballista x3,AGM-145 발리스타 x3
-AGM-145 Ballista x3_description,Item description of: AGM-145 Ballista x3,"Small anti-tank missiles with advanced optics, ""fire and forget"", and smart self-targeting technology. Can be fired without line of sight to the designated target point, and will acquire hostile targets automatically.","첨단 광학 장비와 ""발사 후 망각"", 스마트 자동 표적 지정 기술을 갖춘 소형 대전차 미사일입니다. 지정된 목표 지점이 보이지 않아도 발사할 수 있으며, 적 목표를 자동으로 포착합니다."
+AGM-145 Ballista x3_description,Item description of: AGM-145 Ballista x3,"Small anti-tank missiles with advanced optics, ""fire and forget"", and smart self-targeting technology. Can be fired without line of sight to the designated target point, and will acquire hostile targets automatically.","첨단 광학 장비와 발사 후 알아서 유도되는 '발사 후 망각' 기능, 스마트 자동 표적 지정 기술을 갖춘 소형 대전차 미사일입니다. 지정된 목표 지점이 보이지 않아도 발사할 수 있으며, 적 목표를 자동으로 포착합니다."
 ASF-SRM-RA x3_fullName,Full equip name of: ASF-SRM-RA x3,ASF-SRM-RA x3,ASF-SRM-RA x3
 ASF-SRM-RA x3_description,Item description of: ASF-SRM-RA x3,A rack of three older rear-aspect heat-seeking anti-air missiles.,후방에서만 추적 가능한 구형 열추적 대공 미사일 3발입니다.
 Backstop_fullName,Full equip name of: Backstop,Backstop,Backstop
-Backstop_description,Item description of: Backstop,Standard semi-active radar-guided surface to air missile.,표준형 반능동 레이더 유도 지대공 미사일입니다.
+Backstop_description,Item description of: Backstop,Standard semi-active radar-guided surface to air missile.,표준형 반능동 레이더 유도 지대공 미사일입니다(발사한 쪽 레이더가 목표를 계속 비춰 주어야 유도되는 방식).
 ASMRM-1 x1_fullName,Full equip name of: ASMRM-1 x1,ASMRM-1 x1,ASMRM-1 x1
-ASMRM-1 x1_description,Item description of: ASMRM-1 x1,"Older, medium range semi-active radar air to air missile. Requires radar lock until intercept.",구형 중거리 반능동 레이더 유도 공대공 미사일입니다. 명중할 때까지 레이더 조준 고정을 유지해야 합니다.
+ASMRM-1 x1_description,Item description of: ASMRM-1 x1,"Older, medium range semi-active radar air to air missile. Requires radar lock until intercept.",구형 중거리 공대공 미사일입니다. 반능동 레이더 유도 방식이라 발사 후에도 명중할 때까지 기체 레이더로 계속 조준을 유지해야 합니다.
 AIM-9E Sidewinder_fullName,Full equip name of: AIM-9E Sidewinder,AIM-9E Sidewinder,AIM-9E 사이드와인더
 AIM-9E Sidewinder_description,Item description of: AIM-9E Sidewinder,"A single AIM-9E. An older short range, rear-aspect, heat seeking air to air missile.",AIM-9E 1발입니다. 후방에서만 추적 가능한 구형 단거리 열추적 공대공 미사일입니다.
 Hydra-70 x14 Rocket Pod_fullName,Full equip name of: Hydra-70 x14 Rocket Pod,Hydra-70 x14 Rocket Pod,Hydra-70 x14 로켓 포드
 Hydra-70 x14 Rocket Pod_description,Item description of: Hydra-70 x14 Rocket Pod,"A pair of pods carrying a total of 14 high explosive rockets.  Can be fired in single shot mode, or rapid fire (ripple).",총 14발의 고폭 로켓을 탑재한 포드 한 쌍입니다. 단발 사격과 연속 발사(리플) 모드를 모두 지원합니다.
 mfdpOpenMenu,Tooltip for button that opens a menu.,Open Menu,메뉴 열기
-mfdpBLANK,Label for a minimized MFD portal that is empty. Opens the portal menu.,BLANK,비어 있음
+mfdpBLANK,Label for a minimized MFD portal that is empty. Opens the portal menu.,BLANK,빈 칸
 MFDPortalHome_MFDPortalPage_pageName,MFD portal page name,Menu,메뉴
 MFDPortalHome_MFDPortalPage_pageLabel,MFD portal page button label,MENU,메뉴
 MapMFDPage_MFDPortalPage_pageName,MFD portal page name,Nav Map,항법 지도
@@ -935,7 +933,7 @@ ObjectivesPage_MFDPortalPage_pageName,MFD portal page name,Objectives,목표
 ObjectivesPage_MFDPortalPage_pageLabel,MFD portal page button label,OBJCTV,목표
 SCamPage_MFDPortalPage_pageName,MFD portal page name,SpectatorCam,관전 카메라
 SCamPage_MFDPortalPage_pageLabel,MFD portal page button label,S-CAM,관전
-RWRPage_MFDPortalPage_pageName,MFD portal page name,RWR,레이더 경보 수신기(RWR)
+RWRPage_MFDPortalPage_pageName,MFD portal page name,RWR,RWR
 RWRPage_MFDPortalPage_pageLabel,MFD portal page button label,RWR,RWR
 OptionsPage_MFDPortalPage_pageName,MFD portal page name,Vehicle Options,기체 설정
 OptionsPage_MFDPortalPage_pageLabel,MFD portal page button label,OPTS,설정
@@ -961,8 +959,8 @@ s_bdo_auto,SMS bay door override in AUTO position,AUTO,자동
 RadarDisplay_MFDPortalPage_pageName,MFD portal page name,Radar,레이더
 RadarDisplay_MFDPortalPage_pageLabel,MFD portal page button label,RADAR,레이더
 GPSSystem_MFDPortalPage_pageName,MFD portal page name,GPS Targets,GPS 표적
-GPSSystem_MFDPortalPage_pageLabel,MFD portal page button label,GPST,GPS 표적
-EOTSPortalPage_MFDPortalPage_pageName,MFD portal page name,EO Targeting,전자광학 조준(EOTS)
+GPSSystem_MFDPortalPage_pageLabel,MFD portal page button label,GPST,GPST
+EOTSPortalPage_MFDPortalPage_pageName,MFD portal page name,EO Targeting,전자광학 조준
 EOTSPortalPage_MFDPortalPage_pageLabel,MFD portal page button label,EOTS,EOTS
 MFDCommsMenu_MFDPortalPage_pageName,MFD portal page name,Communications,통신
 MFDCommsMenu_MFDPortalPage_pageLabel,MFD portal page button label,COMMS,통신
@@ -972,11 +970,11 @@ TacticalSituationDisplay_MFDPortalPage_pageName,MFD portal page name,Tactical Si
 TacticalSituationDisplay_MFDPortalPage_pageLabel,MFD portal page button label,TSD,TSD
 AIM-120 Advanced Radar Missile x2_fullName,Full equip name of: AIM-120 Advanced Radar Missile x2,AIM-120 Advanced Radar Missile x2,AIM-120 중거리 레이더 유도 미사일 x2
 AIM-120 Advanced Radar Missile x2_description,Item description of: AIM-120 Advanced Radar Missile x2,A rack of two radar guided medium range air to air missiles.,레이더 유도 중거리 공대공 미사일 2발입니다.
-fa26_loadout_extFuelL,External Fuel Left,Ext fuel l,왼쪽 외부 연료
-fa26_loadout_extFuelR,External Fuel Right,Ext fuel r,오른쪽 외부 연료
+fa26_loadout_extFuelL,External Fuel Left,Ext fuel l,좌측 외부 연료
+fa26_loadout_extFuelR,External Fuel Right,Ext fuel r,우측 외부 연료
 fa26_loadout_extFuelC,External Fuel Centerline,Ext fuel center,중앙 외부 연료
 fa26_loadout_extSensor,External Sensor,Ext sensor,외부 센서
-fa26_loadout_cft,Conformal Fuel Tank,Cft,일체형 연료 탱크
+fa26_loadout_cft,Conformal Fuel Tank,Cft,CFT
 Mk.82 Bomb x2_fullName,Full equip name of: Mk.82 Bomb x2,Mk.82 Bomb x2,Mk.82 폭탄 x2
 Mk.82 Bomb x2_description,Item description of: Mk.82 Bomb x2,Two standard un-guided 500lb bombs.,표준형 무유도 500파운드 폭탄 2발입니다.
 eqSublabel_BOMB-INTERNAL,HUD sub-label of an equip,BOMB INTERNAL,내장 폭탄
@@ -990,7 +988,7 @@ AIRS-T Advanced SRM_fullName,Full equip name of: AIRS-T Advanced SRM,AIRS-T Adva
 AIRS-T Advanced SRM_description,Item description of: AIRS-T Advanced SRM,"Short range heat seeking air to air missile with thrust vectoring.
 Improved maneuverability, range, and counter-countermeasure system.
 Advanced technology allows it to intercept incoming missiles.","추력 편향 기능을 갖춘 단거리 열추적 공대공 미사일입니다.
-기동성, 사거리, 기만체 대응 능력이 향상되었습니다.
+기동성, 사거리, 기만 장비 대응 능력이 향상되었습니다.
 첨단 기술로 날아오는 미사일을 요격할 수도 있습니다."
 Mk-82AIR High Drag Bomb x1_fullName,Full equip name of: Mk-82AIR High Drag Bomb x1,Mk-82AIR High Drag Bomb x1,Mk-82AIR 고저항 폭탄 x1
 Mk-82AIR High Drag Bomb x1_description,Item description of: Mk-82AIR High Drag Bomb x1,Standard un-guided 500lb bomb. Deploys an inflatable drag chute to slow descent for low altitude bombing.,표준형 무유도 500파운드 폭탄입니다. 저고도 폭격 시 낙하 속도를 늦추는 팽창식 감속 낙하산을 전개합니다.
@@ -1094,9 +1092,9 @@ MK-82 x32_fullName,Full equip name of: MK-82 x32,MK-82 x32,MK-82 폭탄 x32
 MK-82 x32_description,Item description of: MK-82 x32,A rack of 32 MK-82 bombs.,MK-82 폭탄 32발이 장착된 랙입니다.
 CAGM-6 Cluster Missile_fullName,Full equip name of: CAGM-6 Cluster Missile,CAGM-6 Cluster Missile,CAGM-6 확산탄 미사일
 CAGM-6 Cluster Missile_description,Item description of: CAGM-6 Cluster Missile,"An optically guided ""fire-and-forget"" missile. 
-Deploys 6 submunitions that independently seek targets in the field of view.","광학 유도 ""발사 후 망각"" 미사일입니다.
+Deploys 6 submunitions that independently seek targets in the field of view.","광학 유도 미사일입니다. 발사 후에는 알아서 목표를 향해 유도됩니다(발사 후 망각).
 시야 내 목표를 각자 추적하는 자탄 6발을 전개합니다."
-eqSublabel_OPTICAL-FF-CLUSTER,HUD sub-label of an equip,OPTICAL FF CLUSTER,광학 발사 후 망각 확산탄
+eqSublabel_OPTICAL-FF-CLUSTER,HUD sub-label of an equip,OPTICAL FF CLUSTER,OPTICAL FF CLUSTER
 AGM-126 SideARM II x2_fullName,Full equip name of: AGM-126 SideARM II x2,AGM-126 SideARM II x2,AGM-126 SideARM II x2
 AGM-126 SideARM II x2_description,Item description of: AGM-126 SideARM II x2,Compact short range anti-radiation missile based on the AIM-9x.,AIM-9x를 기반으로 한 소형 단거리 대레이더 미사일입니다.
 AIM-9 Sidewinder x3_fullName,Full equip name of: AIM-9 Sidewinder x3,AIM-9 Sidewinder x3,AIM-9 사이드와인더 x3
@@ -1107,7 +1105,7 @@ F/A-26B_mfd_home:B1,Label for an MFD button (short!).,NAV,항법
 F/A-26B_mfd_home:B1_tooltip,Tooltip for an MFD button.,Navigation,항법
 F/A-26B_mfd_home:B2,Label for an MFD button (short!).,OBJ,목표
 F/A-26B_mfd_home:B2_tooltip,Tooltip for an MFD button.,Objectives,임무 목표
-F/A-26B_mfd_home:B3,Label for an MFD button (short!).,CAM,카메라
+F/A-26B_mfd_home:B3,Label for an MFD button (short!).,CAM,CAM
 F/A-26B_mfd_home:B3_tooltip,Tooltip for an MFD button.,External Cameras,외부 카메라
 F/A-26B_mfd_home:B4,Label for an MFD button (short!).,TGP,TGP
 F/A-26B_mfd_home:B4_tooltip,Tooltip for an MFD button.,Targeting,조준 포드
@@ -1127,17 +1125,17 @@ F/A-26B_mfd_home:L4,Label for an MFD button (short!).,COMMS,통신
 F/A-26B_mfd_home:L4_tooltip,Tooltip for an MFD button.,Communications,통신
 F/A-26B_mfd_home:T4,Label for an MFD button (short!).,RADAR,레이더
 F/A-26B_mfd_home:T4_tooltip,Tooltip for an MFD button.,Radar,레이더
-F/A-26B_mfd_home:T5,Label for an MFD button (short!).,ARAD,대레이더
+F/A-26B_mfd_home:T5,Label for an MFD button (short!).,ARAD,ARAD
 F/A-26B_mfd_home:T5_tooltip,Tooltip for an MFD button.,Anti-Radar Attack Display,대레이더 공격 표시
 F/A-26B_mfd_home:R5,Label for an MFD button (short!).,DATA,데이터
 F/A-26B_mfd_home:R5_tooltip,Tooltip for an MFD button.,Flight Data,비행 데이터
 F/A-26B_mfd_home:L5,Label for an MFD button (short!).,CMS,CMS
-F/A-26B_mfd_home:L5_tooltip,Tooltip for an MFD button.,Countermeasure System,기만체 시스템
+F/A-26B_mfd_home:L5_tooltip,Tooltip for an MFD button.,Countermeasure System,기만 장비 시스템
 F/A-26B_mfd_flightLog:R2_tooltip,Tooltip for an MFD button.,Scroll Up,위로 스크롤
 F/A-26B_mfd_flightLog:R4_tooltip,Tooltip for an MFD button.,Scroll Down,아래로 스크롤
 F/A-26B_mfd_flightLog:R5_tooltip,Tooltip for an MFD button.,Scroll Bottom,맨 아래로 스크롤
 F/A-26B_mfd_flightLog:B3_tooltip,Tooltip for an MFD button.,Dump log to file.,비행 기록 파일로 저장
-F/A-26B_mfd_mission:B1,Label for an MFD button (short!).,WPT,경유지
+F/A-26B_mfd_mission:B1,Label for an MFD button (short!).,WPT,WPT
 F/A-26B_mfd_mission:B1_tooltip,Tooltip for an MFD button.,Set Waypoint,경유지 지정
 F/A-26B_mfd_mission:B3,Label for an MFD button (short!).,NEXT,다음
 F/A-26B_mfd_mission:B3_tooltip,Tooltip for an MFD button.,Next Objective,다음 목표
@@ -1145,7 +1143,7 @@ F/A-26B_mfd_mission:B5,Label for an MFD button (short!).,PREV,이전
 F/A-26B_mfd_mission:B5_tooltip,Tooltip for an MFD button.,Previous Objective,이전 목표
 F/A-26B_mfd_gpsTgts:T2,Label for an MFD button (short!).,MAP,지도
 F/A-26B_mfd_gpsTgts:T2_tooltip,Tooltip for an MFD button.,Nav Map,항법 지도
-F/A-26B_mfd_gpsTgts:T3,Label for an MFD button (short!).,WPT,경유지
+F/A-26B_mfd_gpsTgts:T3,Label for an MFD button (short!).,WPT,WPT
 F/A-26B_mfd_gpsTgts:T3_tooltip,Tooltip for an MFD button.,Set Waypoints,경유지 지정
 F/A-26B_mfd_gpsTgts:L2_tooltip,Tooltip for an MFD button.,Previous Group,이전 그룹
 F/A-26B_mfd_gpsTgts:L3_tooltip,Tooltip for an MFD button.,Next Group,다음 그룹
@@ -1167,7 +1165,7 @@ F/A-26B_mfd_flyCam:B1,Label for an MFD button (short!).,VIEW,보기
 F/A-26B_mfd_flyCam:B1_tooltip,Tooltip for an MFD button.,Toggle Preview,미리보기 전환
 F/A-26B_mfd_flyCam:R1,Label for an MFD button (short!).,RANDM,랜덤
 F/A-26B_mfd_flyCam:R1_tooltip,Tooltip for an MFD button.,Toggle Random,랜덤 전환
-F/A-26B_mfd_flyCam:L3,Label for an MFD button (short!).,FOV:,시야각:
+F/A-26B_mfd_flyCam:L3,Label for an MFD button (short!).,FOV:,FOV:
 F/A-26B_mfd_flyCam:L3_tooltip,Tooltip for an MFD button.,Toggle FOV,시야각 전환
 F/A-26B_mfd_flyCam:L4,Label for an MFD button (short!)., ,
 F/A-26B_mfd_flyCam:L4_tooltip,Tooltip for an MFD button.,Toggle AutoFOV,자동 시야각 전환
@@ -1183,7 +1181,7 @@ F/A-26B_mfd_flyCam:B5,Label for an MFD button (short!)., ,
 F/A-26B_mfd_flyCam:B5_tooltip,Tooltip for an MFD button.,Cycle Reset Time,리셋 시간 순환
 F/A-26B_mfd_flyCam:T3,Label for an MFD button (short!).,SS,캡처
 F/A-26B_mfd_flyCam:T3_tooltip,Tooltip for an MFD button.,4K Screenshot,4K 스크린샷
-F/A-26B_mfd_antiRad:T5,Label for an MFD button (short!).,SOI,활성화
+F/A-26B_mfd_antiRad:T5,Label for an MFD button (short!).,SOI,SOI
 F/A-26B_mfd_antiRad:T5_tooltip,Tooltip for an MFD button.,Sensor of Interest,센서 활성화
 F/A-26B_mfd_antiRad:R4,Label for an MFD button (short!).,HUD,HUD
 F/A-26B_mfd_antiRad:R4_tooltip,Tooltip for an MFD button.,HUD Mode,HUD 모드
@@ -1205,7 +1203,7 @@ F/A-26B_mfd_map:R1,Label for an MFD button (short!).,RESET,리셋
 F/A-26B_mfd_map:R1_tooltip,Tooltip for an MFD button.,Reset Offset,오프셋 리셋
 F/A-26B_mfd_map:T4,Label for an MFD button (short!).,MODE,모드
 F/A-26B_mfd_map:T4_tooltip,Tooltip for an MFD button.,Toggle Rotation Mode,회전 모드 전환
-F/A-26B_mfd_map:T5,Label for an MFD button (short!).,SOI,활성화
+F/A-26B_mfd_map:T5,Label for an MFD button (short!).,SOI,SOI
 F/A-26B_mfd_map:T5_tooltip,Tooltip for an MFD button.,Toggle Sensor of Interest,센서 활성화 전환
 F/A-26B_mfd_map:L4,Label for an MFD button (short!).,FUEL,연료
 F/A-26B_mfd_map:L4_tooltip,Tooltip for an MFD button.,Set Fuel Waypoint,연료 경유지 설정
@@ -1274,7 +1272,7 @@ F/A-26B_mfd_target:L2,Label for an MFD button (short!).,MODE,모드
 F/A-26B_mfd_target:L2_tooltip,Tooltip for an MFD button.,Cycle Modes,모드 순환
 F/A-26B_mfd_target:L3,Label for an MFD button (short!).,SENS,센서
 F/A-26B_mfd_target:L3_tooltip,Tooltip for an MFD button.,Sensor Mode,센서 모드
-F/A-26B_mfd_target:T3,Label for an MFD button (short!).,WPT,경유지
+F/A-26B_mfd_target:T3,Label for an MFD button (short!).,WPT,WPT
 F/A-26B_mfd_target:T3_tooltip,Tooltip for an MFD button.,To Waypoint,경유지로
 F/A-26B_mfd_target:T5,Label for an MFD button (short!).,SOI,SOI
 F/A-26B_mfd_target:T5_tooltip,Tooltip for an MFD button.,Toggle Sensor of Interest,관심 센서(SOI) 전환
@@ -1291,7 +1289,7 @@ F/A-26B_mfd_gameMenu:B3,Label for an MFD button (short!).,EXIT,나가기
 F/A-26B_mfd_gameMenu:B3_tooltip,Tooltip for an MFD button.,Return to Briefing Room,브리핑실로 돌아가기
 F/A-26B_mfd_gameMenu:R2,Label for an MFD button (short!).,CENTER,재정렬
 F/A-26B_mfd_gameMenu:R2_tooltip,Tooltip for an MFD button.,Recenter Seat,시점 재정렬
-F/A-26B_mfd_gameMenu:L3,Label for an MFD button (short!).,QSAVE,빠른저장
+F/A-26B_mfd_gameMenu:L3,Label for an MFD button (short!).,QSAVE,QSAVE
 F/A-26B_mfd_gameMenu:L3_tooltip,Tooltip for an MFD button.,Quick Save Menu,빠른 저장 메뉴
 F/A-26B_mfd_gameMenu:R4,Label for an MFD button (short!).,PLAYERS,플레이어
 F/A-26B_mfd_gameMenu:R4_tooltip,Tooltip for an MFD button.,View Players,플레이어 보기
@@ -1299,25 +1297,25 @@ F/A-26B_mfd_gameMenu:R5,Label for an MFD button (short!).,NETWORK,네트워크
 F/A-26B_mfd_gameMenu:R5_tooltip,Tooltip for an MFD button.,Network Analytics,네트워크 분석
 F/A-26B_mfd_quicksave:L3_tooltip,Tooltip for an MFD button.,Save,저장
 F/A-26B_mfd_quicksave:B4_tooltip,Tooltip for an MFD button.,Load,불러오기
-F/A-26B_mfd_quicksave:T5,Label for an MFD button (short!).,BACK,뒤로가기
+F/A-26B_mfd_quicksave:T5,Label for an MFD button (short!).,BACK,BACK
 F/A-26B_mfd_quicksave:T5_tooltip,Tooltip for an MFD button.,Back,뒤로가기
-F/A-26B_mfd_netAnalytics:B1,Label for an MFD button (short!).,BACK,뒤로가기
+F/A-26B_mfd_netAnalytics:B1,Label for an MFD button (short!).,BACK,BACK
 F/A-26B_mfd_netAnalytics:B1_tooltip,Tooltip for an MFD button.,Back,뒤로가기
-F/A-26B_mfd_mpPlayers:B1,Label for an MFD button (short!).,BACK,뒤로가기
+F/A-26B_mfd_mpPlayers:B1,Label for an MFD button (short!).,BACK,BACK
 F/A-26B_mfd_mpPlayers:B1_tooltip,Tooltip for an MFD button.,Back,뒤로가기
 F/A-26B_mfd_mpPlayers:T5,Label for an MFD button (short!).,MANAGE,관리
 F/A-26B_mfd_mpPlayers:T5_tooltip,Tooltip for an MFD button.,Manage Players,플레이어 관리
 F/A-26B_mfd_mpPlayers:R4_tooltip,Tooltip for an MFD button.,Scroll Up,스크롤 위로
 F/A-26B_mfd_mpPlayers:R5_tooltip,Tooltip for an MFD button.,Scroll Down,스크롤 아래로
-F/A-26B_mfd_radar:R2,Label for an MFD button (short!).,R+,거리+
+F/A-26B_mfd_radar:R2,Label for an MFD button (short!).,R+,R+
 F/A-26B_mfd_radar:R2_tooltip,Tooltip for an MFD button.,Range +,거리 +
-F/A-26B_mfd_radar:R3,Label for an MFD button (short!).,R-,거리-
+F/A-26B_mfd_radar:R3,Label for an MFD button (short!).,R-,R-
 F/A-26B_mfd_radar:R3_tooltip,Tooltip for an MFD button.,Range -,거리 -
 F/A-26B_mfd_radar:R4,Label for an MFD button (short!).,BORE,정면
 F/A-26B_mfd_radar:R4_tooltip,Tooltip for an MFD button.,Toggle Boresight,정면 조준 전환
-F/A-26B_mfd_radar:B1,Label for an MFD button (short!).,CLR,초기화
+F/A-26B_mfd_radar:B1,Label for an MFD button (short!).,CLR,CLR
 F/A-26B_mfd_radar:B1_tooltip,Tooltip for an MFD button.,Clear Tracks,추적 초기화
-F/A-26B_mfd_radar:B2,Label for an MFD button (short!).,UNLCK,고정 해제
+F/A-26B_mfd_radar:B2,Label for an MFD button (short!).,UNLCK,UNLCK
 F/A-26B_mfd_radar:B2_tooltip,Tooltip for an MFD button.,Unlock,고정 해제
 F/A-26B_mfd_radar:B5_tooltip,Tooltip for an MFD button.,Scan Angle,스캔 각도
 F/A-26B_mfd_radar:T5,Label for an MFD button (short!).,SOI,SOI
@@ -1337,7 +1335,7 @@ MK-83 x12_description,Item description of: MK-83 x12,A rack of 12 MK-83 1000lb b
 GBU-12 Laser Guided Bomb x3_fullName,Full equip name of: GBU-12 Laser Guided Bomb x3,GBU-12 Laser Guided Bomb x3,GBU-12 레이저 유도 폭탄 x3
 GBU-12 Laser Guided Bomb x3_description,Item description of: GBU-12 Laser Guided Bomb x3,A rack of three 500lb laser guided bomb.,500파운드 레이저 유도 폭탄 3발이 장착된 랙입니다.
 AGM-89 Anti-ship Cruise Missile_fullName,Full equip name of: AGM-89 Anti-ship Cruise Missile,AGM-89 Anti-ship Cruise Missile,AGM-89 대함 순항 미사일
-AGM-89 Anti-ship Cruise Missile_description,Item description of: AGM-89 Anti-ship Cruise Missile,"Air-launched anti-ship cruise missile.  Equipped with waypoint following, radar target acquisition, and terminal maneuvering technology.","공중 발사형 대함 순항 미사일입니다. 경유지 추적, 레이더 목표 포착, 종말 유도 기술을 갖추고 있습니다."
+AGM-89 Anti-ship Cruise Missile_description,Item description of: AGM-89 Anti-ship Cruise Missile,"Air-launched anti-ship cruise missile.  Equipped with waypoint following, radar target acquisition, and terminal maneuvering technology.","공중 발사형 대함 순항 미사일입니다. 경유지 추적, 레이더 목표 포착 기능과 명중 직전 단계에 회피 기동하는 종말 유도 기술을 갖추고 있습니다."
 Hydra-70 4x4 Rocket Pod_fullName,Full equip name of: Hydra-70 4x4 Rocket Pod,Hydra-70 4x4 Rocket Pod,Hydra-70 4x4 로켓 포드
 Hydra-70 4x4 Rocket Pod_description,Item description of: Hydra-70 4x4 Rocket Pod,"A cluster of pods carrying a total of 16 high explosive rockets.  Can be fired in single shot mode, or rapid fire (ripple).",총 16발의 고폭 로켓을 탑재한 포드 묶음입니다. 단발 사격 또는 연속 발사(리플)가 가능합니다.
 GBU-53 Advanced SD Bomb x4_fullName,Full equip name of: GBU-53 Advanced SD Bomb x4,GBU-53 Advanced SD Bomb x4,GBU-53 개량형 소구경 폭탄 x4
@@ -1415,7 +1413,7 @@ GBU-39ER x4_fullName,Full equip name of: GBU-39ER x4,GBU-39ER x4,GBU-39ER x4
 GBU-39ER x4_description,Item description of: GBU-39ER x4,A rack of 4 GPS guided glidebombs equipped with booster stages.,부스터가 장착된 GPS 유도 활공 폭탄 4발이 장착된 랙입니다.
 eqSublabel_GPS,HUD sub-label of an equip,GPS,GPS
 BSM-66_fullName,Full equip name of: BSM-66,BSM-66,BSM-66
-BSM-66_description,Item description of: BSM-66,Standard semi-active radar-guided surface to air missile.,표준형 반능동 레이더 유도 지대공 미사일입니다.
+BSM-66_description,Item description of: BSM-66,Standard semi-active radar-guided surface to air missile.,표준형 반능동 레이더 유도 지대공 미사일입니다(발사한 쪽 레이더가 목표를 계속 비춰 주어야 유도되는 방식).
 AIM-120D Advanced Radar Missile_fullName,Full equip name of: AIM-120D Advanced Radar Missile,AIM-120D Advanced Radar Missile,AIM-120D 중거리 레이더 유도 미사일
 AIM-120D Advanced Radar Missile_description,Item description of: AIM-120D Advanced Radar Missile,"Radar guided medium range air to air missile. Improved packaging and datalink capabilities.
 ",레이더 유도 중거리 공대공 미사일입니다. 탑재 방식과 데이터링크 성능이 개선되었습니다.
@@ -3079,8 +3077,8 @@ av42c_tutorials:tut_av42c_agm:1384660116,Text from a tutorial.,"Remember, you ne
 av42c_tutorials:tut_av42c_agm:1453428147,Text from a tutorial.,Great! Now switch to the AGM-65,잘하셨습니다! 이제 AGM-65로 전환하십시오.
 av42c_tutorials:tut_av42c_agm:-1735708293,Text from a tutorial.,"This is a larger, slightly heavier hitting anti-tank missile with a more advanced optical seeker","이것은 더 크고 위력이 조금 더 강한 대전차 미사일로, 한층 발전된 광학 시커를 갖추고 있습니다."
 av42c_tutorials:tut_av42c_agm:-2052818574,Text from a tutorial.,"With this type of missile, you do not need to maintain a lock on the target after you fire at it",이 유형의 미사일은 발사 후에 목표에 대한 조준 고정을 유지할 필요가 없습니다.
-av42c_tutorials:tut_av42c_agm:798779502,Text from a tutorial.,"The fire-and-forget capability allows you to fire at multiple targets in one pass, or take cover after firing",파이어 앤 포겟(발사 후 망각) 능력 덕분에 한 번의 진입으로 여러 목표를 공격하거나 발사 직후 엄폐할 수 있습니다.
-av42c_tutorials:tut_av42c_agm:256667487,Text from a tutorial.,Try taking down the targets at the next waypoint and practice taking advantage of the fire-and-forget capability,다음 경유지에서 목표를 공격하며 파이어 앤 포겟 능력을 활용하는 연습을 해 보십시오.
+av42c_tutorials:tut_av42c_agm:798779502,Text from a tutorial.,"The fire-and-forget capability allows you to fire at multiple targets in one pass, or take cover after firing",발사 후 알아서 유도되는 '발사 후 망각' 능력 덕분에 한 번의 진입으로 여러 목표를 공격하거나 발사 직후 엄폐할 수 있습니다.
+av42c_tutorials:tut_av42c_agm:256667487,Text from a tutorial.,Try taking down the targets at the next waypoint and practice taking advantage of the fire-and-forget capability,다음 경유지에서 목표를 공격하며 발사 후 망각 능력을 활용하는 연습을 해 보십시오.
 av42c_tutorials:tut_av42c_agm:-568562802,Text from a tutorial.,Nice shooting!  This concludes the air-to-ground missile tutorial,명중입니다! 이것으로 공대지 미사일 튜토리얼을 마칩니다.
 fa26b_tutorials:tut_26_radar:-1152007029,Text from a tutorial.,Welcome to the Radar tutorial for the F/A-26,F/A-26 레이더 튜토리얼에 오신 것을 환영합니다.
 fa26b_tutorials:tut_26_radar:-1256886870,Text from a tutorial.,"Today, you will learn how to use the radar to find and track other aircraft, as well as designate targets for air to air missiles","오늘은 레이더로 다른 항공기를 탐지·추적하고, 공대공 미사일의 목표를 지정하는 방법을 배웁니다."
@@ -3131,7 +3129,7 @@ fa26b_tutorials:tut_26_sead:-451981482,Text from a tutorial.,"Slew the cursor on
 fa26b_tutorials:tut_26_sead:588166704,Text from a tutorial.,A square will appear on the selected target in both the MFD and the HUD,선택한 목표 위에 MFD와 HUD 양쪽으로 사각형이 나타납니다.
 fa26b_tutorials:tut_26_sead:60198174,Text from a tutorial.,Now arm the weapon system,이제 무장을 활성화하십시오.
 fa26b_tutorials:tut_26_sead:63223606,Text from a tutorial.,Switch to the AGM-88,AGM-88로 전환하십시오.
-fa26b_tutorials:tut_26_sead:54082973,Text from a tutorial.,"This is a high speed, fire-and-forget anti-radiation missile (ARM)",고속 파이어 앤 포겟(발사 후 망각) 방식의 대레이더 미사일(ARM)입니다.
+fa26b_tutorials:tut_26_sead:54082973,Text from a tutorial.,"This is a high speed, fire-and-forget anti-radiation missile (ARM)",발사 후 알아서 유도되는(발사 후 망각) 고속 대레이더 미사일(ARM)입니다.
 fa26b_tutorials:tut_26_sead:-1408042184,Text from a tutorial.,"When fired, it will home in on the radar source designated in the ARAD",발사하면 ARAD에서 지정한 레이더 발신원을 향해 유도됩니다.
 fa26b_tutorials:tut_26_sead:-686456908,Text from a tutorial.,"Once you have a target selected, all you need to do is fly toward the target, and fire once the missile is in range","목표를 선택한 뒤에는 목표를 향해 비행하다가, 미사일이 사거리 안에 들어오면 발사하기만 하면 됩니다."
 fa26b_tutorials:tut_26_sead:-1438673069,Text from a tutorial.,Try taking out the SAM radars using the AGM-88,AGM-88로 SAM 레이더들을 제거해 보십시오.
@@ -3164,7 +3162,7 @@ ah94-tutorials:ah94tut_intro:1560422243,Text from a tutorial.,Rotor Brake,로터
 ah94-tutorials:ah94tut_intro:239096644,Text from a tutorial.,Flight Control Indicator,비행 조종 표시기
 ah94-tutorials:ah94tut_intro:-947816217,Text from a tutorial.,Parking Brake,주차 브레이크
 ah94-tutorials:ah94tut_intro:-364413396,Text from a tutorial.,Landing Gear,착륙 장치(랜딩 기어)
-ah94-tutorials:ah94tut_intro:1071956107,Text from a tutorial.,Countermeasure Count,기만체 잔량
+ah94-tutorials:ah94tut_intro:1071956107,Text from a tutorial.,Countermeasure Count,기만 장비 잔량
 ah94-tutorials:ah94tut_intro:-1993091261,Text from a tutorial.,Power Lever,파워 레버
 ah94-tutorials:ah94tut_intro:-1227118498,Text from a tutorial.,Stores Jettison Panel,무장 투하 패널
 ah94-tutorials:ah94tut_intro:-769882903,Text from a tutorial.,MP3 Player,MP3 플레이어
@@ -3273,10 +3271,10 @@ setting_Limit FPS,The name of a game option.,,프레임 제한
 settingDescription_Limit FPS,The description of a game option.,,게임 프레임을 VR 기기 재생률로 제한합니다.
 AGM-27 x7_description,Item description of: AGM-27 x7,"A rack of 2.75 inch rockets which have been fitted with a laser guidance package, turning them into precision guided munitions.
 Requires continuous lock for guidance (not fire-and-forget).","레이저 유도 키트를 장착해 정밀 유도 무기로 개조한 2.75인치 로켓 랙입니다.
-유도를 위해 지속적인 조준 유지가 필요합니다(발사 후 망각 방식이 아님)."
+명중할 때까지 계속 조준을 유지해야 합니다(발사 후 알아서 유도되는 방식이 아님)."
 AGM-27 x19_description,Item description of: AGM-27 x19,"A rack of 2.75 inch rockets which have been fitted with a laser guidance package, turning them into precision guided munitions.
 Requires continuous lock for guidance (not fire-and-forget).","레이저 유도 키트를 장착해 정밀 유도 무기로 개조한 2.75인치 로켓 랙입니다.
-유도를 위해 지속적인 조준 유지가 필요합니다(발사 후 망각 방식이 아님)."
+명중할 때까지 계속 조준을 유지해야 합니다(발사 후 알아서 유도되는 방식이 아님)."
 T-55_description,Short description of playable vehicle T-55,Twin-seat single engine supersonic trainer jet. Capable of equipping all common weapon types for training and combat purposes.,복좌 단발 초음속 훈련기입니다. 훈련 및 전투 목적의 모든 일반 무기를 장착할 수 있습니다.
 1700L Fuel Drop Tank_description,Item description of: 1700L Fuel Drop Tank,A 1700 liter fuel tank.,1700리터 연료 탱크입니다.
 campaign_t55-quickMissions_name,Name of a campaign.,,T-55 빠른 임무
@@ -3545,7 +3543,7 @@ T-55_mfd_home:T5_tooltip,Tooltip for an MFD button.,,대레이더 공격 표시
 T-55_mfd_home:R5,Label for an MFD button (short!).,,데이터
 T-55_mfd_home:R5_tooltip,Tooltip for an MFD button.,,비행 데이터
 T-55_mfd_home:L5,Label for an MFD button (short!).,,CMS
-T-55_mfd_home:L5_tooltip,Tooltip for an MFD button.,,미사일 기만체 시스템
+T-55_mfd_home:L5_tooltip,Tooltip for an MFD button.,,미사일 기만 장비 시스템
 T-55_mfd_home:T3,Label for an MFD button (short!).,,
 T-55_mfd_home:T3_tooltip,Tooltip for an MFD button.,,
 T-55_mfd_hudRepeater:R5,Label for an MFD button (short!).,,카메라
@@ -3799,7 +3797,7 @@ AGM-88S ARM_description,Item description of: AGM-88S ARM,Medium range anti-radia
 AGM-88S ARM x2_description,Item description of: AGM-88S ARM x2,Medium range anti-radiation missile. A modified version of the AGM-88 with a shorter overall length and narrow stabilizers. Reduced engine burn time.,"중거리 대레이더 미사일입니다. AGM-88의 개량형으로 전체 길이가 짧고 안정 날개가 좁으며, 엔진 연소 시간이 단축되었습니다."
 AGM-114 x2_description,Item description of: AGM-114 x2,"A rack of 2 laser guided anti-tank missiles.
 Requires continuous lock for guidance (not fire-and-forget).","레이저 유도 대전차 미사일 2발이 장착된 랙입니다.
-유도를 위해 지속적인 조준 유지가 필요합니다(발사 후 망각 방식이 아님)."
+명중할 때까지 계속 조준을 유지해야 합니다(발사 후 알아서 유도되는 방식이 아님)."
 EF-24G_description,Short description of playable vehicle EF-24G,"The EF-24G ""Mischief"" is a two-seat, twin-engine, swing-wing fighter aircraft modified with specialized equipment and sensors to fill the electronic warfare role.","EF-24G ""미스치프""는 전자전 임무를 위해 특수 장비와 센서를 갖춘 복좌 쌍발 가변익 전투기입니다."
 AIM-54 Long Range Radar Missile_description,Item description of: AIM-54 Long Range Radar Missile,"Radar guided long range air to air missile.
 ",레이더 유도 장거리 공대공 미사일입니다.
@@ -3808,5 +3806,5 @@ Mk.83 Bomb x2_description,Item description of: Mk.83 Bomb x2,Standard un-guided 
 1100L Fuel Drop Tank_description,Item description of: 1100L Fuel Drop Tank,A 1100 liter fuel tank.,1100리터 연료 탱크입니다.
 AN/AAQ-34 Advanced Targeting Pod_description,Item description of: AN/AAQ-34 Advanced Targeting Pod,Sensor pod for acquiring and tracking targets using optics and lasers.  A necessary component for certain guided missiles.,광학 장비와 레이저로 목표를 포착하고 추적하는 센서 포드입니다. 일부 유도 미사일에 반드시 필요한 장비입니다.
 AN/ALQ-245 Jammer_description,Item description of: AN/ALQ-245 Jammer,An advanced multi-band radar jammer with multiple electronic attack/defense modes. It is powered by a built-in ram air turbine which deploys a variable intake scoop to power it as necessary.,"여러 전자 공격/방어 모드를 갖춘 고급 다중 대역 레이더 재머입니다. 내장 램 에어 터빈으로 구동되며, 필요에 따라 가변 흡입구를 전개해 전력을 공급합니다."
-ADM-160J Decoy/Jammer Missile_description,Item description of: ADM-160J Decoy/Jammer Missile,"An air-launched, jet-powered decoy capable of using signature augmentation to appear like a larger aircraft on radar or operate in noise jamming mode. It can follow GPS courses over long distances. Two-way datalink allows it to report RWR contacts to the team.","공중에서 발사하는 제트 추진 기만체로, 신호 증강을 통해 레이더에 더 큰 항공기처럼 보이게 하거나 소음 재밍 모드로 작동할 수 있습니다. GPS 경로를 따라 장거리를 비행할 수 있으며, 양방향 데이터링크로 RWR 접촉 정보를 팀에 전달합니다."
+ADM-160J Decoy/Jammer Missile_description,Item description of: ADM-160J Decoy/Jammer Missile,"An air-launched, jet-powered decoy capable of using signature augmentation to appear like a larger aircraft on radar or operate in noise jamming mode. It can follow GPS courses over long distances. Two-way datalink allows it to report RWR contacts to the team.","공중에서 발사하는 제트 추진 기만 비행체(디코이)로, 신호 증강을 통해 레이더에 더 큰 항공기처럼 보이게 하거나 잡음 재밍(전파 방해) 모드로 작동할 수 있습니다. GPS 경로를 따라 장거리를 비행할 수 있으며, 양방향 데이터링크로 RWR 접촉 정보를 팀에 전달합니다."
 AIM-120C Advanced Radar Missile_fullName,Full equip name of: AIM-120C Advanced Radar Missile,AIM-120C Advanced Radar Missile,AIM-120C 중거리 레이더 유도 미사일
